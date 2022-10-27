@@ -1,0 +1,28 @@
+[0.144s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/cmake_helpers -- -j4 -l4
+[0.430s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/cmake_helpers -- -j4 -l4
+[0.970s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/cmake_helpers
+[1.051s] -- Install configuration: "Debug"
+[1.053s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.xml
+[1.057s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/helpers.cmake
+[1.061s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules
+[1.064s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2_image.cmake
+[1.067s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindIWYU.cmake
+[1.067s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2_mixer.cmake
+[1.068s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2.cmake
+[1.071s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2_ttf.cmake
+[1.072s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/ament_index/resource_index/package_run_dependencies/cmake_helpers
+[1.073s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/ament_index/resource_index/parent_prefix_path/cmake_helpers
+[1.074s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/ament_prefix_path.sh
+[1.078s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/ament_prefix_path.dsv
+[1.079s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/path.sh
+[1.080s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/path.dsv
+[1.081s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.bash
+[1.083s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.sh
+[1.084s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.zsh
+[1.085s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.dsv
+[1.086s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.dsv
+[1.090s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/ament_index/resource_index/packages/cmake_helpers
+[1.097s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/cmake_helpersConfig.cmake
+[1.099s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/cmake_helpersConfig-version.cmake
+[1.100s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.xml
+[1.119s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/cmake_helpers

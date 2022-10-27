@@ -1,0 +1,4 @@
+[0.077s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[0.487s] make[1]: *** [CMakeFiles/Makefile2:413: CMakeFiles/robo_miner_interfaces__cpp.dir/all] Interrupt
+[0.488s] make[1]: *** [CMakeFiles/Makefile2:387: CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/all] Interrupt
+[0.488s] make: *** [Makefile:141: all] Interrupt

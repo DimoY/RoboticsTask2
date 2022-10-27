@@ -1,0 +1,25 @@
+[0.067s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4
+[0.254s] [35m[1mScanning dependencies of target robo_miner_controller[0m
+[0.383s] [ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+[5.835s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[5.835s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:59:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[5.835s]    59 | FieldType [01;35m[Kfieldtype[m[K;
+[5.835s]       |           [01;35m[K^~~~~~~~~[m[K
+[5.835s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:57:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::visited[m[K’ [[01;35m[K-Wreorder[m[K]
+[5.836s]    57 | bool [01;35m[Kvisited[m[K;
+[5.836s]       |      [01;35m[K^~~~~~~[m[K
+[5.836s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:61:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[5.836s]    61 |   [01;35m[KMapNode[m[K(char fieldtype,bool visited = false):fieldtype(getCrystalType(fieldtype)),visited(visited){
+[5.836s]       |   [01;35m[K^~~~~~~[m[K
+[5.837s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid MapNode::doubleSetIfNotSet(std::shared_ptr<MapNode>, std::shared_ptr<MapNode>, MapNodeFields, MapNodeFields)[m[K’:
+[5.838s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:83:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMapNode::doubleSet(std::shared_ptr<MapNode>&, MapNodeFields&, MapNodeFields&)[m[K’
+[5.838s]    83 |       THIS->doubleSet(node,pos1,pos2[01;31m[K)[m[K;
+[5.838s]       |                                     [01;31m[K^[m[K
+[5.838s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:77:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MapNode::doubleSet(std::shared_ptr<MapNode>, std::shared_ptr<MapNode>, MapNodeFields, MapNodeFields)[m[K’
+[5.838s]    77 |   void [01;36m[KdoubleSet[m[K(std::shared_ptr<MapNode> THIS,std::shared_ptr<MapNode> node, MapNodeFields pos1,MapNodeFields pos2){
+[5.839s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.839s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:77:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[7.917s] make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+[7.917s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+[7.918s] make: *** [Makefile:141: all] Error 2
+[7.921s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4

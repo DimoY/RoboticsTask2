@@ -1,0 +1,45 @@
+[0.058s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/resource_utils -- -j4 -l4
+[0.187s] [100%] Built target resource_utils
+[0.283s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/resource_utils -- -j4 -l4
+[0.652s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/resource_utils
+[0.692s] -- Install configuration: "Debug"
+[0.692s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.xml
+[0.695s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/resource_utils/libresource_utils.a
+[0.696s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/ament_index/resource_index/packages/resource_utils
+[0.696s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/ament_prefix_path.dsv
+[0.697s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/ros_package_path.dsv
+[0.697s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/ament_index/resource_index/package_run_dependencies/resource_utils
+[0.698s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/ament_index/resource_index/parent_prefix_path/resource_utils
+[0.698s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/environment/ament_prefix_path.sh
+[0.698s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/environment/ament_prefix_path.dsv
+[0.698s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/environment/path.sh
+[0.699s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/environment/path.dsv
+[0.700s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/local_setup.bash
+[0.701s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/local_setup.sh
+[0.701s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/local_setup.zsh
+[0.702s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/local_setup.dsv
+[0.703s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.dsv
+[0.703s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/ament_index/resource_index/packages/resource_utils
+[0.708s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/cmake/resource_utilsConfig.cmake
+[0.709s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/cmake/resource_utilsConfig-version.cmake
+[0.710s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.xml
+[0.710s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/libresource_utils.a
+[0.712s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include
+[0.714s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils
+[0.715s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/structs
+[0.715s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/structs/ResourceData.h
+[0.726s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/structs/FontData.h
+[0.728s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/structs/DataHeader.h
+[0.728s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/structs/SoundData.h
+[0.729s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/structs/CombinedStructs.h
+[0.729s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/common
+[0.729s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/common/ResourceFileHeader.h
+[0.729s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/defines
+[0.729s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/defines/ResourceDefines.h
+[0.729s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/defines/SoundDefines.h
+[0.730s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/resource_loader
+[0.730s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/include/resource_utils/resource_loader/ResourceLoader.h
+[0.730s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsTargets.cmake
+[0.730s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsTargets-debug.cmake
+[0.730s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsConfig.cmake
+[0.774s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/resource_utils

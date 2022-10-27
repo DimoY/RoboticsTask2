@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.001153] (-) JobUnselected: {'identifier': 'cmake_helpers'}
+[0.001274] (-) JobUnselected: {'identifier': 'game_engine'}
+[0.001376] (-) JobUnselected: {'identifier': 'manager_utils'}
+[0.001435] (-) JobUnselected: {'identifier': 'resource_builder'}
+[0.001481] (-) JobUnselected: {'identifier': 'resource_utils'}
+[0.001560] (-) JobUnselected: {'identifier': 'robo_cleaner_common'}
+[0.001609] (-) JobUnselected: {'identifier': 'robo_cleaner_gui'}
+[0.001652] (-) JobUnselected: {'identifier': 'robo_cleaner_interfaces'}
+[0.007774] (-) JobUnselected: {'identifier': 'robo_collector_common'}
+[0.009903] (-) JobUnselected: {'identifier': 'robo_collector_controller'}
+[0.010007] (-) JobUnselected: {'identifier': 'robo_collector_gui'}
+[0.010059] (-) JobUnselected: {'identifier': 'robo_collector_interfaces'}
+[0.010152] (-) JobUnselected: {'identifier': 'robo_common'}
+[0.010211] (-) JobUnselected: {'identifier': 'robo_miner_common'}
+[0.012774] (-) JobUnselected: {'identifier': 'robo_miner_gui'}
+[0.014864] (-) JobUnselected: {'identifier': 'robo_miner_interfaces'}
+[0.015813] (-) JobUnselected: {'identifier': 'ros2_game_engine'}
+[0.015991] (-) JobUnselected: {'identifier': 'sdl_utils'}
+[0.016084] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.016399] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.016509] (-) JobUnselected: {'identifier': 'ur_control_gui'}
+[0.016842] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.016921] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.016966] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.017014] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.017062] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.017110] (-) JobUnselected: {'identifier': 'urscript_bridge'}
+[0.017157] (-) JobUnselected: {'identifier': 'urscript_common'}
+[0.017204] (-) JobUnselected: {'identifier': 'urscript_interfaces'}
+[0.017251] (-) JobUnselected: {'identifier': 'utils'}
+[0.017306] (robo_miner_controller) JobQueued: {'identifier': 'robo_miner_controller', 'dependencies': OrderedDict([('robo_miner_interfaces', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces')])}
+[0.017377] (robo_miner_controller) JobStarted: {'identifier': 'robo_miner_controller'}
+[0.080200] (robo_miner_controller) JobProgress: {'identifier': 'robo_miner_controller', 'progress': 'cmake'}
+[0.083953] (robo_miner_controller) JobProgress: {'identifier': 'robo_miner_controller', 'progress': 'build'}
+[0.084092] (robo_miner_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2125'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/111/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/111/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/111/usr/share/code/code'), ('MANAGERPID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16660'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:39758'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/2164,unix/ubuntu2004:/tmp/.ICE-unix/2164'), ('INVOCATION_ID', '3ff2ded1812b43949bc7c7a53ecc1449'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/111/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.096315] (-) TimerEvent: {}
+[0.199659] (-) TimerEvent: {}
+[0.246311] (robo_miner_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_controller\x1b[0m\n'}
+[0.302126] (-) TimerEvent: {}
+[0.351407] (robo_miner_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o\x1b[0m\n'}
+[0.402328] (-) TimerEvent: {}
+[0.503490] (-) TimerEvent: {}
+[0.603974] (-) TimerEvent: {}
+[0.704532] (-) TimerEvent: {}
+[0.805301] (-) TimerEvent: {}
+[0.906504] (-) TimerEvent: {}
+[1.008815] (-) TimerEvent: {}
+[1.109493] (-) TimerEvent: {}
+[1.210310] (-) TimerEvent: {}
+[1.311197] (-) TimerEvent: {}
+[1.411804] (-) TimerEvent: {}
+[1.512430] (-) TimerEvent: {}
+[1.613007] (-) TimerEvent: {}
+[1.713802] (-) TimerEvent: {}
+[1.814535] (-) TimerEvent: {}
+[1.915205] (-) TimerEvent: {}
+[2.018087] (-) TimerEvent: {}
+[2.118836] (-) TimerEvent: {}
+[2.219528] (-) TimerEvent: {}
+[2.320347] (-) TimerEvent: {}
+[2.421213] (-) TimerEvent: {}
+[2.522117] (-) TimerEvent: {}
+[2.623122] (-) TimerEvent: {}
+[2.724524] (-) TimerEvent: {}
+[2.825058] (-) TimerEvent: {}
+[2.925989] (-) TimerEvent: {}
+[3.026547] (-) TimerEvent: {}
+[3.127732] (-) TimerEvent: {}
+[3.228683] (-) TimerEvent: {}
+[3.331248] (-) TimerEvent: {}
+[3.432078] (-) TimerEvent: {}
+[3.532724] (-) TimerEvent: {}
+[3.633221] (-) TimerEvent: {}
+[3.734966] (-) TimerEvent: {}
+[3.835658] (-) TimerEvent: {}
+[3.936660] (-) TimerEvent: {}
+[4.037402] (-) TimerEvent: {}
+[4.093683] (robo_miner_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:4\x1b[m\x1b[K,\n'}
+[4.094045] (robo_miner_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.094228] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMapNode::MapNode(char, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.094369] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:13:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMapNode::fieldtype\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.094501] (robo_miner_controller) StderrLine: {'line': b'   13 | FieldType \x1b[01;35m\x1b[Kfieldtype\x1b[m\x1b[K;\n'}
+[4.094639] (robo_miner_controller) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.094775] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool MapNode::visited\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.094897] (robo_miner_controller) StderrLine: {'line': b'   11 | bool \x1b[01;35m\x1b[Kvisited\x1b[m\x1b[K;\n'}
+[4.095424] (robo_miner_controller) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.095562] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:15:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.095687] (robo_miner_controller) StderrLine: {'line': b'   15 |  \x1b[01;35m\x1b[KMapNode\x1b[m\x1b[K(char fieldtype,bool visited = false):fieldtype(getCrystalType(fieldtype)),visited(visited){\n'}
+[4.095809] (robo_miner_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.137780] (-) TimerEvent: {}
+[4.238156] (-) TimerEvent: {}
+[4.339002] (-) TimerEvent: {}
+[4.441473] (-) TimerEvent: {}
+[4.543214] (-) TimerEvent: {}
+[4.643665] (-) TimerEvent: {}
+[4.746036] (-) TimerEvent: {}
+[4.846595] (-) TimerEvent: {}
+[4.947485] (-) TimerEvent: {}
+[5.048265] (-) TimerEvent: {}
+[5.148866] (-) TimerEvent: {}
+[5.249508] (-) TimerEvent: {}
+[5.349878] (-) TimerEvent: {}
+[5.450326] (-) TimerEvent: {}
+[5.550850] (-) TimerEvent: {}
+[5.654656] (-) TimerEvent: {}
+[5.756536] (-) TimerEvent: {}
+[5.857730] (-) TimerEvent: {}
+[5.958322] (-) TimerEvent: {}
+[6.060648] (-) TimerEvent: {}
+[6.162989] (-) TimerEvent: {}
+[6.263435] (-) TimerEvent: {}
+[6.364120] (-) TimerEvent: {}
+[6.465185] (-) TimerEvent: {}
+[6.566309] (-) TimerEvent: {}
+[6.667204] (-) TimerEvent: {}
+[6.767518] (-) TimerEvent: {}
+[6.868927] (-) TimerEvent: {}
+[6.970880] (-) TimerEvent: {}
+[7.078169] (-) TimerEvent: {}
+[7.182416] (-) TimerEvent: {}
+[7.283233] (-) TimerEvent: {}
+[7.384727] (-) TimerEvent: {}
+[7.485448] (-) TimerEvent: {}
+[7.587279] (-) TimerEvent: {}
+[7.687896] (-) TimerEvent: {}
+[7.788529] (-) TimerEvent: {}
+[7.890289] (-) TimerEvent: {}
+[7.992284] (-) TimerEvent: {}
+[8.092984] (-) TimerEvent: {}
+[8.193748] (-) TimerEvent: {}
+[8.295419] (-) TimerEvent: {}
+[8.348978] (robo_miner_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robo_miner_controller\x1b[0m\n'}
+[8.395541] (-) TimerEvent: {}
+[8.495970] (-) TimerEvent: {}
+[8.596715] (-) TimerEvent: {}
+[8.697378] (-) TimerEvent: {}
+[8.757590] (robo_miner_controller) StdoutLine: {'line': b'[100%] Built target robo_miner_controller\n'}
+[8.791577] (robo_miner_controller) CommandEnded: {'returncode': 0}
+[8.798192] (-) TimerEvent: {}
+[8.867764] (robo_miner_controller) JobProgress: {'identifier': 'robo_miner_controller', 'progress': 'install'}
+[8.899798] (robo_miner_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller'], 'cwd': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2125'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/111/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/111/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/111/usr/share/code/code'), ('MANAGERPID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16660'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:39758'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/2164,unix/ubuntu2004:/tmp/.ICE-unix/2164'), ('INVOCATION_ID', '3ff2ded1812b43949bc7c7a53ecc1449'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/111/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy')]), 'shell': False}
+[8.902774] (-) TimerEvent: {}
+[8.940575] (robo_miner_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.941970] (robo_miner_controller) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/robo_miner_controller/robo_miner_controller\n'}
+[8.951161] (robo_miner_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/robo_miner_controller/robo_miner_controller" to ""\n'}
+[8.952335] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/ament_index/resource_index/package_run_dependencies/robo_miner_controller\n'}
+[8.953079] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/ament_index/resource_index/parent_prefix_path/robo_miner_controller\n'}
+[8.953751] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/environment/ament_prefix_path.sh\n'}
+[8.954670] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/environment/ament_prefix_path.dsv\n'}
+[8.955141] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/environment/path.sh\n'}
+[8.956063] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/environment/path.dsv\n'}
+[8.956705] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/local_setup.bash\n'}
+[8.957117] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/local_setup.sh\n'}
+[8.958185] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/local_setup.zsh\n'}
+[8.958617] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/local_setup.dsv\n'}
+[8.958971] (robo_miner_controller) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/package.dsv\n'}
+[8.959862] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/ament_index/resource_index/packages/robo_miner_controller\n'}
+[8.960327] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/cmake/robo_miner_controllerConfig.cmake\n'}
+[8.960819] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/cmake/robo_miner_controllerConfig-version.cmake\n'}
+[8.961373] (robo_miner_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller/package.xml\n'}
+[8.982997] (robo_miner_controller) CommandEnded: {'returncode': 0}
+[9.004108] (-) TimerEvent: {}
+[9.111496] (-) TimerEvent: {}
+[9.214538] (-) TimerEvent: {}
+[9.316362] (-) TimerEvent: {}
+[9.417298] (-) TimerEvent: {}
+[9.448988] (robo_miner_controller) JobEnded: {'identifier': 'robo_miner_controller', 'rc': 0}
+[9.452484] (-) EventReactorShutdown: {}

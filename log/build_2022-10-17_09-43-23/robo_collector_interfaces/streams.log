@@ -1,0 +1,20 @@
+[0.064s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.168s] [ 10%] Built target robo_collector_interfaces__rosidl_generator_c
+[0.211s] [ 12%] Built target robo_collector_interfaces__cpp
+[0.254s] [ 23%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_c
+[0.315s] [ 33%] Built target robo_collector_interfaces__rosidl_typesupport_c
+[0.353s] [ 43%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_cpp
+[0.355s] [ 53%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.402s] [ 64%] Built target robo_collector_interfaces__rosidl_typesupport_cpp
+[0.521s] [ 74%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_c
+[0.667s] [ 74%] Built target robo_collector_interfaces
+[0.785s] [ 76%] Built target robo_collector_interfaces__py
+[0.856s] [ 84%] Built target robo_collector_interfaces__python
+[0.898s] make[2]: *** [CMakeFiles/robo_collector_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:118: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt
+[0.909s] make[2]: *** [CMakeFiles/robo_collector_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:108: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+[0.909s] make[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+[0.910s] make[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+[0.915s] make[2]: *** [CMakeFiles/robo_collector_interfaces__rosidl_typesupport_c__pyext.dir/build.make:106: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt
+[0.916s] make[1]: *** [CMakeFiles/Makefile2:124: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt
+[0.917s] make: *** [Makefile:141: all] Interrupt
+[0.954s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4

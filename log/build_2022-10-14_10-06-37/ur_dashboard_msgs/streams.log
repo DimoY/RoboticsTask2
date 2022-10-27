@@ -1,0 +1,307 @@
+[0.108s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[0.655s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.694s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.822s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.848s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.896s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.939s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.958s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.979s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[1.120s] [ 84%] Built target ur_dashboard_msgs
+[1.273s] [ 85%] Built target ur_dashboard_msgs__py
+[1.663s] [ 96%] Built target ur_dashboard_msgs__python
+[1.874s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[1.893s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.896s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[1.941s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[4.378s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs
+[4.441s] -- Install configuration: "Debug"
+[4.445s] -- Execute custom install script
+[4.446s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[4.455s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[4.457s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[4.458s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[4.459s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode.h
+[4.460s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[4.461s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[4.463s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[4.464s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[4.467s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[4.467s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[4.469s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[4.471s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[4.473s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[4.474s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state.h
+[4.475s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode.h
+[4.477s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.478s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode.h
+[4.480s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log.h
+[4.481s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[4.485s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[4.487s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[4.490s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[4.492s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[4.494s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[4.495s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[4.497s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[4.499s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[4.502s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[4.504s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[4.506s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[4.510s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[4.513s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[4.516s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[4.519s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[4.520s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[4.521s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[4.523s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[4.526s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[4.527s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[4.529s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__functions.h
+[4.531s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__struct.h
+[4.533s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__type_support.h
+[4.534s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__functions.h
+[4.536s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__struct.h
+[4.540s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[4.542s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[4.543s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[4.545s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[4.546s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program.h
+[4.547s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state.h
+[4.548s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode.h
+[4.550s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode.h
+[4.552s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running.h
+[4.553s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved.h
+[4.554s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load.h
+[4.557s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup.h
+[4.558s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request.h
+[4.560s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[4.563s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[4.570s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[4.573s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[4.575s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[4.577s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[4.578s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.580s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[4.581s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[4.583s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[4.585s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[4.587s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[4.589s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[4.590s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[4.593s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[4.594s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[4.595s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[4.597s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[4.607s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.608s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.609s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.611s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.613s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.614s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[4.616s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[4.617s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.619s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.621s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.622s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[4.623s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[4.625s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[4.627s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[4.628s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[4.630s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.641s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[4.642s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[4.642s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[4.643s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[4.643s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.643s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[4.644s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[4.646s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[4.646s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[4.646s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[4.647s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[4.648s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[4.649s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[4.650s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[4.651s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[4.655s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[4.659s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[4.659s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[4.659s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode.hpp
+[4.660s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[4.666s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[4.667s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[4.668s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[4.669s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[4.670s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[4.670s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[4.671s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[4.675s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[4.675s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state.hpp
+[4.676s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode.hpp
+[4.676s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode.hpp
+[4.677s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log.hpp
+[4.677s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[4.678s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[4.678s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[4.679s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[4.680s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[4.681s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[4.686s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[4.687s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[4.688s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[4.689s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[4.690s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[4.691s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[4.692s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[4.693s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[4.695s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[4.698s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[4.700s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[4.701s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[4.702s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[4.703s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[4.704s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[4.705s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[4.705s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[4.706s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[4.707s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[4.708s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[4.709s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[4.710s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[4.711s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[4.712s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[4.712s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[4.713s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state.hpp
+[4.715s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[4.717s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[4.718s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running.hpp
+[4.719s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved.hpp
+[4.721s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load.hpp
+[4.722s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup.hpp
+[4.723s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request.hpp
+[4.726s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.737s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[4.739s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.740s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.741s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[4.754s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[4.757s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[4.759s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.763s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.766s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[4.769s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[4.771s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[4.772s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[4.775s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[4.776s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[4.776s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[4.778s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/__init__.py
+[4.778s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/__init__.py
+[4.781s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/_program_state.py
+[4.783s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[4.785s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[4.786s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/__init__.py
+[4.787s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[4.788s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[4.789s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[4.790s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[4.791s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[4.792s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[4.793s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[4.795s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_load.py
+[4.797s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_popup.py
+[4.799s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_raw_request.py
+[4.801s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/action/__init__.py
+[4.802s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/action/_set_mode.py
+[4.803s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.804s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.806s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.807s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__python.so
+[4.809s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[4.810s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[4.810s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[4.812s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[4.813s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[4.814s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[4.817s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[4.818s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[4.819s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[4.820s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[4.823s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[4.824s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[4.825s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[4.826s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[4.828s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[4.829s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[4.830s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[4.833s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[4.834s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[4.836s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[4.839s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[4.841s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[4.844s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[4.847s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[4.852s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[4.855s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[4.859s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[4.861s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[4.864s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[4.868s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[4.872s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[4.876s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[4.880s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[4.885s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[4.887s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[4.889s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[4.891s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[4.893s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[4.896s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[4.897s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[4.901s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[4.904s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[4.906s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[4.908s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[4.910s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[4.911s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[4.913s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[4.914s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[4.915s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[4.917s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[4.922s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[4.923s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[4.924s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[4.926s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[4.927s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[4.929s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[4.930s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[4.931s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[4.933s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[5.013s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[5.014s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[5.014s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.014s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.015s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.015s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.017s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.019s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.020s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[5.021s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[5.022s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[5.024s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[5.027s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[5.034s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[5.036s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[5.038s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[5.413s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[5.417s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_generator_cExport-debug.cmake
+[5.418s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.421s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-debug.cmake
+[5.421s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[5.422s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-debug.cmake
+[5.422s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[5.425s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.425s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake
+[5.434s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[5.437s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-debug.cmake
+[5.468s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs

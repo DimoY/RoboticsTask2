@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000564] (-) JobUnselected: {'identifier': 'cmake_helpers'}
+[0.000601] (-) JobUnselected: {'identifier': 'game_engine'}
+[0.000627] (-) JobUnselected: {'identifier': 'manager_utils'}
+[0.000651] (-) JobUnselected: {'identifier': 'resource_builder'}
+[0.000672] (-) JobUnselected: {'identifier': 'resource_utils'}
+[0.000694] (-) JobUnselected: {'identifier': 'robo_cleaner_common'}
+[0.000715] (-) JobUnselected: {'identifier': 'robo_cleaner_gui'}
+[0.000735] (-) JobUnselected: {'identifier': 'robo_cleaner_interfaces'}
+[0.000755] (-) JobUnselected: {'identifier': 'robo_collector_common'}
+[0.000778] (-) JobUnselected: {'identifier': 'robo_collector_controller'}
+[0.000798] (-) JobUnselected: {'identifier': 'robo_collector_gui'}
+[0.000818] (-) JobUnselected: {'identifier': 'robo_collector_interfaces'}
+[0.000838] (-) JobUnselected: {'identifier': 'robo_common'}
+[0.000858] (-) JobUnselected: {'identifier': 'robo_miner_common'}
+[0.000878] (-) JobUnselected: {'identifier': 'robo_miner_gui'}
+[0.000898] (-) JobUnselected: {'identifier': 'robo_miner_interfaces'}
+[0.000918] (-) JobUnselected: {'identifier': 'ros2_game_engine'}
+[0.000938] (-) JobUnselected: {'identifier': 'sdl_utils'}
+[0.000958] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.001058] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.001080] (-) JobUnselected: {'identifier': 'ur_control_gui'}
+[0.001100] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.001116] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.002431] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.002472] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.002497] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.002518] (-) JobUnselected: {'identifier': 'urscript_bridge'}
+[0.002541] (-) JobUnselected: {'identifier': 'urscript_common'}
+[0.002561] (-) JobUnselected: {'identifier': 'urscript_interfaces'}
+[0.002581] (-) JobUnselected: {'identifier': 'utils'}
+[0.002622] (robo_miner_controller) JobQueued: {'identifier': 'robo_miner_controller', 'dependencies': OrderedDict([('robo_miner_interfaces', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces')])}
+[0.002703] (robo_miner_controller) JobStarted: {'identifier': 'robo_miner_controller'}
+[0.019232] (robo_miner_controller) JobProgress: {'identifier': 'robo_miner_controller', 'progress': 'cmake'}
+[0.020672] (robo_miner_controller) JobProgress: {'identifier': 'robo_miner_controller', 'progress': 'build'}
+[0.021887] (robo_miner_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2009'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/111/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/111/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/111/usr/share/code/code'), ('MANAGERPID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2385'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:40032'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/2046,unix/ubuntu2004:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '04e7fb9367f345ff84303ccf538e283e'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/111/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.099593] (-) TimerEvent: {}
+[0.107929] (robo_miner_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_controller\x1b[0m\n'}
+[0.155631] (robo_miner_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o\x1b[0m\n'}
+[0.199706] (-) TimerEvent: {}
+[0.300067] (-) TimerEvent: {}
+[0.400441] (-) TimerEvent: {}
+[0.500864] (-) TimerEvent: {}
+[0.601261] (-) TimerEvent: {}
+[0.702054] (-) TimerEvent: {}
+[0.802722] (-) TimerEvent: {}
+[0.903076] (-) TimerEvent: {}
+[1.003380] (-) TimerEvent: {}
+[1.105266] (-) TimerEvent: {}
+[1.206229] (-) TimerEvent: {}
+[1.306856] (-) TimerEvent: {}
+[1.407184] (-) TimerEvent: {}
+[1.507638] (-) TimerEvent: {}
+[1.607959] (-) TimerEvent: {}
+[1.709098] (-) TimerEvent: {}
+[1.738953] (robo_miner_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:5\x1b[m\x1b[K,\n'}
+[1.739275] (robo_miner_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:17\x1b[m\x1b[K:\n'}
+[1.739410] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMapNode::MapNode(int, int, char, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.739505] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMapNode::fieldtype\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[1.739637] (robo_miner_controller) StderrLine: {'line': b'   12 | FieldType \x1b[01;35m\x1b[Kfieldtype\x1b[m\x1b[K;\n'}
+[1.739740] (robo_miner_controller) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.739938] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool MapNode::locked\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[1.740018] (robo_miner_controller) StderrLine: {'line': b'   11 | bool \x1b[01;35m\x1b[Klocked\x1b[m\x1b[K = false;\n'}
+[1.740085] (robo_miner_controller) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.740151] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[1.740218] (robo_miner_controller) StderrLine: {'line': b'   17 |  \x1b[01;35m\x1b[KMapNode\x1b[m\x1b[K(int x,int y,char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked),send_location({x,y}){\n'}
+[1.740284] (robo_miner_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.742151] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMapNode::MapNode(char, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.742359] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMapNode::fieldtype\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[1.742593] (robo_miner_controller) StderrLine: {'line': b'   12 | FieldType \x1b[01;35m\x1b[Kfieldtype\x1b[m\x1b[K;\n'}
+[1.742699] (robo_miner_controller) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.742775] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool MapNode::locked\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[1.742883] (robo_miner_controller) StderrLine: {'line': b'   11 | bool \x1b[01;35m\x1b[Klocked\x1b[m\x1b[K = false;\n'}
+[1.742992] (robo_miner_controller) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.743066] (robo_miner_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:5\x1b[m\x1b[K,\n'}
+[1.743136] (robo_miner_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:17\x1b[m\x1b[K:\n'}
+[1.743226] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:20:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[1.743308] (robo_miner_controller) StderrLine: {'line': b'   20 |  \x1b[01;35m\x1b[KMapNode\x1b[m\x1b[K(char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked){\n'}
+[1.743383] (robo_miner_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.780086] (robo_miner_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:17\x1b[m\x1b[K:\n'}
+[1.780387] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<long unsigned int, long unsigned int> RobotMoverLogistics::getSizes()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.780490] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:248:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[1.780699] (robo_miner_controller) StderrLine: {'line': b'  248 |    printf("X: \x1b[01;35m\x1b[K%d\x1b[m\x1b[K; Y %d\\n",\x1b[32m\x1b[Kstd::make_pair(this->num[0].size(),this->num.size()).first\x1b[m\x1b[K,std::make_pair(this->num[0].size(),this->num.size()).second);\n'}
+[1.780865] (robo_miner_controller) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~^\x1b[m\x1b[K          \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.781151] (robo_miner_controller) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.781297] (robo_miner_controller) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                                                             \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[1.781440] (robo_miner_controller) StderrLine: {'line': b'      |               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[1.781580] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:248:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[1.781753] (robo_miner_controller) StderrLine: {'line': b'  248 |    printf("X: %d; Y \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n",std::make_pair(this->num[0].size(),this->num.size()).first,\x1b[32m\x1b[Kstd::make_pair(this->num[0].size(),this->num.size()).second\x1b[m\x1b[K);\n'}
+[1.781901] (robo_miner_controller) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                                                               \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.782054] (robo_miner_controller) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                                                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.782197] (robo_miner_controller) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                                                                                                                  \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[1.782339] (robo_miner_controller) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[1.782495] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:246:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KXsize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.782694] (robo_miner_controller) StderrLine: {'line': b'  246 |    int \x1b[01;35m\x1b[KXsize\x1b[m\x1b[K = maxMapX -  minMapX;\n'}
+[1.782864] (robo_miner_controller) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.783034] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:247:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KYsize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.783180] (robo_miner_controller) StderrLine: {'line': b'  247 |    int \x1b[01;35m\x1b[KYsize\x1b[m\x1b[K = maxMapY - minMapY;\n'}
+[1.783562] (robo_miner_controller) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.783736] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kauto RobotMoverLogistics::fillList()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.783951] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:274:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.784164] (robo_miner_controller) StderrLine: {'line': b'  274 |    this->getSizes()\n'}
+[1.784319] (robo_miner_controller) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.784465] (robo_miner_controller) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.784607] (robo_miner_controller) StderrLine: {'line': b'  275 |    \x1b[32m\x1b[Kthis\x1b[m\x1b[K->mapOfObj.~map();\n'}
+[1.784747] (robo_miner_controller) StderrLine: {'line': b'      |    \x1b[32m\x1b[K~~~~\x1b[m\x1b[K             \n'}
+[1.787002] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotMoverLogistics::DFSFindLonggestGem(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.787341] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:310:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.787565] (robo_miner_controller) StderrLine: {'line': b'  310 |    if(\x1b[01;35m\x1b[Kx>this->getSizes().first\x1b[m\x1b[K || x<0 || y<0 || y>this->getSizes().second){\n'}
+[1.787715] (robo_miner_controller) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.787927] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:310:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.788085] (robo_miner_controller) StderrLine: {'line': b'  310 |    if(x>this->getSizes().first || x<0 || y<0 || \x1b[01;35m\x1b[Ky>this->getSizes().second\x1b[m\x1b[K){\n'}
+[1.788225] (robo_miner_controller) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.788362] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:313:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around assignment used as truth value [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[1.788501] (robo_miner_controller) StderrLine: {'line': b'  313 |    if(\x1b[01;35m\x1b[Kid = -1\x1b[m\x1b[K){\n'}
+[1.788635] (robo_miner_controller) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~^~~~\x1b[m\x1b[K\n'}
+[1.788771] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:316:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.788908] (robo_miner_controller) StderrLine: {'line': b'  316 |      if(\x1b[01;35m\x1b[Kx+1>this->getSizes().first\x1b[m\x1b[K){\n'}
+[1.789042] (robo_miner_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.789175] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:327:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kidem_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.789313] (robo_miner_controller) StderrLine: {'line': b'  327 |     int \x1b[01;35m\x1b[Kidem_id\x1b[m\x1b[K = this->gems.size()-1;\n'}
+[1.789446] (robo_miner_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.809406] (-) TimerEvent: {}
+[1.910006] (-) TimerEvent: {}
+[2.011545] (-) TimerEvent: {}
+[2.111956] (-) TimerEvent: {}
+[2.212873] (-) TimerEvent: {}
+[2.315415] (-) TimerEvent: {}
+[2.416958] (-) TimerEvent: {}
+[2.530716] (-) TimerEvent: {}
+[2.633694] (-) TimerEvent: {}
+[2.734350] (-) TimerEvent: {}
+[2.846693] (-) TimerEvent: {}
+[2.930828] (robo_miner_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:17\x1b[m\x1b[K:\n'}
+[2.931303] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MapNode> RobotMoverLogistics::get(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.931531] (robo_miner_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:66:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.931744] (robo_miner_controller) StderrLine: {'line': b'   66 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.931949] (robo_miner_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.946865] (-) TimerEvent: {}
+[3.042284] (robo_miner_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1\n'}
+[3.043136] (robo_miner_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2\n'}
+[3.043327] (robo_miner_controller) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.045135] (robo_miner_controller) CommandEnded: {'returncode': 2}
+[3.047131] (-) TimerEvent: {}
+[3.103234] (robo_miner_controller) JobEnded: {'identifier': 'robo_miner_controller', 'rc': 2}
+[3.114006] (-) EventReactorShutdown: {}

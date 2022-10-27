@@ -1,0 +1,33 @@
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFieldType[m[K’ does not name a type
+   11 | [01;31m[KFieldType[m[K fieldtype;
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:23:49:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNodeFields[m[K’ has not been declared
+   23 |  void setNeghbour(std::shared_ptr<MapNode> node,[01;31m[KMapNodeFields[m[K position ){
+      |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:26:35:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNodeFields[m[K’ has not been declared
+   26 |  std::shared_ptr<MapNode> getNode([01;31m[KMapNodeFields[m[K position){
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:29:78:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNodeFields[m[K’ has not been declared
+   29 |  void doubleSet(std::shared_ptr<MapNode> THIS,std::shared_ptr<MapNode> node, [01;31m[KMapNodeFields[m[K pos1,MapNodeFields pos2){
+      |                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:29:97:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNodeFields[m[K’ has not been declared
+   29 |  void doubleSet(std::shared_ptr<MapNode> THIS,std::shared_ptr<MapNode> node, MapNodeFields pos1,[01;31m[KMapNodeFields[m[K pos2){
+      |                                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:33:86:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNodeFields[m[K’ has not been declared
+   33 |  void doubleSetIfNotSet(std::shared_ptr<MapNode> THIS,std::shared_ptr<MapNode> node, [01;31m[KMapNodeFields[m[K pos1,MapNodeFields pos2){
+      |                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:33:105:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNodeFields[m[K’ has not been declared
+   33 |  void doubleSetIfNotSet(std::shared_ptr<MapNode> THIS,std::shared_ptr<MapNode> node, MapNodeFields pos1,[01;31m[KMapNodeFields[m[K pos2){
+      |                                                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:13:47:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMapNode[m[K’ does not have any field named ‘[01m[Kfieldtype[m[K’
+   13 |  MapNode(char fieldtype,bool visited = false):[01;31m[Kfieldtype[m[K(getCrystalType(fieldtype)),visited(visited){
+      |                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:13:57:[m[K [01;31m[Kerror: [m[K‘[01m[KgetCrystalType[m[K’ was not declared in this scope
+   13 |  MapNode(char fieldtype,bool visited = false):fieldtype([01;31m[KgetCrystalType[m[K(fieldtype)),visited(visited){
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

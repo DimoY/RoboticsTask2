@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found robo_miner_interfaces: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake)
+CMake Error at /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "cmake_helpers", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cmake_helpers"
+  with any of the following names:
+
+    cmake_helpersConfig.cmake
+    cmake_helpers-config.cmake
+
+  Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set
+  "cmake_helpers_DIR" to a directory containing one of the above files.  If
+  "cmake_helpers" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /home/ubuntu/workspace/robotics_v1/install/robo_miner_common/lib/cmake/robo_miner_common/robo_miner_commonConfig.cmake:5 (find_dependency)
+  CMakeLists.txt:22 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/CMakeFiles/CMakeOutput.log".
+See also "/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/CMakeFiles/CMakeError.log".

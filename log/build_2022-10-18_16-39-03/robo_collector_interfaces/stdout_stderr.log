@@ -1,0 +1,8 @@
+[  2%] Built target robo_collector_interfaces__cpp
+[ 12%] Built target robo_collector_interfaces__rosidl_generator_c
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,122 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:13:1:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+   13 | [01;35m[K/[m[K/ros2 service call /activate_mining_validate robo_miner_interfaces/srv/ActivateMiningValidate {}\
+      | [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:30[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(int, int, char, bool)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   12 | FieldType [01;35m[Kfieldtype[m[K;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::locked[m[K’ [[01;35m[K-Wreorder[m[K]
+   11 | bool [01;35m[Klocked[m[K = false;
+      |      [01;35m[K^~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:17:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   17 |  [01;35m[KMapNode[m[K(int x,int y,char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked),send_location({x,y}){
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   12 | FieldType [01;35m[Kfieldtype[m[K;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::locked[m[K’ [[01;35m[K-Wreorder[m[K]
+   11 | bool [01;35m[Klocked[m[K = false;
+      |      [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:30[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:20:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   20 |  [01;35m[KMapNode[m[K(char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked){
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:30[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::pair<long unsigned int, long unsigned int> RobotMoverLogistics::getSizes()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:250:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KXsize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  250 |    int [01;35m[KXsize[m[K = maxMapX -  minMapX;
+      |        [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:251:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYsize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  251 |    int [01;35m[KYsize[m[K = maxMapY - minMapY;
+      |        [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > RobotMoverLogistics::getArray()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:294:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  294 |    for(int i = 0;[01;35m[Ki<this->num.size()[m[K;i++){
+      |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:295:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  295 |     for(int j = 0;[01;35m[Kj<this->num[0].size()[m[K;j++){
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kvoid RobotMoverLogistics::DFSFindLonggestGemRec(int, int, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:313:8:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  313 |    if([01;35m[Kx>=this->num[0].size()[m[K || x<0 || y<0 || y>=this->num.size() ){
+      |       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:313:48:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  313 |    if(x>=this->num[0].size() || x<0 || y<0 || [01;35m[Ky>=this->num.size()[m[K ){
+      |                                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kbool RobotMoverLogistics::MiningLocationOk(int, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:350:8:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  350 |    if([01;35m[Kx>=this->num[0].size()[m[K || x<0 || y<0 || y>=this->num.size() ){
+      |       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:350:48:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  350 |    if(x>=this->num[0].size() || x<0 || y<0 || [01;35m[Ky>=this->num.size()[m[K ){
+      |                                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kvoid RobotMoverLogistics::DFSFindLonggestGem()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:376:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  376 |    for(int i = 0;[01;35m[Ki<this->num.size()[m[K;i++){
+      |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:377:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  377 |     for(int j = 0;[01;35m[Kj<this->num[0].size()[m[K;j++){
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::pair<int, int> RobotMoverLogistics::indexesBiggestGem()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:404:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  404 |     if([01;35m[Kmax<gems[i].size()[m[K){
+      |        [01;35m[K~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> > > RobotMoverLogistics::longest_gem()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:412:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  412 |    int [01;35m[Kmax[m[K= indexesBiggestGem().first;
+      |        [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kbool RobotMoverLogistics::isValid(int, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:428:10:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  428 |     || [01;35m[Kx >= this->num[0].size()[m[K || y >= this->num.size())
+      |        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:428:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  428 |     || x >= this->num[0].size() || [01;35m[Ky >= this->num.size()[m[K)
+      |                                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::vector<MapNodeFields> RobotMoverLogistics::BFS(int, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:473:7:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  473 |       [01;35m[KDOWN[m[K;
+      |       [01;35m[K^~~~[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:[m[K In constructor ‘[01m[KRoboMinerControler::RoboMinerControler()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:57:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRoboMinerControler::create_publisher<Authenticate>(const char* const&)[m[K’
+   57 |   auth = this->create_publisher<Authenticate>(USER_AUTHENTICATE_TOPIC[01;31m[K)[m[K;
+      |                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:57:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+   57 |   auth = this->create_publisher<Authenticate>(USER_AUTHENTICATE_TOPIC[01;36m[K)[m[K;
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:30[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::shared_ptr<MapNode> RobotMoverLogistics::get(int, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:71:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   71 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:30[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::vector<MapNodeFields> RobotMoverLogistics::BFS(int, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:472:18:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  472 |       std::cout<<[01;35m[K"UP-> "[m[K;
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:474:6:[m[K [01;36m[Knote: [m[Khere
+  474 |      [01;36m[Kcase[m[K DOWN:
+      |      [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

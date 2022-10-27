@@ -1,0 +1,12 @@
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 12%] Built target ur_dashboard_msgs__cpp
+[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 39%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target ur_dashboard_msgs
+make[2]: *** [ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/build.make:277: ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:552: ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

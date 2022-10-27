@@ -1,0 +1,26 @@
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:16:3:[m[K [01;31m[Kerror: [m[Kneed ‘[01m[Ktypename[m[K’ before ‘[01m[Krclcpp::Client<ServiceT>::SharedPtr[m[K’ because ‘[01m[Krclcpp::Client<ServiceT>[m[K’ is a dependent scope
+   16 |   [01;31m[Krclcpp[m[K::Client<T>::SharedPtr client;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktypename [m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:23:3:[m[K [01;31m[Kerror: [m[Kneed ‘[01m[Ktypename[m[K’ before ‘[01m[Krclcpp::Client<ServiceT>::SharedPtr[m[K’ because ‘[01m[Krclcpp::Client<ServiceT>[m[K’ is a dependent scope
+   23 |   [01;31m[Krclcpp[m[K::Client<T>::SharedPtr get_clint(){
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktypename [m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In constructor ‘[01m[KClient<T>::Client(std::string)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[KClient[m[K’?
+   19 |     [01;31m[Kclient[m[K =node->create_client<T>(name);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KClient[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   19 |     client =[01;31m[Knode[m[K->create_client<T>(name);
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   19 |     client =node->create_client<T[01;31m[K>[m[K(name);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In constructor ‘[01m[KRoboMinerControler::RoboMinerControler()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:35:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Client<robo_miner_interfaces::srv::QueryInitialRobotPosition>[m[K’ has no member named ‘[01m[Kget_clint[m[K’
+   35 |     auto client = k.[01;31m[Kget_clint[m[K();
+      |                     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

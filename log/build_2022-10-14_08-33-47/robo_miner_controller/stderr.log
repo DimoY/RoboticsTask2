@@ -1,0 +1,20 @@
+CMake Error at /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "cmake_helpers", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cmake_helpers"
+  with any of the following names:
+
+    cmake_helpersConfig.cmake
+    cmake_helpers-config.cmake
+
+  Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set
+  "cmake_helpers_DIR" to a directory containing one of the above files.  If
+  "cmake_helpers" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /home/ubuntu/workspace/robotics_v1/install/robo_miner_common/lib/cmake/robo_miner_common/robo_miner_commonConfig.cmake:5 (find_dependency)
+  CMakeLists.txt:22 (find_package)
+
+

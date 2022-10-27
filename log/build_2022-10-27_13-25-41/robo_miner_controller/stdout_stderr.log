@@ -1,0 +1,132 @@
+[ 50%] Building CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:12:1: warning: multi-line comment [-Wcomment]
+   12 | //ros2 service call /activate_mining_validate robo_miner_interfaces/srv/ActivateMiningValidate {}\
+      | ^
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:6,
+                 from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:27,
+                 from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp: In constructor ‘MapNode::MapNode(int, int, char, bool)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11: warning: ‘MapNode::fieldtype’ will be initialized after [-Wreorder]
+   12 | FieldType fieldtype;
+      |           ^~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6: warning:   ‘bool MapNode::locked’ [-Wreorder]
+   11 | bool locked = false;
+      |      ^~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:17:2: warning:   when initialized here [-Wreorder]
+   17 |  MapNode(int x,int y,char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked),send_location({x,y}){
+      |  ^~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp: In constructor ‘MapNode::MapNode(char, bool)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11: warning: ‘MapNode::fieldtype’ will be initialized after [-Wreorder]
+   12 | FieldType fieldtype;
+      |           ^~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6: warning:   ‘bool MapNode::locked’ [-Wreorder]
+   11 | bool locked = false;
+      |      ^~~~~~
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:6,
+                 from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:27,
+                 from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:20:2: warning:   when initialized here [-Wreorder]
+   20 |  MapNode(char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked){
+      |  ^~~~~~~
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:27,
+                 from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘std::pair<long unsigned int, long unsigned int> RobotMoverLogistics::getSizes()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:250:8: warning: unused variable ‘Xsize’ [-Wunused-variable]
+  250 |    int Xsize = maxMapX -  minMapX;
+      |        ^~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:251:8: warning: unused variable ‘Ysize’ [-Wunused-variable]
+  251 |    int Ysize = maxMapY - minMapY;
+      |        ^~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘std::vector<unsigned char, std::allocator<unsigned char> > RobotMoverLogistics::getArray()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:294:19: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::shared_ptr<MapNode> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  294 |    for(int i = 0;i<this->num.size();i++){
+      |                  ~^~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:295:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<MapNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  295 |     for(int j = 0;j<this->num[0].size();j++){
+      |                   ~^~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘void RobotMoverLogistics::DFSFindLonggestGemRec(int, int, int)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:313:8: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<MapNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  313 |    if(x>=this->num[0].size() || x<0 || y<0 || y>=this->num.size() ){
+      |       ~^~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:313:48: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::shared_ptr<MapNode> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  313 |    if(x>=this->num[0].size() || x<0 || y<0 || y>=this->num.size() ){
+      |                                               ~^~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘bool RobotMoverLogistics::MiningLocationOk(int, int)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:350:8: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<MapNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  350 |    if(x>=this->num[0].size() || x<0 || y<0 || y>=this->num.size() ){
+      |       ~^~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:350:48: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::shared_ptr<MapNode> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  350 |    if(x>=this->num[0].size() || x<0 || y<0 || y>=this->num.size() ){
+      |                                               ~^~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘void RobotMoverLogistics::DFSFindLonggestGem()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:376:19: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::shared_ptr<MapNode> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  376 |    for(int i = 0;i<this->num.size();i++){
+      |                  ~^~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:377:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<MapNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  377 |     for(int j = 0;j<this->num[0].size();j++){
+      |                   ~^~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘std::pair<int, int> RobotMoverLogistics::indexesBiggestGem()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:404:11: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<MapNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  404 |     if(max<gems[i].size()){
+      |        ~~~^~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> > > RobotMoverLogistics::longest_gem()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:412:8: warning: unused variable ‘max’ [-Wunused-variable]
+  412 |    int max= indexesBiggestGem().first;
+      |        ^~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘bool RobotMoverLogistics::isValid(int, int)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:428:10: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<MapNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  428 |     || x >= this->num[0].size() || y >= this->num.size())
+      |        ~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:428:38: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::shared_ptr<MapNode> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  428 |     || x >= this->num[0].size() || y >= this->num.size())
+      |                                    ~~^~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp: In member function ‘std::vector<MapNodeFields> RobotMoverLogistics::BFS(int, int)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:473:7: warning: statement has no effect [-Wunused-value]
+  473 |       DOWN;
+      |       ^~~~
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp: In constructor ‘RoboMinerControler::RoboMinerControler()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:55:35: error: invalid use of non-static member function ‘void RoboMinerControler::callback11(std::shared_ptr<robo_miner_interfaces::srv::Item_Request_<std::allocator<void> > >, std::shared_ptr<robo_miner_interfaces::srv::Item_Response_<std::allocator<void> > >)’
+   55 |    &std::bind(RoboMinerControler::callback11,this,_1,_2)
+      |               ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:66:7: note: declared here
+   66 |  void callback11(const std::shared_ptr<Item::Request> req,std::shared_ptr<Item::Response> res){
+      |       ^~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp: In member function ‘void RoboMinerControler::callback11(std::shared_ptr<robo_miner_interfaces::srv::Item_Request_<std::allocator<void> > >, std::shared_ptr<robo_miner_interfaces::srv::Item_Response_<std::allocator<void> > >)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:76:21: warning: comparison of integer expressions of different signedness: ‘robo_miner_interfaces::msg::FieldPoint_<std::allocator<void> >::_col_type’ {aka ‘int’} and ‘long unsigned int’ [-Wsign-compare]
+   76 |    if(req->point.col>=RML.getSizes().second || req->point.col<0 || req->point.row<0 || req->point.row>=RML.getSizes().first ){
+      |       ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:76:102: warning: comparison of integer expressions of different signedness: ‘robo_miner_interfaces::msg::FieldPoint_<std::allocator<void> >::_row_type’ {aka ‘int’} and ‘long unsigned int’ [-Wsign-compare]
+   76 |    if(req->point.col>=RML.getSizes().second || req->point.col<0 || req->point.row<0 || req->point.row>=RML.getSizes().first ){
+      |                                                                                        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp: At global scope:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:6:23: error: redefinition of ‘constexpr const char* const GET_MINE_ID’
+    6 | constexpr const char *GET_MINE_ID = "get_item";
+      |                       ^~~~~~~~~~~
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:19:23: note: ‘constexpr const char* const GET_MINE_ID’ previously defined here
+   19 | constexpr const char *GET_MINE_ID = "get_item";
+      |                       ^~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:7:23: error: redefinition of ‘constexpr const char* const LONGEST_SEQUENCE_VALIDATION’
+    7 | constexpr const char *LONGEST_SEQUENCE_VALIDATION = "longest_sequence_validate";
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:5:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/Application1/Application1.hpp:17:23: note: ‘constexpr const char* const LONGEST_SEQUENCE_VALIDATION’ previously defined here
+   17 | constexpr const char *LONGEST_SEQUENCE_VALIDATION = "longest_sequence_validate";
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp: In member function ‘std::pair<unsigned char, bool> RoboLongestGem::getInfo(int, int)’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:31:6: error: return-statement with no value, in function returning ‘std::pair<unsigned char, bool>’ [-fpermissive]
+   31 |      return;
+      |      ^~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp: In member function ‘std::pair<int, int> RoboLongestGem::indexesBiggestGem()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:98:11: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<unsigned char, std::pair<int, int> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   98 |     if(max<gems[i].size()){
+      |        ~~~^~~~~~~~~~~~~~~
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp: In member function ‘std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> > > RoboLongestGem::longest_gem()’:
+/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:106:8: warning: unused variable ‘max’ [-Wunused-variable]
+  106 |    int max= indexesBiggestGem().first;
+      |        ^~~
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

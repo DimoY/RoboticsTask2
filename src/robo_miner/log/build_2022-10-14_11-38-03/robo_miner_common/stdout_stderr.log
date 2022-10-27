@@ -1,0 +1,26 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "cmake_helpers", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cmake_helpers"
+  with any of the following names:
+
+    cmake_helpersConfig.cmake
+    cmake_helpers-config.cmake
+
+  Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set
+  "cmake_helpers_DIR" to a directory containing one of the above files.  If
+  "cmake_helpers" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,67 @@
+[0.035s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4
+[0.151s] [35m[1mScanning dependencies of target robo_miner_controller[0m
+[0.245s] [ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+[2.911s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:4[m[K,
+[2.911s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.911s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[2.911s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:13:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[2.912s]    13 | FieldType [01;35m[Kfieldtype[m[K;
+[2.912s]       |           [01;35m[K^~~~~~~~~[m[K
+[2.912s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::visited[m[K’ [[01;35m[K-Wreorder[m[K]
+[2.912s]    11 | bool [01;35m[Kvisited[m[K;
+[2.912s]       |      [01;35m[K^~~~~~~[m[K
+[2.912s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:15:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[2.913s]    15 |  [01;35m[KMapNode[m[K(char fieldtype,bool visited = false):fieldtype(getCrystalType(fieldtype)),visited(visited){
+[2.913s]       |  [01;35m[K^~~~~~~[m[K
+[2.913s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.914s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K At global scope:
+[2.914s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:17:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kstd[m[K’
+[2.914s]    17 |       [01;31m[Kstd[m[K::shared_ptr<MapNode> mnRightEye){
+[2.914s]       |       [01;31m[K^~~[m[K
+[2.916s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kvoid RobotMoverLogistics::setRobot(std::shared_ptr<MapNode>, std::shared_ptr<MapNode>)[m[K’:
+[2.916s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:18:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kresp[m[K’ was not declared in this scope
+[2.916s]    18 |    switch ([01;31m[Kresp[m[K->robot_position_response.robot_dir)
+[2.917s]       |            [01;31m[K^~~~[m[K
+[2.921s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:23:42:[m[K [01;31m[Kerror: [m[K‘[01m[KmnRightEye[m[K’ was not declared in this scope
+[2.922s]    23 |     MapNode::doubleSetIfNotSet(mnCurrent,[01;31m[KmnRightEye[m[K,MapNodeFields::DOWN,MapNodeFields::UP);
+[2.923s]       |                                          [01;31m[K^~~~~~~~~~[m[K
+[2.930s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In constructor ‘[01m[KRobotMoverLogistics::RobotMoverLogistics(robo_miner_interfaces::srv::QueryInitialRobotPosition_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.930s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:89:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMoverLogistics::setRobot(std::shared_ptr<MapNode>&, std::shared_ptr<MapNode>&, std::shared_ptr<MapNode>&)[m[K’
+[2.930s]    89 |    this->setRobot(mnLeftEye,mnCenterEye,mnRightEye[01;31m[K)[m[K;
+[2.931s]       |                                                   [01;31m[K^[m[K
+[2.931s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:15:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid RobotMoverLogistics::setRobot(std::shared_ptr<MapNode>, std::shared_ptr<MapNode>)[m[K’
+[2.932s]    15 |   void [01;36m[KsetRobot[m[K( std::shared_ptr<MapNode> mnLeftEye,
+[2.932s]       |        [01;36m[K^~~~~~~~[m[K
+[2.932s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:15:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.935s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In constructor ‘[01m[KRobotMoverLogistics::RobotMoverLogistics(uint8_t, robo_miner_interfaces::srv::RobotMove_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.936s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:100:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMoverLogistics::setRobot(std::shared_ptr<MapNode>&, std::shared_ptr<MapNode>&, std::shared_ptr<MapNode>&)[m[K’
+[2.936s]   100 |    this->setRobot(mnLeftEye,mnCenterEye,mnRightEye[01;31m[K)[m[K;
+[2.936s]       |                                                   [01;31m[K^[m[K
+[2.937s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:15:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid RobotMoverLogistics::setRobot(std::shared_ptr<MapNode>, std::shared_ptr<MapNode>)[m[K’
+[2.937s]    15 |   void [01;36m[KsetRobot[m[K( std::shared_ptr<MapNode> mnLeftEye,
+[2.937s]       |        [01;36m[K^~~~~~~~[m[K
+[2.937s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:15:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.974s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerControler::getInitailInfo()[m[K’:
+[2.974s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Kresp[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.974s]    57 |     RoboMinerControler[01;35m[K([m[Kresp);
+[2.975s]       |                       [01;35m[K^[m[K
+[2.975s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:57:24:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[KRoboMinerControler resp[m[K’
+[2.976s]    57 |     RoboMinerControler([01;31m[Kresp[m[K);
+[2.976s]       |                        [01;31m[K^~~~[m[K
+[2.977s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:56:34:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krobo_miner_interfaces::srv::QueryInitialRobotPosition_Response_<std::allocator<void> >::SharedPtr resp[m[K’
+[2.978s]    56 |     Initial::Response::SharedPtr [01;36m[Kresp[m[K = result.get();
+[2.978s]       |                                  [01;36m[K^~~~[m[K
+[2.985s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerControler::robotMove(uint8_t)[m[K’:
+[2.985s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:81:23:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Kresp[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.986s]    81 |     RoboMinerControler[01;35m[K([m[Kresp);
+[2.986s]       |                       [01;35m[K^[m[K
+[2.987s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:81:24:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[KRoboMinerControler resp[m[K’
+[2.988s]    81 |     RoboMinerControler([01;31m[Kresp[m[K);
+[2.989s]       |                        [01;31m[K^~~~[m[K
+[2.989s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:79:31:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krobo_miner_interfaces::srv::RobotMove_Response_<std::allocator<void> >::SharedPtr resp[m[K’
+[2.990s]    79 |     Move::Response::SharedPtr [01;36m[Kresp[m[K = result.get();
+[2.991s]       |                               [01;36m[K^~~~[m[K
+[4.575s] make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+[4.576s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+[4.576s] make: *** [Makefile:141: all] Error 2
+[4.579s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4

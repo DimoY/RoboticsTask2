@@ -1,0 +1,203 @@
+[0.029s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces -- -j4 -l4
+[0.223s] [ 11%] Built target robo_cleaner_interfaces__rosidl_generator_c
+[0.238s] [ 12%] Built target robo_cleaner_interfaces__cpp
+[0.301s] [ 24%] Built target robo_cleaner_interfaces__rosidl_typesupport_introspection_c
+[0.329s] [ 35%] Built target robo_cleaner_interfaces__rosidl_typesupport_c
+[0.337s] [ 47%] Built target robo_cleaner_interfaces__rosidl_typesupport_cpp
+[0.364s] [ 58%] Built target robo_cleaner_interfaces__rosidl_typesupport_introspection_cpp
+[0.433s] [ 70%] Built target robo_cleaner_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.516s] [ 81%] Built target robo_cleaner_interfaces__rosidl_typesupport_fastrtps_c
+[0.556s] [ 81%] Built target robo_cleaner_interfaces
+[0.604s] [ 82%] Built target robo_cleaner_interfaces__py
+[0.695s] [ 93%] Built target robo_cleaner_interfaces__python
+[0.771s] [ 95%] Built target robo_cleaner_interfaces__rosidl_typesupport_c__pyext
+[0.781s] [ 97%] Built target robo_cleaner_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.796s] [100%] Built target robo_cleaner_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.834s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces -- -j4 -l4
+[1.215s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces
+[1.249s] -- Install configuration: "Debug"
+[1.250s] -- Execute custom install script
+[1.250s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_cleaner_interfaces
+[1.252s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__functions.h
+[1.253s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__struct.h
+[1.253s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__type_support.h
+[1.253s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/robot_move.h
+[1.253s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/battery_status.h
+[1.254s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__functions.h
+[1.254s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__struct.h
+[1.255s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__type_support.h
+[1.255s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__functions.h
+[1.255s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__struct.h
+[1.255s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__type_support.h
+[1.256s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__functions.h
+[1.256s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__struct.h
+[1.256s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__type_support.h
+[1.256s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__functions.h
+[1.257s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__struct.h
+[1.257s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__type_support.h
+[1.259s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/initial_robot_state.h
+[1.259s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/robot_move_type.h
+[1.260s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.261s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/user_authenticate.h
+[1.261s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/charge_battery.h
+[1.262s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__functions.h
+[1.262s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__struct.h
+[1.262s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__type_support.h
+[1.263s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__functions.h
+[1.264s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__struct.h
+[1.265s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__type_support.h
+[1.265s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__functions.h
+[1.266s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__struct.h
+[1.266s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__type_support.h
+[1.268s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/query_battery_status.h
+[1.270s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/query_initial_robot_state.h
+[1.271s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/library_path.sh
+[1.271s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/library_path.dsv
+[1.273s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__rosidl_typesupport_fastrtps_c.h
+[1.273s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[1.278s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__rosidl_typesupport_fastrtps_c.h
+[1.278s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_c.h
+[1.278s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_c.h
+[1.278s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.279s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__rosidl_typesupport_fastrtps_c.h
+[1.279s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__rosidl_typesupport_fastrtps_c.h
+[1.279s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__rosidl_typesupport_fastrtps_c.h
+[1.279s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.280s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__rosidl_typesupport_fastrtps_cpp.hpp
+[1.282s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.283s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.283s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp
+[1.283s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_cpp.hpp
+[1.284s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.284s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__rosidl_typesupport_fastrtps_cpp.hpp
+[1.284s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.284s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.285s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.287s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__rosidl_typesupport_introspection_c.h
+[1.288s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+[1.288s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__rosidl_typesupport_introspection_c.h
+[1.289s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_c.h
+[1.289s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_c.h
+[1.289s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.290s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__rosidl_typesupport_introspection_c.h
+[1.290s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__rosidl_typesupport_introspection_c.h
+[1.291s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__rosidl_typesupport_introspection_c.h
+[1.292s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__builder.hpp
+[1.293s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__struct.hpp
+[1.293s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__traits.hpp
+[1.294s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/robot_move.hpp
+[1.294s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/battery_status.hpp
+[1.295s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__builder.hpp
+[1.295s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__struct.hpp
+[1.295s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__traits.hpp
+[1.296s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__builder.hpp
+[1.296s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__struct.hpp
+[1.297s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__traits.hpp
+[1.298s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__builder.hpp
+[1.298s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__struct.hpp
+[1.298s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__traits.hpp
+[1.299s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__builder.hpp
+[1.299s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__struct.hpp
+[1.300s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__traits.hpp
+[1.301s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/initial_robot_state.hpp
+[1.301s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/robot_move_type.hpp
+[1.302s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/user_authenticate.hpp
+[1.302s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/charge_battery.hpp
+[1.303s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__builder.hpp
+[1.303s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__struct.hpp
+[1.304s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__traits.hpp
+[1.304s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__builder.hpp
+[1.305s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__struct.hpp
+[1.305s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__traits.hpp
+[1.306s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__builder.hpp
+[1.306s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__struct.hpp
+[1.307s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__traits.hpp
+[1.307s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/query_battery_status.hpp
+[1.308s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/query_initial_robot_state.hpp
+[1.310s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/action/detail/robot_move__rosidl_typesupport_introspection_cpp.hpp
+[1.310s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[1.311s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/initial_robot_state__rosidl_typesupport_introspection_cpp.hpp
+[1.311s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_cpp.hpp
+[1.312s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_cpp.hpp
+[1.313s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/charge_battery__rosidl_typesupport_introspection_cpp.hpp
+[1.313s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_battery_status__rosidl_typesupport_introspection_cpp.hpp
+[1.313s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/include/robo_cleaner_interfaces/srv/detail/query_initial_robot_state__rosidl_typesupport_introspection_cpp.hpp
+[1.314s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/pythonpath.sh
+[1.315s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/pythonpath.dsv
+[1.316s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/__init__.py
+[1.317s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/msg/__init__.py
+[1.318s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/msg/_battery_status.py
+[1.318s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/msg/_initial_robot_state.py
+[1.319s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/msg/_robot_move_type.py
+[1.319s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/msg/_user_authenticate.py
+[1.320s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/srv/__init__.py
+[1.321s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/srv/_charge_battery.py
+[1.322s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/srv/_query_battery_status.py
+[1.322s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/srv/_query_initial_robot_state.py
+[1.324s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/action/__init__.py
+[1.324s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/action/_robot_move.py
+[1.325s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/robo_cleaner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.326s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/robo_cleaner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.327s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages/robo_cleaner_interfaces/robo_cleaner_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__python.so
+[1.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/BatteryStatus.idl
+[1.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/InitialRobotState.idl
+[1.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/RobotMoveType.idl
+[1.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/UserAuthenticate.idl
+[1.332s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/ChargeBattery.idl
+[1.338s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryBatteryStatus.idl
+[1.339s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryInitialRobotState.idl
+[1.339s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/action/RobotMove.idl
+[1.339s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/BatteryStatus.msg
+[1.340s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/InitialRobotState.msg
+[1.342s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/RobotMoveType.msg
+[1.342s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/msg/UserAuthenticate.msg
+[1.343s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/ChargeBattery.srv
+[1.343s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/ChargeBattery_Request.msg
+[1.343s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/ChargeBattery_Response.msg
+[1.343s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryBatteryStatus.srv
+[1.343s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryBatteryStatus_Request.msg
+[1.344s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryBatteryStatus_Response.msg
+[1.344s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryInitialRobotState.srv
+[1.344s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryInitialRobotState_Request.msg
+[1.344s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/srv/QueryInitialRobotState_Response.msg
+[1.344s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/action/RobotMove.action
+[1.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_cleaner_interfaces
+[1.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_cleaner_interfaces
+[1.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/ament_prefix_path.sh
+[1.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/ament_prefix_path.dsv
+[1.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/path.sh
+[1.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/environment/path.dsv
+[1.346s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/local_setup.bash
+[1.346s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/local_setup.sh
+[1.346s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/local_setup.zsh
+[1.347s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/local_setup.dsv
+[1.347s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/package.dsv
+[1.363s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/ament_index/resource_index/packages/robo_cleaner_interfaces
+[1.364s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.364s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.365s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.365s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.365s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.366s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.366s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.367s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfacesConfig.cmake
+[1.367s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfacesConfig-version.cmake
+[1.367s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/package.xml
+[1.368s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_generator_c.so
+[1.369s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_typesupport_introspection_c.so
+[1.370s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_typesupport_c.so
+[1.370s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.371s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/lib/librobo_cleaner_interfaces__rosidl_typesupport_cpp.so
+[1.447s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_generator_cExport.cmake
+[1.447s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_generator_cExport-debug.cmake
+[1.448s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.448s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_introspection_cExport-debug.cmake
+[1.448s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_cExport.cmake
+[1.449s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_cExport-debug.cmake
+[1.449s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_generator_cppExport.cmake
+[1.449s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.449s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_introspection_cppExport-debug.cmake
+[1.450s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_cppExport.cmake
+[1.450s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake/robo_cleaner_interfaces__rosidl_typesupport_cppExport-debug.cmake
+[1.460s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces

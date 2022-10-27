@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config -- -j4 -l4
+Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config -- -j4 -l4
+Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config
+Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config

@@ -1,0 +1,105 @@
+[0.125s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.618s] [ 10%] Built target robo_collector_interfaces__rosidl_generator_c
+[0.658s] [ 12%] Built target robo_collector_interfaces__cpp
+[0.857s] [ 23%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_c
+[0.870s] [ 33%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_cpp
+[0.898s] [ 43%] Built target robo_collector_interfaces__rosidl_typesupport_c
+[0.979s] [ 53%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.059s] [ 64%] Built target robo_collector_interfaces__rosidl_typesupport_cpp
+[1.113s] [ 74%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_c
+[1.296s] [ 74%] Built target robo_collector_interfaces
+[1.467s] [ 76%] Built target robo_collector_interfaces__py
+[1.727s] [ 84%] Built target robo_collector_interfaces__python
+[2.026s] [ 89%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.026s] [ 94%] Built target robo_collector_interfaces__rosidl_typesupport_c__pyext
+[2.033s] [100%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.123s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[2.811s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces
+[2.838s] -- Install configuration: "Debug"
+[2.840s] -- Execute custom install script
+[2.842s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_collector_interfaces
+[2.844s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__functions.h
+[2.846s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__struct.h
+[2.846s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__type_support.h
+[2.848s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__functions.h
+[2.849s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__struct.h
+[2.849s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__type_support.h
+[2.849s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/robot_move_type.h
+[2.850s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.851s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/user_authenticate.h
+[2.853s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/library_path.sh
+[2.856s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/library_path.dsv
+[2.858s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_c.h
+[2.859s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_c.h
+[2.859s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.861s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.864s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.866s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.870s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_c.h
+[2.870s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_c.h
+[2.870s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.871s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__builder.hpp
+[2.872s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__struct.hpp
+[2.873s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__traits.hpp
+[2.874s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__builder.hpp
+[2.876s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__struct.hpp
+[2.876s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__traits.hpp
+[2.880s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/robot_move_type.hpp
+[2.881s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/user_authenticate.hpp
+[2.883s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_cpp.hpp
+[2.883s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_cpp.hpp
+[2.884s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/pythonpath.sh
+[2.886s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/pythonpath.dsv
+[2.887s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/__init__.py
+[2.890s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/msg/__init__.py
+[2.890s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/msg/_robot_move_type.py
+[2.891s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/msg/_user_authenticate.py
+[2.892s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/robo_collector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.895s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/robo_collector_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.896s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/robo_collector_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.898s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__python.so
+[2.899s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/RobotMoveType.idl
+[2.900s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/UserAuthenticate.idl
+[2.900s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/RobotMoveType.msg
+[2.902s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/UserAuthenticate.msg
+[2.903s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_collector_interfaces
+[2.904s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_collector_interfaces
+[2.905s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/ament_prefix_path.sh
+[2.906s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/ament_prefix_path.dsv
+[2.907s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/path.sh
+[2.908s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/path.dsv
+[2.910s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.bash
+[2.911s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.sh
+[2.912s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.zsh
+[2.913s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.dsv
+[2.913s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.dsv
+[2.951s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/packages/robo_collector_interfaces
+[2.951s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.951s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.951s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.951s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.952s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.959s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.959s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.959s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfacesConfig.cmake
+[2.960s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfacesConfig-version.cmake
+[2.960s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.xml
+[2.966s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_generator_c.so
+[2.967s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_introspection_c.so
+[2.970s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_c.so
+[2.975s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.979s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_cpp.so
+[3.155s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_generator_cExport.cmake
+[3.155s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_generator_cExport-debug.cmake
+[3.158s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.158s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cExport-debug.cmake
+[3.161s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cExport.cmake
+[3.162s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cExport-debug.cmake
+[3.162s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_generator_cppExport.cmake
+[3.163s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.163s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cppExport-debug.cmake
+[3.165s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cppExport.cmake
+[3.165s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cppExport-debug.cmake
+[3.175s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces

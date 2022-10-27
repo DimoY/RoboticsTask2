@@ -1,0 +1,4 @@
+[0.078s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[0.478s] make[1]: *** [CMakeFiles/Makefile2:439: CMakeFiles/ur_dashboard_msgs__cpp.dir/all] Interrupt
+[0.479s] make[1]: *** [CMakeFiles/Makefile2:275: CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/all] Interrupt
+[0.479s] make: *** [Makefile:141: all] Interrupt

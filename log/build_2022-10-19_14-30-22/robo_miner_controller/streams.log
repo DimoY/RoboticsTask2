@@ -1,0 +1,121 @@
+[0.029s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4
+[0.170s] [35m[1mScanning dependencies of target robo_miner_controller[0m
+[0.237s] [ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+[3.980s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:5[m[K,
+[3.981s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19[m[K:
+[3.981s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(int, int, char, bool)[m[K’:
+[3.981s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.981s]    12 | FieldType [01;35m[Kfieldtype[m[K;
+[3.981s]       |           [01;35m[K^~~~~~~~~[m[K
+[3.981s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::locked[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.982s]    11 | bool [01;35m[Klocked[m[K = false;
+[3.982s]       |      [01;35m[K^~~~~~[m[K
+[3.982s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:17:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.982s]    17 |  [01;35m[KMapNode[m[K(int x,int y,char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked),send_location({x,y}){
+[3.982s]       |  [01;35m[K^~~~~~~[m[K
+[3.985s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[3.985s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:12:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.985s]    12 | FieldType [01;35m[Kfieldtype[m[K;
+[3.985s]       |           [01;35m[K^~~~~~~~~[m[K
+[3.985s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::locked[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.986s]    11 | bool [01;35m[Klocked[m[K = false;
+[3.986s]       |      [01;35m[K^~~~~~[m[K
+[3.986s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:5[m[K,
+[3.986s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19[m[K:
+[3.986s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:20:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.986s]    20 |  [01;35m[KMapNode[m[K(char fieldtype,bool locked = false):fieldtype(getCrystalType(fieldtype)),locked(locked){
+[3.986s]       |  [01;35m[K^~~~~~~[m[K
+[4.064s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19[m[K:
+[4.064s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::pair<long unsigned int, long unsigned int> RobotMoverLogistics::getSizes()[m[K’:
+[4.065s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:249:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KXsize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.065s]   249 |    int [01;35m[KXsize[m[K = maxMapX -  minMapX;
+[4.066s]       |        [01;35m[K^~~~~[m[K
+[4.066s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:250:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYsize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.066s]   250 |    int [01;35m[KYsize[m[K = maxMapY - minMapY;
+[4.066s]       |        [01;35m[K^~~~~[m[K
+[4.075s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kauto RobotMoverLogistics::fillList()[m[K’:
+[4.075s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:292:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.076s]   292 |    for(int i = 0;[01;35m[Ki<this->num.size()[m[K;i++){
+[4.076s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[4.076s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:293:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.076s]   293 |     for(int j = 0;[01;35m[Kj<this->num[0].size()[m[K;j++){
+[4.077s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.082s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kvoid RobotMoverLogistics::DFSFindLonggestGemRec(int, int, int)[m[K’:
+[4.083s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:314:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+[4.083s]   314 |    printf("X: [01;35m[K%d[m[K, Y: %d, id: %d\n");
+[4.083s]       |               [01;35m[K~^[m[K
+[4.084s]       |                [01;35m[K|[m[K
+[4.084s]       |                [01;35m[Kint[m[K
+[4.084s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:314:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+[4.084s]   314 |    printf("X: %d, Y: [01;35m[K%d[m[K, id: %d\n");
+[4.085s]       |                      [01;35m[K~^[m[K
+[4.085s]       |                       [01;35m[K|[m[K
+[4.085s]       |                       [01;35m[Kint[m[K
+[4.086s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:314:31:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+[4.086s]   314 |    printf("X: %d, Y: %d, id: [01;35m[K%d[m[K\n");
+[4.086s]       |                              [01;35m[K~^[m[K
+[4.087s]       |                               [01;35m[K|[m[K
+[4.087s]       |                               [01;35m[Kint[m[K
+[4.087s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:316:8:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.088s]   316 |    if([01;35m[Kx>=this->num[0].size()[m[K || x<0 || y<0 || y>=this->num.size() ){
+[4.088s]       |       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.088s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:316:48:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::shared_ptr<MapNode> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.088s]   316 |    if(x>=this->num[0].size() || x<0 || y<0 || [01;35m[Ky>=this->num.size()[m[K ){
+[4.089s]       |                                               [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[4.089s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Krobo_miner_interfaces::srv::LongestSequenceValidate::Request RobotMoverLogistics::longest_gem()[m[K’:
+[4.089s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:371:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<MapNode> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.089s]   371 |     if([01;35m[Kmax<gems[i].size()[m[K){
+[4.089s]       |        [01;35m[K~~~^~~~~~~~~~~~~~~[m[K
+[4.219s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerControler::FindLongestGem()[m[K’:
+[4.220s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:193:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<robo_miner_interfaces::srv::LongestSequenceValidate>::async_send_request(robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> >&)[m[K’
+[4.220s]   193 |   auto result =  longest_sequence->async_send_request(request[01;31m[K)[m[K;
+[4.220s]       |                                                              [01;31m[K^[m[K
+[4.221s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.221s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.222s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.222s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[4.222s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:318:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = robo_miner_interfaces::srv::LongestSequenceValidate; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Response_<std::allocator<void> > > >; typename ServiceT::Response::SharedPtr = std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Response_<std::allocator<void> > >; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> > >][m[K’
+[4.222s]   318 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[4.222s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.222s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:318:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> >[m[K’ to ‘[01m[Krclcpp::Client<robo_miner_interfaces::srv::LongestSequenceValidate>::SharedRequest[m[K’ {aka ‘[01m[Kstd::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> > >[m[K’}
+[4.222s]   318 |   async_send_request([01;36m[KSharedRequest request[m[K)
+[4.223s]       |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.223s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = robo_miner_interfaces::srv::LongestSequenceValidate][m[K’
+[4.223s]   333 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[4.223s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.223s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.224s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:193:62:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.224s]   193 |   auto result =  longest_sequence->async_send_request(request[01;36m[K)[m[K;
+[4.224s]       |                                                              [01;36m[K^[m[K
+[4.224s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.224s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.224s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.224s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.225s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.225s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.225s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.225s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.225s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.226s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[4.226s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Request_<std::allocator<void> > >, std::shared_ptr<robo_miner_interfaces::srv::LongestSequenceValidate_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequest rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <enumerator>; ServiceT = robo_miner_interfaces::srv::LongestSequenceValidate][m[K’
+[4.226s]   359 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[4.226s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.226s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.226s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:193:62:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.227s]   193 |   auto result =  longest_sequence->async_send_request(request[01;36m[K)[m[K;
+[4.227s]       |                                                              [01;36m[K^[m[K
+[6.232s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:19[m[K:
+[6.232s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kstd::shared_ptr<MapNode> RobotMoverLogistics::get(int, int)[m[K’:
+[6.232s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:69:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[6.232s]    69 |   [01;35m[K}[m[K
+[6.233s]       |   [01;35m[K^[m[K
+[6.420s] make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+[6.421s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+[6.421s] make: *** [Makefile:141: all] Error 2
+[6.425s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4

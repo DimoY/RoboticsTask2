@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target robo_miner_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:13:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   13 | FieldType [01;35m[Kfieldtype[m[K;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::visited[m[K’ [[01;35m[K-Wreorder[m[K]
+   11 | bool [01;35m[Kvisited[m[K;
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:15:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   15 |  [01;35m[KMapNode[m[K(char fieldtype,bool visited = false):fieldtype(getCrystalType(fieldtype)),visited(visited){
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerControler::getInitailInfo()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Kresp[m[K’ [[01;35m[K-Wparentheses[m[K]
+   57 |     RoboMinerControler[01;35m[K([m[Kresp);
+      |                       [01;35m[K^[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:57:24:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[KRoboMinerControler resp[m[K’
+   57 |     RoboMinerControler([01;31m[Kresp[m[K);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:56:34:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krobo_miner_interfaces::srv::QueryInitialRobotPosition_Response_<std::allocator<void> >::SharedPtr resp[m[K’
+   56 |     Initial::Response::SharedPtr [01;36m[Kresp[m[K = result.get();
+      |                                  [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerControler::robotMove(uint8_t)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:81:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRoboMinerControler::RoboMinerControler(uint8_t&, robo_miner_interfaces::srv::RobotMove_Response_<std::allocator<void> >::SharedPtr&)[m[K’
+   81 |     RoboMinerControler(dirrection,resp[01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:31:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KRoboMinerControler::RoboMinerControler()[m[K’
+   31 |  [01;36m[KRoboMinerControler[m[K():Node("RMC"){
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:31:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

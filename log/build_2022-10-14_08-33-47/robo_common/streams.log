@@ -1,0 +1,106 @@
+[0.166s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_common': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/robo_common
+[0.258s] -- Found cmake_helpers: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+[0.300s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.321s] -- Configuring done
+[1.414s] -- Generating done
+[1.421s] -- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/robo_common
+[1.442s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_common' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/robo_common
+[1.444s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_common': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_common -- -j4 -l4
+[1.735s] [100%] Built target robo_common
+[1.774s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_common' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_common -- -j4 -l4
+[2.256s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_common': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_common
+[2.271s] -- Install configuration: "Debug"
+[2.271s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/package.xml
+[2.271s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/lib/robo_common/librobo_common.a
+[2.271s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/ament_index/resource_index/packages/robo_common
+[2.272s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/hook/ament_prefix_path.dsv
+[2.272s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/hook/ros_package_path.dsv
+[2.273s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/ament_index/resource_index/package_run_dependencies/robo_common
+[2.273s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/ament_index/resource_index/parent_prefix_path/robo_common
+[2.274s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/environment/ament_prefix_path.sh
+[2.274s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/environment/ament_prefix_path.dsv
+[2.274s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/environment/path.sh
+[2.274s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/environment/path.dsv
+[2.275s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/local_setup.bash
+[2.275s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/local_setup.sh
+[2.275s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/local_setup.zsh
+[2.276s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/local_setup.dsv
+[2.276s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/package.dsv
+[2.277s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/ament_index/resource_index/packages/robo_common
+[2.278s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/cmake/robo_commonConfig.cmake
+[2.278s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/cmake/robo_commonConfig-version.cmake
+[2.278s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/share/robo_common/package.xml
+[2.278s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/lib/librobo_common.a
+[2.278s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include
+[2.278s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common
+[2.279s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/helpers
+[2.279s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/helpers/CollisionWatcher.h
+[2.280s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/helpers/CollisionObject.h
+[2.280s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/helpers/LevelFileLoader.h
+[2.280s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout
+[2.280s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/helpers
+[2.280s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/helpers/RoboCommonLayoutInterfaces.h
+[2.281s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/helpers/RoboCommonLayoutInitHelper.h
+[2.281s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels
+[2.281s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/NumberCounterPanel.h
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/IndicatorPanel.h
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/TimePanel.h
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/config
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/config/NumberCounterPanelConfig.h
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/config/TimePanelConfig.h
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/panels/config/IndicatorPanelConfig.h
+[2.282s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/config
+[2.283s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/config/RoboCommonLayoutConfig.h
+[2.283s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/RoboCommonLayout.h
+[2.283s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field
+[2.283s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/fog_of_war
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/fog_of_war/FogCollisionObject.h
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/fog_of_war/FogOfWar.h
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/Tile.h
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/config
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/config/TileConfig.h
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/config/FieldConfig.h
+[2.284s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/config/ObstacleHandlerConfig.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/config/FogOfWarConfig.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/ObjectApproachOverlay.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/obstacles
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/obstacles/ObstacleHandler.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/obstacles/Obstacle.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/Field.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/FieldPos.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/field/FieldUtils.h
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot
+[2.285s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/helpers
+[2.286s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/helpers/RobotInitHelper.h
+[2.289s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/helpers/RobotUtils.h
+[2.291s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/helpers/RobotActInterface.h
+[2.291s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/Robot.h
+[2.291s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/config
+[2.291s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/config/RobotBaseConfig.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/animation
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/animation/PlayerDamageAnimEndCb.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/animation/RobotAnimator.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/entities/robot/animation/RobotAnimEndCb.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/debug
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/debug/config
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/debug/config/DebugFieldConfig.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/debug/DebugField.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/EndScreenAppearAnimator.h
+[2.292s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/config
+[2.293s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/config/AchievementAnimatorConfig.h
+[2.295s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/config/GameEndAnimatorConfig.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/config/HelpPageAnimatorConfig.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/GameEndAnimator.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/HelpPageAnimator.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/CountdownAnimator.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/layout/animators/AchievementAnimator.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/defines
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/defines/RoboCommonFunctionalDefines.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/include/robo_common/defines/RoboCommonDefines.h
+[2.299s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonTargets.cmake
+[2.299s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonTargets-debug.cmake
+[2.300s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonConfig.cmake
+[2.300s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_common' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_common

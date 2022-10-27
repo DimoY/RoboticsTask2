@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/robotics_v1/build/robo_collector_gui/ament_cmake_core/robo_collector_guiConfig-version.cmake

@@ -1,0 +1,9 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common/CMakeFiles/CMakeOutput.log".

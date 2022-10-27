@@ -1,0 +1,236 @@
+[0.103s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[0.389s] [  0%] Built target robo_miner_interfaces__cpp
+[0.564s] [ 12%] Built target robo_miner_interfaces__rosidl_generator_c
+[0.619s] [ 24%] Built target robo_miner_interfaces__rosidl_typesupport_cpp
+[0.830s] [ 47%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.832s] [ 47%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_cpp
+[0.840s] [ 59%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c
+[0.953s] [ 70%] Built target robo_miner_interfaces__rosidl_typesupport_c
+[1.105s] [ 82%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c
+[1.378s] [ 82%] Built target robo_miner_interfaces
+[1.646s] [ 83%] Built target robo_miner_interfaces__py
+[1.992s] [ 94%] Built target robo_miner_interfaces__python
+[2.318s] [ 96%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.346s] [ 99%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.349s] [100%] Built target robo_miner_interfaces__rosidl_typesupport_c__pyext
+[2.437s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[3.896s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces
+[3.985s] -- Install configuration: "Debug"
+[3.986s] -- Execute custom install script
+[3.986s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_miner_interfaces
+[3.989s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__functions.h
+[4.008s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__struct.h
+[4.012s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__type_support.h
+[4.013s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__functions.h
+[4.014s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__struct.h
+[4.014s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__type_support.h
+[4.018s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__functions.h
+[4.021s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__struct.h
+[4.030s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__type_support.h
+[4.031s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__functions.h
+[4.031s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__struct.h
+[4.050s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.h
+[4.051s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__functions.h
+[4.053s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__struct.h
+[4.073s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__type_support.h
+[4.073s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/field_point.h
+[4.080s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_move_type.h
+[4.082s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_position_response.h
+[4.084s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.085s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/u_int8_multi_array.h
+[4.111s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/user_authenticate.h
+[4.112s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/activate_mining_validate.h
+[4.114s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__functions.h
+[4.120s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__struct.h
+[4.124s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.h
+[4.125s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__functions.h
+[4.125s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__struct.h
+[4.131s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__type_support.h
+[4.140s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__functions.h
+[4.143s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__struct.h
+[4.145s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.h
+[4.146s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__functions.h
+[4.149s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__struct.h
+[4.155s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.h
+[4.189s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__functions.h
+[4.206s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__struct.h
+[4.213s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__type_support.h
+[4.214s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/field_map_validate.h
+[4.241s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/longest_sequence_validate.h
+[4.250s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/query_initial_robot_position.h
+[4.251s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/robot_move.h
+[4.253s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/library_path.sh
+[4.256s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/library_path.dsv
+[4.260s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_fastrtps_c.h
+[4.324s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_c.h
+[4.329s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_c.h
+[4.329s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_fastrtps_c.h
+[4.331s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_fastrtps_c.h
+[4.334s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_fastrtps_c.h
+[4.340s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_fastrtps_c.h
+[4.344s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_fastrtps_c.h
+[4.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.345s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp
+[4.346s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_fastrtps_cpp.hpp
+[4.346s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.346s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_cpp.hpp
+[4.347s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.349s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_fastrtps_cpp.hpp
+[4.349s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_fastrtps_cpp.hpp
+[4.350s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_fastrtps_cpp.hpp
+[4.350s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.351s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_fastrtps_cpp.hpp
+[4.364s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.366s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_introspection_c.h
+[4.383s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_c.h
+[4.391s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_introspection_c.h
+[4.393s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_c.h
+[4.393s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_c.h
+[4.394s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.395s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_introspection_c.h
+[4.396s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_introspection_c.h
+[4.397s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_introspection_c.h
+[4.398s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_introspection_c.h
+[4.410s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_introspection_c.h
+[4.411s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__builder.hpp
+[4.414s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__struct.hpp
+[4.416s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__traits.hpp
+[4.416s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__builder.hpp
+[4.417s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__struct.hpp
+[4.417s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__traits.hpp
+[4.418s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__builder.hpp
+[4.422s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__struct.hpp
+[4.430s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__traits.hpp
+[4.436s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__builder.hpp
+[4.437s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__struct.hpp
+[4.437s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__traits.hpp
+[4.441s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__builder.hpp
+[4.441s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__struct.hpp
+[4.444s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__traits.hpp
+[4.444s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/field_point.hpp
+[4.444s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_move_type.hpp
+[4.445s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_position_response.hpp
+[4.445s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/u_int8_multi_array.hpp
+[4.445s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/user_authenticate.hpp
+[4.446s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/activate_mining_validate.hpp
+[4.446s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__builder.hpp
+[4.446s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__struct.hpp
+[4.455s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__traits.hpp
+[4.456s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__builder.hpp
+[4.456s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__struct.hpp
+[4.457s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__traits.hpp
+[4.458s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__builder.hpp
+[4.458s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__struct.hpp
+[4.459s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__traits.hpp
+[4.459s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__builder.hpp
+[4.460s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__struct.hpp
+[4.460s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__traits.hpp
+[4.480s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__builder.hpp
+[4.480s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__struct.hpp
+[4.481s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__traits.hpp
+[4.482s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/field_map_validate.hpp
+[4.484s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/longest_sequence_validate.hpp
+[4.484s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/query_initial_robot_position.hpp
+[4.485s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/robot_move.hpp
+[4.486s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_introspection_cpp.hpp
+[4.486s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_cpp.hpp
+[4.486s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_introspection_cpp.hpp
+[4.487s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[4.487s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_cpp.hpp
+[4.488s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_introspection_cpp.hpp
+[4.488s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_introspection_cpp.hpp
+[4.490s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_introspection_cpp.hpp
+[4.493s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_introspection_cpp.hpp
+[4.494s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_introspection_cpp.hpp
+[4.496s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/pythonpath.sh
+[4.497s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/pythonpath.dsv
+[4.505s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/__init__.py
+[4.505s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/__init__.py
+[4.506s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_field_point.py
+[4.507s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_move_type.py
+[4.510s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_position_response.py
+[4.510s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_u_int8_multi_array.py
+[4.513s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_user_authenticate.py
+[4.517s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/__init__.py
+[4.519s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_activate_mining_validate.py
+[4.520s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_field_map_validate.py
+[4.520s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_longest_sequence_validate.py
+[4.521s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_query_initial_robot_position.py
+[4.522s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_robot_move.py
+[4.522s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.522s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.523s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.524s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__python.so
+[4.525s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/FieldPoint.idl
+[4.525s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotPositionResponse.idl
+[4.526s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UInt8MultiArray.idl
+[4.527s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotMoveType.idl
+[4.529s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UserAuthenticate.idl
+[4.530s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate.idl
+[4.534s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove.idl
+[4.535s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate.idl
+[4.536s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate.idl
+[4.537s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition.idl
+[4.538s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/FieldPoint.msg
+[4.539s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotPositionResponse.msg
+[4.539s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UInt8MultiArray.msg
+[4.540s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotMoveType.msg
+[4.540s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UserAuthenticate.msg
+[4.541s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate.srv
+[4.541s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate_Request.msg
+[4.542s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate_Response.msg
+[4.560s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove.srv
+[4.560s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove_Request.msg
+[4.562s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove_Response.msg
+[4.563s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate.srv
+[4.565s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate_Request.msg
+[4.572s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate_Response.msg
+[4.573s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate.srv
+[4.574s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate_Request.msg
+[4.575s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate_Response.msg
+[4.576s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition.srv
+[4.576s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition_Request.msg
+[4.578s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition_Response.msg
+[4.579s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_miner_interfaces
+[4.580s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_miner_interfaces
+[4.580s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/ament_prefix_path.sh
+[4.581s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/ament_prefix_path.dsv
+[4.581s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/path.sh
+[4.582s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/path.dsv
+[4.582s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.bash
+[4.583s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.sh
+[4.583s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.zsh
+[4.584s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.dsv
+[4.584s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.dsv
+[4.635s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/packages/robo_miner_interfaces
+[4.636s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.636s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.638s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.640s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.642s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.644s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.647s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.650s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfacesConfig.cmake
+[4.653s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfacesConfig-version.cmake
+[4.655s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.xml
+[4.660s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_generator_c.so
+[4.662s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_c.so
+[4.666s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_c.so
+[4.669s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.672s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_cpp.so
+[4.971s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cExport.cmake
+[4.972s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cExport-debug.cmake
+[4.976s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.977s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cExport-debug.cmake
+[4.977s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cExport.cmake
+[4.977s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cExport-debug.cmake
+[4.977s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cppExport.cmake
+[4.978s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.979s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cppExport-debug.cmake
+[4.982s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cppExport.cmake
+[4.983s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cppExport-debug.cmake
+[4.991s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces

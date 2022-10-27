@@ -1,0 +1,45 @@
+[35m[1mScanning dependencies of target robo_miner_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:13:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   13 | FieldType [01;35m[Kfieldtype[m[K;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:11:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::visited[m[K’ [[01;35m[K-Wreorder[m[K]
+   11 | bool [01;35m[Kvisited[m[K;
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:15:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   15 |  [01;35m[KMapNode[m[K(char fieldtype,bool visited = false):fieldtype(getCrystalType(fieldtype)),visited(visited){
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:[m[K In member function ‘[01m[KFieldType MapNode::getCrystal()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/MapNode/MapNode.hpp:22:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   22 |   return this->fieldtype
+      |                         [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+   23 |  [32m[K}[m[K
+      |  [32m[K~[m[K                       
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:88:7:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kvoid RoboMinerControler::Move(MapNodeFields)[m[K’ changes meaning of ‘[01m[KMove[m[K’ [[01;31m[K-fpermissive[m[K]
+   88 |  void [01;31m[KMove[m[K(MapNodeFields fields){
+      |       [01;31m[K^~~~[m[K
+In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[KMove[m[K’ declared here as ‘[01m[Kusing Move = struct robo_miner_interfaces::srv::RobotMove[m[K’
+   11 | using [01;36m[KMove[m[K = robo_miner_interfaces::srv::RobotMove;
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In constructor ‘[01m[KRoboMinerControler::RoboMinerControler()[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:33:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRoboMinerControler::create_client<RoboMinerControler::Move>(const char* const&)[m[K’
+   33 |   move_client = this->create_client<Move>(ROBOT_MOVE_SERVICE[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:124:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  124 | [01;36m[KNode[m[K::create_client(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:124:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

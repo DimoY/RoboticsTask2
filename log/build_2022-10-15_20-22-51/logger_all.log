@@ -1,0 +1,1153 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f31a81bf6d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f31a81bf6d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f31a81bfc10>)
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/workspace/robotics_v1'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/cmake_helpers) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/cmake_helpers' with type 'ros.cmake' and name 'cmake_helpers'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/game_engine) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/game_engine' with type 'ros.cmake' and name 'game_engine'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/manager_utils) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/manager_utils' with type 'ros.cmake' and name 'manager_utils'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/resource_utils) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/resource_utils' with type 'ros.cmake' and name 'resource_utils'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/ros2_game_engine) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/ros2_game_engine' with type 'ros.cmake' and name 'ros2_game_engine'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/sdl_utils) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/sdl_utils' with type 'ros.cmake' and name 'sdl_utils'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib/utils) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib/utils' with type 'ros.cmake' and name 'utils'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_common) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_cleaner/robo_cleaner_common' with type 'ros.ament_cmake' and name 'robo_cleaner_common'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_gui) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_cleaner/robo_cleaner_gui' with type 'ros.ament_cmake' and name 'robo_cleaner_gui'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_cleaner/robo_cleaner_interfaces) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_cleaner/robo_cleaner_interfaces' with type 'ros.ament_cmake' and name 'robo_cleaner_interfaces'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/build) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/build) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/build) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/install) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/install) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/install) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/log) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/log) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/log) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_common) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_collector/robo_collector_common' with type 'ros.ament_cmake' and name 'robo_collector_common'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_controller) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_collector/robo_collector_controller' with type 'ros.ament_cmake' and name 'robo_collector_controller'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_gui) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_collector/robo_collector_gui' with type 'ros.ament_cmake' and name 'robo_collector_gui'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_collector/robo_collector_interfaces) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_collector/robo_collector_interfaces' with type 'ros.ament_cmake' and name 'robo_collector_interfaces'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_common) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_common' with type 'ros.cmake' and name 'robo_common'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/build) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/build) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/install) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/install) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/install) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_common) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_miner/robo_miner_common' with type 'ros.ament_cmake' and name 'robo_miner_common'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_controller) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_miner/robo_miner_controller' with type 'ros.ament_cmake' and name 'robo_miner_controller'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_gui) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_miner/robo_miner_gui' with type 'ros.ament_cmake' and name 'robo_miner_gui'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_miner/robo_miner_interfaces) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_miner/robo_miner_interfaces' with type 'ros.ament_cmake' and name 'robo_miner_interfaces'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/tools/resource_builder) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tools/resource_builder' with type 'ros.cmake' and name 'resource_builder'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/ur_control_gui) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_dev/ur_control_gui' with type 'ros.ament_cmake' and name 'ur_control_gui'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_bridge) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_dev/urscript/urscript_bridge' with type 'ros.ament_cmake' and name 'urscript_bridge'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_common) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_dev/urscript/urscript_common' with type 'ros.ament_cmake' and name 'urscript_common'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_dev/urscript/urscript_interfaces) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_dev/urscript/urscript_interfaces' with type 'ros.ament_cmake' and name 'urscript_interfaces'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_Client_Library) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_Client_Library' with type 'ros.cmake' and name 'ur_client_library'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_description) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_ROS2_Driver/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'cmake_helpers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'cmake_helpers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/cmake_helpers', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'robo_cleaner_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_cleaner/robo_cleaner_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'robo_collector_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_collector/robo_collector_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_bringup', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ur_client_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'ur_client_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_client_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_client_library', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_Client_Library', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_description', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_description', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_moveit_config', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'urscript_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'urscript_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_dev/urscript/urscript_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_miner_controller', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_controllers', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/utils', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/utils', 'symlink_install': False, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'resource_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'resource_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/resource_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/resource_utils', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/resource_utils', 'symlink_install': False, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_robot_driver', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'urscript_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'urscript_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/urscript_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/urscript_common', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_dev/urscript/urscript_common', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'resource_builder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'resource_builder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/resource_builder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/resource_builder', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/tools/resource_builder', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'sdl_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'sdl_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/sdl_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/sdl_utils', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/sdl_utils', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'manager_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'manager_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/manager_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/manager_utils', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/manager_utils', 'symlink_install': False, 'test_result_base': None}
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'game_engine' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'game_engine' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/game_engine', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/game_engine', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/game_engine', 'symlink_install': False, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'robo_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'robo_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_common', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_common', 'symlink_install': False, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'robo_cleaner_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_cleaner/robo_cleaner_common', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'robo_collector_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_collector_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_collector_common', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_collector/robo_collector_common', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_miner_common', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_game_engine' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_game_engine' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ros2_game_engine', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ros2_game_engine', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/lib/ros2_game_engine', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'robo_cleaner_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'robo_cleaner_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_cleaner_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_cleaner_gui', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_cleaner/robo_cleaner_gui', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'robo_collector_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_collector_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_collector_controller', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_collector/robo_collector_controller', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robo_collector_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'robo_collector_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_collector_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_collector_gui', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_collector/robo_collector_gui', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/robo_miner_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/robo_miner_gui', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_gui', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ur_control_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'ur_control_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/ur_control_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/ur_control_gui', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_dev/ur_control_gui', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'urscript_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'urscript_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/build/urscript_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/install/urscript_bridge', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/ur_dev/urscript/urscript_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.446s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.451s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/lib/cmake_helpers' with build type 'cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/lib/cmake_helpers'
+[0.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/robo_collector/robo_collector_interfaces' with build type 'ament_cmake'
+[0.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/robo_collector/robo_collector_interfaces'
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces' with build type 'ament_cmake'
+[0.474s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/cmake_helpers -- -j4 -l4
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/cmake_helpers -- -j4 -l4
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/cmake_helpers
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/cmake_helpers
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_helpers', 'pkg_config_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/pkg_config_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/pkg_config_path.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/pkg_config_path.sh'
+[1.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_helpers', 'pkg_config_path_multiarch')
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/pkg_config_path_multiarch.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/pkg_config_path_multiarch.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/pkg_config_path_multiarch.sh'
+[1.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_helpers)
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers' for CMake module files
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers' for CMake config files
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_helpers', 'cmake_prefix_path')
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/cmake_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/cmake_prefix_path.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/hook/cmake_prefix_path.sh'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/bin'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig/cmake_helpers.pc'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/python3.8/site-packages'
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/bin'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.sh'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.bash'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.zsh'
+[1.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/colcon-core/packages/cmake_helpers)
+[1.081s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/lib/utils' with build type 'cmake'
+[1.081s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/lib/utils'
+[1.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/utils -- -j4 -l4
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/utils -- -j4 -l4
+[1.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[1.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[1.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/utils
+[1.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/utils
+[1.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_collector_interfaces)
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces' for CMake module files
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces' for CMake config files
+[2.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_collector_interfaces', 'cmake_prefix_path')
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/cmake_prefix_path.ps1'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/cmake_prefix_path.dsv'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/cmake_prefix_path.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib'
+[2.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_collector_interfaces', 'ld_library_path_lib')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/ld_library_path_lib.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/ld_library_path_lib.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/ld_library_path_lib.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/bin'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/pkgconfig/robo_collector_interfaces.pc'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages'
+[2.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_collector_interfaces', 'pythonpath')
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/pythonpath.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/pythonpath.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/pythonpath.sh'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/bin'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.sh'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.bash'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.zsh'
+[2.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/colcon-core/packages/robo_collector_interfaces)
+[2.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'pkg_config_path')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/pkg_config_path.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/pkg_config_path.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/pkg_config_path.sh'
+[2.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'pkg_config_path_multiarch')
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/pkg_config_path_multiarch.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/pkg_config_path_multiarch.dsv'
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/pkg_config_path_multiarch.sh'
+[2.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(utils)
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils' for CMake module files
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils' for CMake config files
+[2.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'cmake_prefix_path')
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/cmake_prefix_path.ps1'
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/cmake_prefix_path.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/cmake_prefix_path.sh'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils/lib'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils/bin'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig/utils.pc'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils/lib/python3.8/site-packages'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/utils/bin'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.ps1'
+[2.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.dsv'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.sh'
+[2.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.bash'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.zsh'
+[2.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/utils/share/colcon-core/packages/utils)
+[2.223s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/lib/resource_utils' with build type 'cmake'
+[2.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/lib/resource_utils'
+[2.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/resource_utils -- -j4 -l4
+[2.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_collector_interfaces)
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces' for CMake module files
+[2.447s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces' for CMake config files
+[2.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_collector_interfaces', 'cmake_prefix_path')
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/cmake_prefix_path.ps1'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/cmake_prefix_path.dsv'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/cmake_prefix_path.sh'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib'
+[2.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_collector_interfaces', 'ld_library_path_lib')
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/ld_library_path_lib.ps1'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/ld_library_path_lib.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/ld_library_path_lib.sh'
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/bin'
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/pkgconfig/robo_collector_interfaces.pc'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages'
+[2.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_collector_interfaces', 'pythonpath')
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/pythonpath.ps1'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/pythonpath.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/hook/pythonpath.sh'
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/bin'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.ps1'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.dsv'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.sh'
+[2.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.bash'
+[2.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.zsh'
+[2.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/robo_collector_interfaces/share/colcon-core/packages/robo_collector_interfaces)
+[2.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/ur_dev/urscript/urscript_interfaces' with build type 'ament_cmake'
+[2.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/ur_dev/urscript/urscript_interfaces'
+[2.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces
+[2.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces -- -j4 -l4
+[2.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/resource_utils -- -j4 -l4
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/resource_utils
+[2.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_miner_interfaces)
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces' for CMake module files
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces' for CMake config files
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces
+[2.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'cmake_prefix_path')
+[2.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.ps1'
+[2.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.dsv'
+[2.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.sh'
+[2.997s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib'
+[2.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'ld_library_path_lib')
+[2.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.ps1'
+[3.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.dsv'
+[3.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.sh'
+[3.005s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/bin'
+[3.006s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/pkgconfig/robo_miner_interfaces.pc'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages'
+[3.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'pythonpath')
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.ps1'
+[3.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.dsv'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.sh'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/bin'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.ps1'
+[3.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.dsv'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.sh'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.bash'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.zsh'
+[3.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/colcon-core/packages/robo_miner_interfaces)
+[3.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs
+[3.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/resource_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/resource_utils
+[3.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces -- -j4 -l4
+[3.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('resource_utils', 'pkg_config_path')
+[3.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/pkg_config_path.ps1'
+[3.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/pkg_config_path.dsv'
+[3.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/pkg_config_path.sh'
+[3.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('resource_utils', 'pkg_config_path_multiarch')
+[3.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/pkg_config_path_multiarch.ps1'
+[3.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/pkg_config_path_multiarch.dsv'
+[3.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/pkg_config_path_multiarch.sh'
+[3.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resource_utils)
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils' for CMake module files
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils' for CMake config files
+[3.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('resource_utils', 'cmake_prefix_path')
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/cmake_prefix_path.ps1'
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/cmake_prefix_path.dsv'
+[3.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/hook/cmake_prefix_path.sh'
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils/bin'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig/resource_utils.pc'
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/python3.8/site-packages'
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/resource_utils/bin'
+[3.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.ps1'
+[3.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.dsv'
+[3.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.sh'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.bash'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/resource_utils/package.zsh'
+[3.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/resource_utils/share/colcon-core/packages/resource_utils)
+[3.327s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/lib/sdl_utils' with build type 'cmake'
+[3.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/lib/sdl_utils'
+[3.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[3.358s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs' for CMake module files
+[3.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_dashboard_msgs
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs' for CMake config files
+[3.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[3.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[3.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[3.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[3.371s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib'
+[3.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[3.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[3.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[3.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/bin'
+[3.379s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages'
+[3.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'pythonpath')
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/pythonpath.ps1'
+[3.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/pythonpath.dsv'
+[3.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/pythonpath.sh'
+[3.391s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/bin'
+[3.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[3.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[3.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[3.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces
+[3.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/sdl_utils -- -j4 -l4
+[3.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urscript_interfaces)
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces' for CMake module files
+[3.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces' for CMake config files
+[3.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('urscript_interfaces', 'cmake_prefix_path')
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/cmake_prefix_path.ps1'
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/cmake_prefix_path.dsv'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/cmake_prefix_path.sh'
+[3.605s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib'
+[3.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('urscript_interfaces', 'ld_library_path_lib')
+[3.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/ld_library_path_lib.ps1'
+[3.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/ld_library_path_lib.dsv'
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/ld_library_path_lib.sh'
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/bin'
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/pkgconfig/urscript_interfaces.pc'
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages'
+[3.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('urscript_interfaces', 'pythonpath')
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/pythonpath.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/pythonpath.dsv'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/hook/pythonpath.sh'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/bin'
+[3.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.ps1'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.dsv'
+[3.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.sh'
+[3.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.bash'
+[3.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.zsh'
+[3.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/colcon-core/packages/urscript_interfaces)
+[3.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/sdl_utils -- -j4 -l4
+[3.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[3.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[3.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[3.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.823s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.844s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.869s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/install/local_setup.ps1'
+[3.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/workspace/robotics_v1/install/_local_setup_util_ps1.py'
+[3.875s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/install/setup.ps1'
+[3.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/install/local_setup.sh'
+[3.884s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/workspace/robotics_v1/install/_local_setup_util_sh.py'
+[3.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/install/setup.sh'
+[3.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/install/local_setup.bash'
+[3.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/install/setup.bash'
+[3.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/install/local_setup.zsh'
+[3.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/install/setup.zsh'

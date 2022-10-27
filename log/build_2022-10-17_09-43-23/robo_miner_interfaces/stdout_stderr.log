@@ -1,0 +1,14 @@
+[  0%] Built target robo_miner_interfaces__cpp
+[ 12%] Built target robo_miner_interfaces__rosidl_generator_c
+[ 24%] Built target robo_miner_interfaces__rosidl_typesupport_cpp
+[ 36%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_cpp
+[ 47%] Built target robo_miner_interfaces__rosidl_typesupport_c
+[ 59%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c
+[ 70%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 82%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c
+[ 82%] Built target robo_miner_interfaces
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:553: robo_miner_interfaces__py/CMakeFiles/robo_miner_interfaces__py.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupt

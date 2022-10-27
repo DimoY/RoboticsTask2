@@ -1,0 +1,223 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa7886e5580>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa7886e5580>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa7886e5ac0>)
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/workspace/robotics_v1/src/robo_miner'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_common) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'robo_miner_common' with type 'ros.ament_cmake' and name 'robo_miner_common'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_controller) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'robo_miner_controller' with type 'ros.ament_cmake' and name 'robo_miner_controller'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_gui) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'robo_miner_gui' with type 'ros.ament_cmake' and name 'robo_miner_gui'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo_miner_interfaces) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'robo_miner_interfaces' with type 'ros.ament_cmake' and name 'robo_miner_interfaces'
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_controller', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'robo_miner_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'robo_miner_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_gui', 'merge_install': False, 'path': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_gui', 'symlink_install': False, 'test_result_base': None}
+[0.344s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces'
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces
+[2.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces
+[2.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces -- -j4 -l4
+[21.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces -- -j4 -l4
+[21.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces
+[22.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_miner_interfaces)
+[22.079s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces' for CMake module files
+[22.080s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces' for CMake config files
+[22.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces
+[22.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'cmake_prefix_path')
+[22.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.ps1'
+[22.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.dsv'
+[22.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.sh'
+[22.087s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib'
+[22.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'ld_library_path_lib')
+[22.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.ps1'
+[22.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.dsv'
+[22.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.sh'
+[22.092s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/bin'
+[22.093s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/pkgconfig/robo_miner_interfaces.pc'
+[22.093s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages'
+[22.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'pythonpath')
+[22.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.ps1'
+[22.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.dsv'
+[22.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.sh'
+[22.097s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/bin'
+[22.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.ps1'
+[22.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.dsv'
+[22.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.sh'
+[22.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.bash'
+[22.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.zsh'
+[22.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/colcon-core/packages/robo_miner_interfaces)
+[22.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_miner_interfaces)
+[22.486s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces' for CMake module files
+[22.488s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces' for CMake config files
+[22.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'cmake_prefix_path')
+[22.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.ps1'
+[22.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.dsv'
+[22.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/cmake_prefix_path.sh'
+[22.501s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib'
+[22.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'ld_library_path_lib')
+[22.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.ps1'
+[22.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.dsv'
+[22.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/ld_library_path_lib.sh'
+[22.506s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/bin'
+[22.506s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/pkgconfig/robo_miner_interfaces.pc'
+[22.506s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages'
+[22.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_miner_interfaces', 'pythonpath')
+[22.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.ps1'
+[22.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.dsv'
+[22.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/hook/pythonpath.sh'
+[22.511s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/bin'
+[22.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.ps1'
+[22.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.dsv'
+[22.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.sh'
+[22.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.bash'
+[22.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.zsh'
+[22.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/colcon-core/packages/robo_miner_interfaces)
+[22.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common' with build type 'ament_cmake'
+[22.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common'
+[22.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common
+[23.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common
+[23.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_miner_common)
+[23.171s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common' for CMake module files
+[23.171s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common' for CMake config files
+[23.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/bin'
+[23.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/lib/pkgconfig/robo_miner_common.pc'
+[23.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/lib/python3.8/site-packages'
+[23.173s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/bin'
+[23.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/share/robo_miner_common/package.ps1'
+[23.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/share/robo_miner_common/package.dsv'
+[23.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/share/robo_miner_common/package.sh'
+[23.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/share/robo_miner_common/package.bash'
+[23.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/share/robo_miner_common/package.zsh'
+[23.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common/share/colcon-core/packages/robo_miner_common)
+[23.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[23.184s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.212s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.213s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.240s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/local_setup.ps1'
+[23.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/_local_setup_util_ps1.py'
+[23.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/setup.ps1'
+[23.249s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/local_setup.sh'
+[23.254s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/_local_setup_util_sh.py'
+[23.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/setup.sh'
+[23.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/local_setup.bash'
+[23.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/setup.bash'
+[23.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/local_setup.zsh'
+[23.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/setup.zsh'

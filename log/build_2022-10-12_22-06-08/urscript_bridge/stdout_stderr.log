@@ -1,0 +1,26 @@
+[100%] Built target urscript_bridge
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/package.xml
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge//launch/launch.py
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge//config/params.yaml
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/lib/urscript_bridge/urscript_bridge
+-- Symlinking: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/ament_index/resource_index/packages/urscript_bridge
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/hook/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/hook/ros_package_path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/ament_index/resource_index/package_run_dependencies/urscript_bridge
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/ament_index/resource_index/parent_prefix_path/urscript_bridge
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/local_setup.dsv
+-- Symlinking: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/package.dsv
+-- Symlinking: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/ament_index/resource_index/packages/urscript_bridge
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/cmake/urscript_bridgeConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/cmake/urscript_bridgeConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_bridge/share/urscript_bridge/package.xml

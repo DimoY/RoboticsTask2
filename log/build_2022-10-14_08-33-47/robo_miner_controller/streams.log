@@ -1,0 +1,60 @@
+[0.186s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_common:/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_common:/home/ubuntu/workspace/robotics_v1/install/robo_common:/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_common/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/robo_common/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/robo_miner_controller
+[0.649s] -- The C compiler identification is GNU 9.4.0
+[1.065s] -- The CXX compiler identification is GNU 9.4.0
+[1.102s] -- Check for working C compiler: /usr/bin/cc
+[1.607s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.615s] -- Detecting C compiler ABI info
+[1.952s] -- Detecting C compiler ABI info - done
+[2.021s] -- Detecting C compile features
+[2.034s] -- Detecting C compile features - done
+[2.041s] -- Check for working CXX compiler: /usr/bin/c++
+[2.495s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.498s] -- Detecting CXX compiler ABI info
+[3.108s] -- Detecting CXX compiler ABI info - done
+[3.158s] -- Detecting CXX compile features
+[3.159s] -- Detecting CXX compile features - done
+[3.191s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.309s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.309s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.112s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.208s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.398s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.452s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.708s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.726s] -- Looking for pthread.h
+[5.084s] -- Looking for pthread.h - found
+[5.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.386s] -- Looking for pthread_create in pthreads
+[5.748s] -- Looking for pthread_create in pthreads - not found
+[5.749s] -- Looking for pthread_create in pthread
+[6.177s] -- Looking for pthread_create in pthread - found
+[6.181s] -- Found Threads: TRUE  
+[6.726s] -- Found robo_miner_interfaces: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake)
+[6.833s] CMake Error at /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[6.833s]   By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this
+[6.834s]   project has asked CMake to find a package configuration file provided by
+[6.834s]   "cmake_helpers", but CMake did not find one.
+[6.834s] 
+[6.834s]   Could not find a package configuration file provided by "cmake_helpers"
+[6.834s]   with any of the following names:
+[6.835s] 
+[6.835s]     cmake_helpersConfig.cmake
+[6.835s]     cmake_helpers-config.cmake
+[6.835s] 
+[6.835s]   Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set
+[6.835s]   "cmake_helpers_DIR" to a directory containing one of the above files.  If
+[6.836s]   "cmake_helpers" provides a separate development package or SDK, be sure it
+[6.836s]   has been installed.
+[6.836s] Call Stack (most recent call first):
+[6.836s]   /home/ubuntu/workspace/robotics_v1/install/robo_miner_common/lib/cmake/robo_miner_common/robo_miner_commonConfig.cmake:5 (find_dependency)
+[6.837s]   CMakeLists.txt:22 (find_package)
+[6.838s] 
+[6.839s] 
+[6.843s] -- Configuring incomplete, errors occurred!
+[6.843s] See also "/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/CMakeFiles/CMakeOutput.log".
+[6.843s] See also "/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/CMakeFiles/CMakeError.log".
+[6.893s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_common:/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_common:/home/ubuntu/workspace/robotics_v1/install/robo_common:/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_common/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/robo_common/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/robo_miner_controller

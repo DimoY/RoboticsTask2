@@ -1,0 +1,9 @@
+[0.089s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.357s] [  2%] Built target robo_collector_interfaces__cpp
+[0.385s] [ 12%] Built target robo_collector_interfaces__rosidl_generator_c
+[0.511s] make[1]: *** wait: No child processes.  Stop.
+[0.511s] make[1]: *** Waiting for unfinished jobs....
+[0.512s] make[1]: *** wait: No child processes.  Stop.
+[0.512s] make[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[0.512s] make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.512s] make: *** [Makefile:141: all] Interrupt

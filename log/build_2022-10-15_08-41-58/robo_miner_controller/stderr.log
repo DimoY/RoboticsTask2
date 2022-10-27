@@ -1,0 +1,20 @@
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In constructor ‘[01m[KMapNode::MapNode(char, bool)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:59:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapNode::fieldtype[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   59 | FieldType [01;35m[Kfieldtype[m[K;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:57:6:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapNode::visited[m[K’ [[01;35m[K-Wreorder[m[K]
+   57 | bool [01;35m[Kvisited[m[K;
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:61:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   61 |   [01;35m[KMapNode[m[K(char fieldtype,bool visited = false):fieldtype(getCrystalType(fieldtype)),visited(visited){
+      |   [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerControler::fieldRevalation(char, char, char, char, int)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:97:9:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[KD[m[K’ gnu_printf length modifier [[01;35m[K-Wformat=[m[K]
+   97 |  printf([01;35m[K"\n#######\n%D\n#######\n"[m[K,position);
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:97:23:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[K\x0a[m[K’ in format [[01;35m[K-Wformat=[m[K]
+   97 |  printf("\n#######\n%D[01;35m[K\n[m[K#######\n",position);
+      |                       [01;35m[K^~[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:97:9:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   97 |  printf([01;35m[K"\n#######\n%D\n#######\n"[m[K,position);
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

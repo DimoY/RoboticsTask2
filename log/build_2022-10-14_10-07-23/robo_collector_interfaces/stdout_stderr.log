@@ -1,0 +1,5 @@
+make[2]: *** [CMakeFiles/robo_collector_interfaces__cpp.dir/build.make:130: CMakeFiles/robo_collector_interfaces__cpp.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/robo_collector_interfaces__cpp.dir/all] Interrupt
+make[2]: *** [CMakeFiles/robo_collector_interfaces__rosidl_generator_c.dir/build.make:167: CMakeFiles/robo_collector_interfaces__rosidl_generator_c.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/robo_collector_interfaces__rosidl_generator_c.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

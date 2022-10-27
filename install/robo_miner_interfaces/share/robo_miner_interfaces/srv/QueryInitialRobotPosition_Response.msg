@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces/rosidl_cmake/srv/QueryInitialRobotPosition_Response.msg

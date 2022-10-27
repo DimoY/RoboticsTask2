@@ -1,0 +1,40 @@
+-- Found cmake_helpers: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+-- Found robo_cleaner_interfaces: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/robo_cleaner_interfaces/share/robo_cleaner_interfaces/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/robo_cleaner_common
+[100%] Built target robo_cleaner_common
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/package.xml
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/lib/robo_cleaner_common/librobo_cleaner_common.a
+-- Symlinking: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/ament_index/resource_index/packages/robo_cleaner_common
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/hook/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/hook/ros_package_path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/ament_index/resource_index/package_run_dependencies/robo_cleaner_common
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/ament_index/resource_index/parent_prefix_path/robo_cleaner_common
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/local_setup.dsv
+-- Symlinking: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/package.dsv
+-- Symlinking: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/ament_index/resource_index/packages/robo_cleaner_common
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/cmake/robo_cleaner_commonConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/cmake/robo_cleaner_commonConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/share/robo_cleaner_common/package.xml
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/include/robo_cleaner_common/defines/RoboCleanerDefines.h
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/include/robo_cleaner_common/defines/RoboCleanerTopics.h
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/include/robo_cleaner_common/message_helpers/RoboCleanerMessageHelpers.h
+-- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/lib/cmake/robo_cleaner_common/robo_cleaner_commonConfig.cmake
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/lib/librobo_cleaner_common.a
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/lib/cmake/robo_cleaner_common/robo_cleaner_commonTargets.cmake
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/robo_cleaner_common/lib/cmake/robo_cleaner_common/robo_cleaner_commonTargets-debug.cmake

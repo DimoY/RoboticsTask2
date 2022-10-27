@@ -1,0 +1,15 @@
+12 14
+XppXgXcXbrrrgr
+rpggbbbbbpprrg
+rXpbbcXbXrrppX
+pppgpprXrXXXXr
+pXbrXXXXrccgpp
+ppXgbccccgXcpr
+cppXXrrXcgpXbr
+ppppXggXcprrcc
+pcpXXggXcprpXb
+ppXpXbgXcprXbc
+pXprXbgXcpbrrc
+XgrrgggXcpbrcc
+80 80
+1 9 2

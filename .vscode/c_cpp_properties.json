@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ubuntu/workspace/Task2/install/urscript_common/include/**",
+        "/home/ubuntu/workspace/Task2/install/ros2_game_engine/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_miner_common/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_collector_common/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_cleaner_common/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_common/include/**",
+        "/home/ubuntu/workspace/Task2/install/game_engine/include/**",
+        "/home/ubuntu/workspace/Task2/install/manager_utils/include/**",
+        "/home/ubuntu/workspace/Task2/install/sdl_utils/include/**",
+        "/home/ubuntu/workspace/Task2/install/resource_builder/include/**",
+        "/home/ubuntu/workspace/Task2/install/resource_utils/include/**",
+        "/home/ubuntu/workspace/Task2/install/utils/include/**",
+        "/home/ubuntu/workspace/Task2/install/urscript_interfaces/include/**",
+        "/home/ubuntu/workspace/Task2/install/ur_robot_driver/include/**",
+        "/home/ubuntu/workspace/Task2/install/ur_controllers/include/**",
+        "/home/ubuntu/workspace/Task2/install/ur_dashboard_msgs/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_miner_interfaces/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_collector_interfaces/include/**",
+        "/home/ubuntu/workspace/Task2/install/robo_cleaner_interfaces/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/ubuntu/workspace/Task2/src/lib/game_engine/include/**",
+        "/home/ubuntu/workspace/Task2/src/lib/manager_utils/include/**",
+        "/home/ubuntu/workspace/Task2/src/lib/resource_utils/include/**",
+        "/home/ubuntu/workspace/Task2/src/lib/ros2_game_engine/include/**",
+        "/home/ubuntu/workspace/Task2/src/lib/sdl_utils/include/**",
+        "/home/ubuntu/workspace/Task2/src/lib/utils/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_cleaner/robo_cleaner_common/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_cleaner/robo_cleaner_gui/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_collector/robo_collector_common/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_collector/robo_collector_controller/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_collector/robo_collector_gui/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_common/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_miner/robo_miner_common/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_miner/robo_miner_controller/include/**",
+        "/home/ubuntu/workspace/Task2/src/robo_miner/robo_miner_gui/include/**",
+        "/home/ubuntu/workspace/Task2/src/tools/resource_builder/include/**",
+        "/home/ubuntu/workspace/Task2/src/ur_dev/ur_control_gui/include/**",
+        "/home/ubuntu/workspace/Task2/src/ur_dev/urscript/urscript_bridge/include/**",
+        "/home/ubuntu/workspace/Task2/src/ur_dev/urscript/urscript_common/include/**",
+        "/home/ubuntu/workspace/Task2/src/ur_driver/Universal_Robots_Client_Library/include/**",
+        "/home/ubuntu/workspace/Task2/src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers/include/**",
+        "/home/ubuntu/workspace/Task2/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

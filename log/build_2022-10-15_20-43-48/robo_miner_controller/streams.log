@@ -1,0 +1,194 @@
+[0.028s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4
+[0.150s] [35m[1mScanning dependencies of target robo_miner_controller[0m
+[0.206s] [ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+[2.486s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.486s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:16:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNode[m[K’ was not declared in this scope
+[2.486s]    16 |  std::shared_ptr<[01;31m[KMapNode[m[K> mnBegin;
+[2.486s]       |                  [01;31m[K^~~~~~~[m[K
+[2.486s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:16:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.486s]    16 |  std::shared_ptr<MapNode[01;31m[K>[m[K mnBegin;
+[2.486s]       |                         [01;31m[K^[m[K
+[2.488s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:17:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNode[m[K’ was not declared in this scope
+[2.488s]    17 |  std::shared_ptr<[01;31m[KMapNode[m[K> mnCurrent;
+[2.488s]       |                  [01;31m[K^~~~~~~[m[K
+[2.488s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:17:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.488s]    17 |  std::shared_ptr<MapNode[01;31m[K>[m[K mnCurrent;
+[2.488s]       |                         [01;31m[K^[m[K
+[2.490s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kvoid RobotMoverLogistics::fieldRevalation(char, char, char, int)[m[K’:
+[2.491s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:24:20:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNode[m[K’ was not declared in this scope
+[2.491s]    24 |    std::shared_ptr<[01;31m[KMapNode[m[K> mnLeftEye = std::make_shared<MapNode>(left);
+[2.491s]       |                    [01;31m[K^~~~~~~[m[K
+[2.491s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:24:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.491s]    24 |    std::shared_ptr<MapNode[01;31m[K>[m[K mnLeftEye = std::make_shared<MapNode>(left);
+[2.492s]       |                           [01;31m[K^[m[K
+[2.492s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:24:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<MapNode>(char&)[m[K’
+[2.492s]    24 |    std::shared_ptr<MapNode> mnLeftEye = std::make_shared<MapNode>(left[01;31m[K)[m[K;
+[2.492s]       |                                                                       [01;31m[K^[m[K
+[2.492s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.492s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.493s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[2.493s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.493s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.493s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.493s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.493s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.493s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:25:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<MapNode>(char&)[m[K’
+[2.493s]    25 |    std::shared_ptr<MapNode> mnForwardEye = std::make_shared<MapNode>(down[01;31m[K)[m[K;
+[2.494s]       |                                                                          [01;31m[K^[m[K
+[2.494s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.494s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.494s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[2.494s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.494s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.494s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.494s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.494s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.494s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:26:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<MapNode>(char&)[m[K’
+[2.494s]    26 |    std::shared_ptr<MapNode> mnRightEye = std::make_shared<MapNode>(right[01;31m[K)[m[K;
+[2.495s]       |                                                                         [01;31m[K^[m[K
+[2.495s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.495s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.495s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[2.495s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.495s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.495s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.495s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.495s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.496s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:31:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.496s]    31 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnLeftEye,MapNodeFields::UP,MapNodeFields::DOWN);
+[2.496s]       |             [01;31m[K^~[m[K
+[2.496s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:33:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.496s]    33 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnForwardEye,MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.496s]       |             [01;31m[K^~[m[K
+[2.497s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:35:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.497s]    35 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnRightEye,MapNodeFields::DOWN,MapNodeFields::UP);
+[2.497s]       |             [01;31m[K^~[m[K
+[2.497s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:39:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.497s]    39 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnLeftEye,MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.497s]       |             [01;31m[K^~[m[K
+[2.497s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:41:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.497s]    41 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnForwardEye,MapNodeFields::DOWN,MapNodeFields::UP);
+[2.497s]       |             [01;31m[K^~[m[K
+[2.497s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:43:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.498s]    43 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnRightEye,MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.498s]       |             [01;31m[K^~[m[K
+[2.498s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:47:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.498s]    47 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnLeftEye,MapNodeFields::DOWN,MapNodeFields::UP);
+[2.498s]       |             [01;31m[K^~[m[K
+[2.498s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:49:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.498s]    49 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnForwardEye,MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.498s]       |             [01;31m[K^~[m[K
+[2.498s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:51:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.498s]    51 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnRightEye,MapNodeFields::UP,MapNodeFields::DOWN);
+[2.499s]       |             [01;31m[K^~[m[K
+[2.499s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:54:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.499s]    54 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnLeftEye,MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.499s]       |             [01;31m[K^~[m[K
+[2.499s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:55:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.499s]    55 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnForwardEye,MapNodeFields::UP,MapNodeFields::DOWN);
+[2.499s]       |             [01;31m[K^~[m[K
+[2.499s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:56:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.499s]    56 |    mnCurrent[01;31m[K->[m[KdoubleSetIfNotSet(mnCurrent,mnRightEye,MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.500s]       |             [01;31m[K^~[m[K
+[2.500s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In member function ‘[01m[Kvoid RobotMoverLogistics::fieldRevalation(char, char, char, char, int)[m[K’:
+[2.500s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:63:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNode[m[K’ was not declared in this scope
+[2.500s]    63 |    mnBegin = std::make_shared<[01;31m[KMapNode[m[K>(middle,true);
+[2.500s]       |                               [01;31m[K^~~~~~~[m[K
+[2.500s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:63:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(char&, bool)[m[K’
+[2.500s]    63 |    mnBegin = std::make_shared<MapNode>(middle,true[01;31m[K)[m[K;
+[2.500s]       |                                                   [01;31m[K^[m[K
+[2.500s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.500s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.501s]                  from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:2[m[K:
+[2.501s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.501s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.501s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.501s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.501s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.501s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:63:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.501s]    63 |    mnBegin = std::make_shared<MapNode>(middle,true[01;31m[K)[m[K;
+[2.501s]       |                                                   [01;31m[K^[m[K
+[2.503s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:[m[K In constructor ‘[01m[KRobotMoverLogistics::RobotMoverLogistics(uint8_t, robo_miner_interfaces::srv::RobotMove_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.503s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:82:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.503s]    82 |        mnCurrent = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::LEFT);
+[2.504s]       |                             [01;31m[K^~[m[K
+[2.504s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:85:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.504s]    85 |        mnCurrent = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::DOWN);
+[2.504s]       |                             [01;31m[K^~[m[K
+[2.504s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:88:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.504s]    88 |        mnCurrent = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::RIGHT);
+[2.504s]       |                             [01;31m[K^~[m[K
+[2.504s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:91:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.504s]    91 |        mnCurrent = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::UP);
+[2.504s]       |                             [01;31m[K^~[m[K
+[2.506s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:101:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMapNode[m[K’ was not declared in this scope
+[2.506s]   101 |     std::shared_ptr<[01;31m[KMapNode[m[K> PrevNode;
+[2.507s]       |                     [01;31m[K^~~~~~~[m[K
+[2.507s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:101:28:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.507s]   101 |     std::shared_ptr<MapNode[01;31m[K>[m[K PrevNode;
+[2.507s]       |                            [01;31m[K^[m[K
+[2.508s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:106:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.508s]   106 |        PrevNode = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::RIGHT);
+[2.508s]       |                            [01;31m[K^~[m[K
+[2.508s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:107:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.508s]   107 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::DOWN)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::DOWN),MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.508s]       |                [01;31m[K^~[m[K
+[2.508s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:107:77:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.509s]   107 |        PrevNode->getNode(MapNodeFields::DOWN)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::DOWN),MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.509s]       |                                                                             [01;31m[K^~[m[K
+[2.509s] In file included from [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:15[m[K:
+[2.509s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:108:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.509s]   108 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::UP)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::UP),MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.509s]       |                [01;31m[K^~[m[K
+[2.509s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:108:75:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.509s]   108 |        PrevNode->getNode(MapNodeFields::UP)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::UP),MapNodeFields::LEFT,MapNodeFields::RIGHT);
+[2.510s]       |                                                                           [01;31m[K^~[m[K
+[2.510s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:111:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.510s]   111 |        PrevNode = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::UP);
+[2.510s]       |                            [01;31m[K^~[m[K
+[2.510s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:112:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.510s]   112 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::LEFT)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::LEFT),MapNodeFields::DOWN,MapNodeFields::UP);
+[2.510s]       |                [01;31m[K^~[m[K
+[2.510s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:112:77:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.511s]   112 |        PrevNode->getNode(MapNodeFields::LEFT)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::LEFT),MapNodeFields::DOWN,MapNodeFields::UP);
+[2.511s]       |                                                                             [01;31m[K^~[m[K
+[2.511s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:113:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.511s]   113 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::RIGHT)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::RIGHT),MapNodeFields::DOWN,MapNodeFields::UP);
+[2.511s]       |                [01;31m[K^~[m[K
+[2.511s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:113:78:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.511s]   113 |        PrevNode->getNode(MapNodeFields::RIGHT)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::RIGHT),MapNodeFields::DOWN,MapNodeFields::UP);
+[2.511s]       |                                                                              [01;31m[K^~[m[K
+[2.511s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:116:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.512s]   116 |        PrevNode = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::LEFT);
+[2.512s]       |                            [01;31m[K^~[m[K
+[2.512s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:117:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.512s]   117 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::DOWN)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::DOWN),MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.512s]       |                [01;31m[K^~[m[K
+[2.512s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:117:77:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.512s]   117 |        PrevNode->getNode(MapNodeFields::DOWN)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::DOWN),MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.512s]       |                                                                             [01;31m[K^~[m[K
+[2.512s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:118:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.512s]   118 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::UP)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::UP),MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.513s]       |                [01;31m[K^~[m[K
+[2.513s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:118:75:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.515s]   118 |        PrevNode->getNode(MapNodeFields::UP)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::UP),MapNodeFields::RIGHT,MapNodeFields::LEFT);
+[2.515s]       |                                                                           [01;31m[K^~[m[K
+[2.515s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:121:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.515s]   121 |        PrevNode = mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::DOWN);
+[2.516s]       |                            [01;31m[K^~[m[K
+[2.516s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:122:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.516s]   122 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::LEFT)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::LEFT),MapNodeFields::UP,MapNodeFields::DOWN);
+[2.516s]       |                [01;31m[K^~[m[K
+[2.516s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:122:77:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.516s]   122 |        PrevNode->getNode(MapNodeFields::LEFT)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::LEFT),MapNodeFields::UP,MapNodeFields::DOWN);
+[2.517s]       |                                                                             [01;31m[K^~[m[K
+[2.517s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:123:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.517s]   123 |        PrevNode[01;31m[K->[m[KgetNode(MapNodeFields::RIGHT)->doubleSet(mnCurrent,mnCurrent->getNode(MapNodeFields::RIGHT),MapNodeFields::UP,MapNodeFields::DOWN);
+[2.517s]       |                [01;31m[K^~[m[K
+[2.517s] [01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/include/robo_miner_controller/RobotMoveLogistics/RobotMoveLogistics.hpp:123:78:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.517s]   123 |        PrevNode->getNode(MapNodeFields::RIGHT)->doubleSet(mnCurrent,mnCurrent[01;31m[K->[m[KgetNode(MapNodeFields::RIGHT),MapNodeFields::UP,MapNodeFields::DOWN);
+[2.518s]       |                                                                              [01;31m[K^~[m[K
+[3.833s] make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+[3.833s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+[3.833s] make: *** [Makefile:141: all] Error 2
+[3.840s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller -- -j4 -l4

@@ -1,0 +1,168 @@
+[0.013s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_description -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/ur_description
+[0.058s] -- The C compiler identification is GNU 9.4.0
+[0.126s] -- The CXX compiler identification is Clang 10.0.0
+[0.128s] -- Check for working C compiler: /usr/bin/cc
+[0.214s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.215s] -- Detecting C compiler ABI info
+[0.288s] -- Detecting C compiler ABI info - done
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/clang++
+[0.393s] -- Check for working CXX compiler: /usr/bin/clang++ -- works
+[0.394s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.494s] -- Detecting CXX compile features
+[0.495s] -- Detecting CXX compile features - done
+[0.496s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.514s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.674s] -- Configuring done
+[0.675s] -- Generating done
+[0.675s] -- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/ur_description
+[0.680s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_description -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/ur_description
+[0.681s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_description -- -j8 -l8
+[0.723s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_description -- -j8 -l8
+[0.746s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_description
+[0.751s] -- Install configuration: "Debug"
+[0.751s] -- Execute custom install script
+[0.751s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/initial_positions.yaml
+[0.758s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[0.765s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[0.777s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[0.787s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[0.795s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[0.801s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[0.806s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[0.812s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[0.821s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[0.829s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[0.835s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[0.843s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[0.851s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[0.857s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[0.863s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[0.870s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[0.876s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[0.882s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[0.888s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[0.895s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[0.904s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[0.911s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[0.917s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[0.923s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[0.929s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[0.935s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[0.941s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[0.948s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[0.954s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[0.962s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[0.968s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[0.975s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[0.982s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[0.989s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[0.995s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.001s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.006s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.013s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.019s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.024s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.031s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.037s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.043s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.048s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.055s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.062s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.068s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.075s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.082s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.088s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.095s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.102s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.109s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.115s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.123s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.128s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.136s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.143s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.149s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.156s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.164s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.171s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.178s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.185s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.191s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.197s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.205s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.211s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.219s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.225s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.231s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.236s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.243s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.248s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.255s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.261s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.268s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.273s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.281s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.291s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.298s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.308s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.318s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.325s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.331s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.340s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.351s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.359s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.368s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.375s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.384s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.394s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.400s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.410s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.421s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.430s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.439s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.447s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.456s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.463s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.474s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.485s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.493s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.504s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.513s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.521s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.529s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.538s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.547s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.553s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.563s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.569s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.577s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.587s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.593s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.600s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.607s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.613s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.619s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.624s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.631s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[1.640s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.654s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.669s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.679s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.691s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.703s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.713s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/environment/path.sh
+[1.722s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/environment/path.dsv
+[1.730s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/local_setup.bash
+[1.742s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/local_setup.sh
+[1.753s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/local_setup.zsh
+[1.762s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/local_setup.dsv
+[1.771s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/package.dsv
+[1.780s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.788s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.794s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.805s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_description/share/ur_description/package.xml
+[1.819s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_description

@@ -1,0 +1,46 @@
+-- Found cmake_helpers: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/ros2_game_engine
+[100%] Built target ros2_game_engine
+-- Install configuration: "Debug"
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/package.xml
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/lib/ros2_game_engine/libros2_game_engine.a
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ament_index/resource_index/packages/ros2_game_engine
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/hook/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ament_index/resource_index/package_run_dependencies/ros2_game_engine
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ament_index/resource_index/parent_prefix_path/ros2_game_engine
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/environment/path.sh
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/environment/path.dsv
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/local_setup.bash
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/local_setup.sh
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/local_setup.zsh
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/local_setup.dsv
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/package.dsv
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ament_index/resource_index/packages/ros2_game_engine
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/cmake/ros2_game_engineConfig.cmake
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/cmake/ros2_game_engineConfig-version.cmake
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/share/ros2_game_engine/package.xml
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/lib/libros2_game_engine.a
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include/ros2_game_engine
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator/Ros2Communicator.h
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator/config
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator/config/Ros2CommunicatorConfig.h
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator/Ros2CommunicatorInterface.h
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineTargets.cmake
+-- Installing: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineTargets-debug.cmake
+-- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineConfig.cmake

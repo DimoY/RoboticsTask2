@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target robo_miner_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o[0m
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerController::send(uint8_t)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:33:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget[m[K’ in ‘[01m[Kresponse[m[K’, which is of non-class type ‘[01m[Kstd::future_status[m[K’
+   33 |     if(response.[01;31m[Kget[m[K()==nullptr){
+      |                 [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

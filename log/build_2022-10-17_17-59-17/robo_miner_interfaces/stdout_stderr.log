@@ -1,0 +1,14 @@
+[  0%] Built target robo_miner_interfaces__cpp
+[ 12%] Built target robo_miner_interfaces__rosidl_generator_c
+[ 29%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c
+[ 36%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_cpp
+[ 48%] Built target robo_miner_interfaces__rosidl_typesupport_cpp
+[ 59%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target robo_miner_interfaces__rosidl_typesupport_c
+[ 82%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c
+[ 82%] Built target robo_miner_interfaces
+[ 83%] Built target robo_miner_interfaces__py
+[ 94%] Built target robo_miner_interfaces__python
+[ 96%] Built target robo_miner_interfaces__rosidl_typesupport_c__pyext
+[ 98%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext

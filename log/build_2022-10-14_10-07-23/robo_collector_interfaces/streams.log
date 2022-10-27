@@ -1,0 +1,7 @@
+[0.105s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.289s] make[2]: *** [CMakeFiles/robo_collector_interfaces__cpp.dir/build.make:130: CMakeFiles/robo_collector_interfaces__cpp.dir/depend] Interrupt
+[0.290s] make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/robo_collector_interfaces__cpp.dir/all] Interrupt
+[0.305s] make[2]: *** [CMakeFiles/robo_collector_interfaces__rosidl_generator_c.dir/build.make:167: CMakeFiles/robo_collector_interfaces__rosidl_generator_c.dir/depend] Interrupt
+[0.305s] make[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/robo_collector_interfaces__rosidl_generator_c.dir/all] Interrupt
+[0.307s] make: *** [Makefile:141: all] Interrupt
+[0.353s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_collector_interfaces -- -j4 -l4

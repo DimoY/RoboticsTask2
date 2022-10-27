@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (-) JobUnselected: {'identifier': 'robo_collector_common'}
+[0.001195] (-) JobUnselected: {'identifier': 'robo_collector_gui'}
+[0.001268] (-) JobUnselected: {'identifier': 'robo_collector_interfaces'}
+[0.001333] (robo_collector_controller) JobQueued: {'identifier': 'robo_collector_controller', 'dependencies': OrderedDict([('robo_collector_interfaces', '/home/ubuntu/workspace/robotics_v1/src/robo_collector/install/robo_collector_interfaces'), ('robo_collector_common', '/home/ubuntu/workspace/robotics_v1/src/robo_collector/install/robo_collector_common')])}
+[0.001388] (robo_collector_controller) JobStarted: {'identifier': 'robo_collector_controller'}
+[0.017455] (robo_collector_controller) JobEnded: {'identifier': 'robo_collector_controller', 'rc': 1}
+[0.028006] (-) EventReactorShutdown: {}

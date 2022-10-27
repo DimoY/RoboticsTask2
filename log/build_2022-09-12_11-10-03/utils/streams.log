@@ -1,0 +1,114 @@
+[0.008s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/lib/utils -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/utils
+[0.109s] -- The CXX compiler identification is Clang 10.0.0
+[0.113s] -- Check for working CXX compiler: /usr/bin/clang++
+[0.220s] -- Check for working CXX compiler: /usr/bin/clang++ -- works
+[0.220s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.332s] -- Found cmake_helpers: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+[0.332s] -- Looking for C++ include pthread.h
+[0.477s] -- Looking for C++ include pthread.h - found
+[0.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.609s] -- Looking for pthread_create in pthreads
+[0.732s] -- Looking for pthread_create in pthreads - not found
+[0.732s] -- Looking for pthread_create in pthread
+[0.868s] -- Looking for pthread_create in pthread - found
+[0.868s] -- Found Threads: TRUE  
+[0.871s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.927s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.927s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.351s] -- Configuring done
+[1.359s] -- Generating done
+[1.360s] -- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/utils
+[1.364s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/lib/utils -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/utils
+[1.367s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/utils -- -j8 -l8
+[1.494s] [35m[1mScanning dependencies of target utils[0m
+[1.532s] [  5%] [32mBuilding CXX object CMakeFiles/utils.dir/src/common/CircularBuffer.cpp.o[0m
+[1.574s] [ 11%] [32mBuilding CXX object CMakeFiles/utils.dir/src/data_type/FloatingPointUtils.cpp.o[0m
+[1.574s] [ 16%] [32mBuilding CXX object CMakeFiles/utils.dir/src/common/Crc.cpp.o[0m
+[1.603s] [ 22%] [32mBuilding CXX object CMakeFiles/utils.dir/src/data_type/IntegerUtils.cpp.o[0m
+[1.608s] [ 27%] [32mBuilding CXX object CMakeFiles/utils.dir/src/data_type/StringUtils.cpp.o[0m
+[1.678s] [ 33%] [32mBuilding CXX object CMakeFiles/utils.dir/src/debug/SignalHandler.cpp.o[0m
+[1.686s] [ 38%] [32mBuilding CXX object CMakeFiles/utils.dir/src/debug/StackTrace.cpp.o[0m
+[1.702s] [ 44%] [32mBuilding CXX object CMakeFiles/utils.dir/src/drawing/Color.cpp.o[0m
+[1.712s] [ 50%] [32mBuilding CXX object CMakeFiles/utils.dir/src/drawing/Margin.cpp.o[0m
+[1.742s] [ 55%] [32mBuilding CXX object CMakeFiles/utils.dir/src/drawing/Point.cpp.o[0m
+[1.766s] [ 61%] [32mBuilding CXX object CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o[0m
+[1.795s] [ 66%] [32mBuilding CXX object CMakeFiles/utils.dir/src/drawing/WidgetAligner.cpp.o[0m
+[1.822s] [ 72%] [32mBuilding CXX object CMakeFiles/utils.dir/src/file/IniFileParser.cpp.o[0m
+[1.829s] [ 77%] [32mBuilding CXX object CMakeFiles/utils.dir/src/file_system/FileSystemUtils.cpp.o[0m
+[1.837s] [ 83%] [32mBuilding CXX object CMakeFiles/utils.dir/src/time/Time.cpp.o[0m
+[1.861s] [ 88%] [32mBuilding CXX object CMakeFiles/utils.dir/src/rng/Rng.cpp.o[0m
+[1.874s] [ 94%] [32mBuilding CXX object CMakeFiles/utils.dir/src/log/Log.cpp.o[0m
+[2.420s] [100%] [32m[1mLinking CXX static library libutils.a[0m
+[2.463s] [100%] Built target utils
+[2.484s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/utils -- -j8 -l8
+[2.587s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/utils
+[2.595s] -- Install configuration: "Debug"
+[2.595s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.xml
+[2.595s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/lib/utils/libutils.a
+[2.596s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/ament_index/resource_index/packages/utils
+[2.596s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/ament_prefix_path.dsv
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/hook/ros_package_path.dsv
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/environment/ament_prefix_path.sh
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/environment/ament_prefix_path.dsv
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/environment/path.sh
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/environment/path.dsv
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/local_setup.bash
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/local_setup.sh
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/local_setup.zsh
+[2.597s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/local_setup.dsv
+[2.598s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.dsv
+[2.598s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/utils/share/ament_index/resource_index/packages/utils
+[2.598s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/cmake/utilsConfig.cmake
+[2.598s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[2.598s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/utils/share/utils/package.xml
+[2.598s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/lib/libutils.a
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/concurrency
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/concurrency/ThreadSafeQueue.h
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/Log.h
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/ErrorCode.h
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/rng
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/rng/Rng.h
+[2.600s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/time
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/time/Time.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/drawing
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/drawing/WidgetAligner.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/drawing/Point.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/drawing/Rectangle.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/drawing/Margin.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/drawing/Color.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/file
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/file/IniFileParser.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/file_system
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/file_system/FileSystemUtils.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/data_type
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/data_type/StringUtils.h
+[2.601s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/data_type/EnumClassUtils.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/data_type/FloatingPointUtils.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/data_type/FloatingPoint.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/data_type/IntegerUtils.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/LimitValues.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/common
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/common/Crc.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/common/AutoCircularBuffer.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/common/CircularBuffer.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/common/defines
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/common/defines/SymbolNameDefines.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/debug
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/debug/StackTrace.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/debug/FunctionTracer.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/debug/SignalHandler.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/class
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/class/NonMoveable.h
+[2.602s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/include/utils/class/NonCopyable.h
+[2.603s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/lib/cmake/utils/utilsTargets.cmake
+[2.603s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/lib/cmake/utils/utilsTargets-debug.cmake
+[2.603s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/utils/lib/cmake/utils/utilsConfig.cmake
+[2.604s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/utils

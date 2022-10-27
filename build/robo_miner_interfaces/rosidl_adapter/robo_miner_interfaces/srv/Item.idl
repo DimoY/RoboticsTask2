@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robo_miner_interfaces/srv/Item.srv
+// generated code does not contain a copyright notice
+
+#include "robo_miner_interfaces/msg/FieldPoint.idl"
+
+module robo_miner_interfaces {
+  module srv {
+    struct Item_Request {
+      robo_miner_interfaces::msg::FieldPoint point;
+    };
+    struct Item_Response {
+      uint8 field;
+
+      boolean error;
+    };
+  };
+};

@@ -1,0 +1,11 @@
+8 9
+XrrggXcXb
+XXggbbbbb
+rXbbbcXbp
+rrbgggrbb
+XXbXXXXXX
+pbbrbcccc
+pppXXrrXc
+ppppXggXc
+120 120
+5 5 2

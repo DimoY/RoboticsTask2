@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+f3361a67082b0d2ad1dae4055fbbb128 CMakeFiles/robo_collector_common_uninstall

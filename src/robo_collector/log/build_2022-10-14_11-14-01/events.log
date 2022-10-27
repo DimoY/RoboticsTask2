@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000719] (-) JobUnselected: {'identifier': 'robo_collector_common'}
+[0.000792] (-) JobUnselected: {'identifier': 'robo_collector_controller'}
+[0.000832] (-) JobUnselected: {'identifier': 'robo_collector_gui'}
+[0.000868] (-) JobUnselected: {'identifier': 'robo_collector_interfaces'}
+[0.000908] (-) EventReactorShutdown: {}

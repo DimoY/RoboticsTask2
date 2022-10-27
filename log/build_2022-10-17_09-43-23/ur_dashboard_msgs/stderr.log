@@ -1,0 +1,3 @@
+make[2]: *** [ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/build.make:277: ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:552: ur_dashboard_msgs__py/CMakeFiles/ur_dashboard_msgs__py.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,32 @@
+running egg_info
+creating ../../../build/robo_miner_controller/robo_miner_controller.egg-info
+writing ../../../build/robo_miner_controller/robo_miner_controller.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/dependency_links.txt
+writing entry points to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/entry_points.txt
+writing requirements to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/requires.txt
+writing top-level names to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/top_level.txt
+writing manifest file '../../../build/robo_miner_controller/robo_miner_controller.egg-info/SOURCES.txt'
+reading manifest file '../../../build/robo_miner_controller/robo_miner_controller.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robo_miner_controller/robo_miner_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build
+creating /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib
+creating /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller
+copying robo_miner_controller/__init__.py -> /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller
+copying robo_miner_controller/robo_miner_controller_py.py -> /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller
+running install
+running install_lib
+creating /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller
+copying /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller/__init__.py -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller
+copying /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller/robo_miner_controller_py.py -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller
+byte-compiling /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller/robo_miner_controller_py.py to robo_miner_controller_py.cpython-38.pyc
+running install_data
+copying resource/robo_miner_controller -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller
+running install_egg_info
+Copying ../../../build/robo_miner_controller/robo_miner_controller.egg-info to /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing robo_miner_controller_py script to /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/robo_miner_controller
+writing list of installed files to '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/install.log'

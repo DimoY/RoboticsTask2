@@ -1,0 +1,16 @@
+[0.057s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[0.287s] [  0%] Built target robo_miner_interfaces__cpp
+[0.365s] [ 12%] Built target robo_miner_interfaces__rosidl_generator_c
+[0.417s] [ 24%] Built target robo_miner_interfaces__rosidl_typesupport_cpp
+[0.487s] [ 36%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_cpp
+[0.550s] [ 47%] Built target robo_miner_interfaces__rosidl_typesupport_c
+[0.593s] [ 59%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c
+[0.604s] [ 70%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.739s] [ 82%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c
+[0.825s] [ 82%] Built target robo_miner_interfaces
+[0.877s] make[1]: *** wait: No child processes.  Stop.
+[0.878s] make[1]: *** Waiting for unfinished jobs....
+[0.878s] make[1]: *** wait: No child processes.  Stop.
+[0.878s] make[1]: *** [CMakeFiles/Makefile2:553: robo_miner_interfaces__py/CMakeFiles/robo_miner_interfaces__py.dir/all] Error 2
+[0.897s] make: *** [Makefile:141: all] Interrupt
+[0.903s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/robo_miner_interfaces -- -j4 -l4

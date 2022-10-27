@@ -1,0 +1,79 @@
+[0.173s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/lib/sdl_utils -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/sdl_utils
+[0.218s] -- Found cmake_helpers: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+[0.233s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.307s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.496s] -- Configuring done
+[1.536s] -- Generating done
+[1.540s] -- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/sdl_utils
+[1.545s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/lib/sdl_utils -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/sdl_utils
+[1.550s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/sdl_utils -- -j4 -l4
+[1.744s] [100%] Built target sdl_utils
+[1.787s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/sdl_utils -- -j4 -l4
+[2.346s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/sdl_utils
+[2.395s] -- Install configuration: "Debug"
+[2.395s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/package.xml
+[2.396s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/sdl_utils/libsdl_utils.a
+[2.397s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/ament_index/resource_index/packages/sdl_utils
+[2.403s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/hook/ament_prefix_path.dsv
+[2.407s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/hook/ros_package_path.dsv
+[2.413s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/ament_index/resource_index/package_run_dependencies/sdl_utils
+[2.414s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/ament_index/resource_index/parent_prefix_path/sdl_utils
+[2.415s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/environment/ament_prefix_path.sh
+[2.415s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/environment/ament_prefix_path.dsv
+[2.416s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/environment/path.sh
+[2.417s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/environment/path.dsv
+[2.419s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/local_setup.bash
+[2.420s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/local_setup.sh
+[2.421s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/local_setup.zsh
+[2.422s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/local_setup.dsv
+[2.424s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/package.dsv
+[2.426s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/ament_index/resource_index/packages/sdl_utils
+[2.429s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/cmake/sdl_utilsConfig.cmake
+[2.429s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/cmake/sdl_utilsConfig-version.cmake
+[2.430s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/share/sdl_utils/package.xml
+[2.432s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/libsdl_utils.a
+[2.432s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include
+[2.434s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils
+[2.435s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers
+[2.435s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/TextContainer.h
+[2.436s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/config
+[2.437s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/config/SDLContainersConfig.h
+[2.440s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/ResourceContainer.h
+[2.441s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/FboContainer.h
+[2.441s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/FontContainer.h
+[2.441s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/SoundContainer.h
+[2.441s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/containers/SDLContainers.h
+[2.441s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing
+[2.442s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/Texture.h
+[2.442s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/MonitorWindow.h
+[2.442s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/DrawParams.h
+[2.442s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/LoadingScreen.h
+[2.442s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/config
+[2.443s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/config/LoadingScreenConfig.h
+[2.443s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/config/MonitorWindowConfig.h
+[2.443s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/config/RendererConfig.h
+[2.443s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/RendererState.h
+[2.443s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/Renderer.h
+[2.444s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/GeometryUtils.h
+[2.444s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/defines
+[2.444s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/defines/DrawConstants.h
+[2.444s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/defines/DrawUtilityDefines.h
+[2.448s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/defines/RendererDefines.h
+[2.452s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/drawing/defines/MonitorDefines.h
+[2.460s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/sound
+[2.461s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/sound/SoundMixer.h
+[2.461s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/sound/defines
+[2.462s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/sound/defines/SoundMixerDefines.h
+[2.462s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input
+[2.462s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/TouchEntity.h
+[2.463s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/InputEvent.h
+[2.463s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/TouchEntityInterface.h
+[2.464s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/InputEventGenerator.h
+[2.464s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/MouseUtils.h
+[2.465s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/defines
+[2.465s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/input/defines/EventDefines.h
+[2.466s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/include/sdl_utils/SDLLoader.h
+[2.466s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsTargets.cmake
+[2.468s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsTargets-debug.cmake
+[2.468s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsConfig.cmake
+[2.471s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/sdl_utils' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/sdl_utils

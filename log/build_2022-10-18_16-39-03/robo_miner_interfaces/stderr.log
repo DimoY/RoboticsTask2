@@ -1,0 +1,3 @@
+make[1]: *** [CMakeFiles/Makefile2:413: CMakeFiles/robo_miner_interfaces__cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:387: CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

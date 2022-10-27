@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:[m[K In member function ‘[01m[Kvoid RoboMinerController::send(uint8_t)[m[K’:
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:32:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto k[m[K’
+   32 |     auto [01;31m[Kk[m[K = handle_async.wait_for(2s);
+      |          [01;31m[K^[m[K
+[01m[K/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller/src/robo_miner_controller.cpp:24:40:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krobo_miner_interfaces::srv::RobotMove_Request_<std::allocator<void> >::SharedPtr k[m[K’
+   24 |     MoveServiceMsg::Request::SharedPtr [01;36m[Kk[m[K = std::make_shared<MoveServiceMsg::Request>();
+      |                                        [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/robo_miner_controller.dir/build.make:63: CMakeFiles/robo_miner_controller.dir/src/robo_miner_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_miner_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

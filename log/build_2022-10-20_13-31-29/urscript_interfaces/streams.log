@@ -1,0 +1,92 @@
+[0.004s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces -- -j4 -l4
+[0.027s] [  3%] Built target urscript_interfaces__cpp
+[0.032s] [ 12%] Built target urscript_interfaces__rosidl_generator_c
+[0.059s] [ 22%] Built target urscript_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.061s] [ 32%] Built target urscript_interfaces__rosidl_typesupport_c
+[0.064s] [ 41%] Built target urscript_interfaces__rosidl_typesupport_cpp
+[0.068s] [ 51%] Built target urscript_interfaces__rosidl_typesupport_introspection_cpp
+[0.069s] [ 61%] Built target urscript_interfaces__rosidl_typesupport_introspection_c
+[0.085s] [ 70%] Built target urscript_interfaces__rosidl_typesupport_fastrtps_c
+[0.097s] [ 70%] Built target urscript_interfaces
+[0.106s] [ 74%] Built target urscript_interfaces__py
+[0.119s] [ 80%] Built target urscript_interfaces__python
+[0.123s] [ 87%] Built target urscript_interfaces__rosidl_typesupport_c__pyext
+[0.124s] [ 93%] Built target urscript_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.125s] [100%] Built target urscript_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.127s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces -- -j4 -l4
+[0.179s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces
+[0.183s] -- Install configuration: "Debug"
+[0.184s] -- Execute custom install script
+[0.185s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/rosidl_interfaces/urscript_interfaces
+[0.186s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.187s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__functions.h
+[0.188s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__struct.h
+[0.189s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__type_support.h
+[0.190s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/ur_script.h
+[0.191s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/library_path.sh
+[0.192s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/library_path.dsv
+[0.193s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.194s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_fastrtps_c.h
+[0.194s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.194s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.194s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_fastrtps_cpp.hpp
+[0.194s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.195s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.196s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_introspection_c.h
+[0.197s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__builder.hpp
+[0.198s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__struct.hpp
+[0.198s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__traits.hpp
+[0.199s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/ur_script.hpp
+[0.199s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_introspection_cpp.hpp
+[0.200s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/pythonpath.sh
+[0.201s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/pythonpath.dsv
+[0.201s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/__init__.py
+[0.202s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/srv/__init__.py
+[0.202s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/srv/_ur_script.py
+[0.204s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/urscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.205s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/urscript_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.206s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/urscript_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.207s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__python.so
+[0.208s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript.idl
+[0.208s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript.srv
+[0.208s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript_Request.msg
+[0.209s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript_Response.msg
+[0.209s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/package_run_dependencies/urscript_interfaces
+[0.209s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/parent_prefix_path/urscript_interfaces
+[0.210s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/ament_prefix_path.sh
+[0.210s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/ament_prefix_path.dsv
+[0.210s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/path.sh
+[0.211s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/path.dsv
+[0.211s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.bash
+[0.211s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.sh
+[0.211s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.zsh
+[0.212s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.dsv
+[0.212s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.dsv
+[0.213s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/packages/urscript_interfaces
+[0.213s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.215s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.215s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.215s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.216s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfacesConfig.cmake
+[0.216s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfacesConfig-version.cmake
+[0.216s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.xml
+[0.217s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_generator_c.so
+[0.217s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_introspection_c.so
+[0.217s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_c.so
+[0.217s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.218s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_cpp.so
+[0.219s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_generator_cExport.cmake
+[0.219s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_generator_cExport-debug.cmake
+[0.219s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.220s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cExport-debug.cmake
+[0.220s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cExport.cmake
+[0.220s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cExport-debug.cmake
+[0.221s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_generator_cppExport.cmake
+[0.221s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.221s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cppExport-debug.cmake
+[0.222s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cppExport.cmake
+[0.222s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cppExport-debug.cmake
+[0.223s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/urscript_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/urscript_interfaces

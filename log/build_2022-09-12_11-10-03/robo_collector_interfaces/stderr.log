@@ -1,0 +1,5 @@
+clang: [0;1;31merror: [0munable to execute command: Bus error (core dumped)[0m
+clang: [0;1;31merror: [0mlinker command failed due to signal (use -v to see invocation)[0m
+make[2]: *** [CMakeFiles/robo_collector_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:125: librobo_collector_interfaces__rosidl_typesupport_introspection_cpp.so] Error 254
+make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/robo_collector_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

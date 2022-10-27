@@ -1,0 +1,28 @@
+[0.028s] Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common
+[0.154s] -- The CXX compiler identification is GNU 9.4.0
+[0.162s] -- Check for working CXX compiler: /usr/bin/c++
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.391s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.620s] CMake Error at CMakeLists.txt:11 (find_package):
+[0.620s]   By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this
+[0.621s]   project has asked CMake to find a package configuration file provided by
+[0.621s]   "cmake_helpers", but CMake did not find one.
+[0.621s] 
+[0.621s]   Could not find a package configuration file provided by "cmake_helpers"
+[0.621s]   with any of the following names:
+[0.621s] 
+[0.622s]     cmake_helpersConfig.cmake
+[0.622s]     cmake_helpers-config.cmake
+[0.622s] 
+[0.622s]   Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set
+[0.622s]   "cmake_helpers_DIR" to a directory containing one of the above files.  If
+[0.622s]   "cmake_helpers" provides a separate development package or SDK, be sure it
+[0.622s]   has been installed.
+[0.622s] 
+[0.622s] 
+[0.623s] -- Configuring incomplete, errors occurred!
+[0.623s] See also "/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common/CMakeFiles/CMakeOutput.log".
+[0.628s] Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common

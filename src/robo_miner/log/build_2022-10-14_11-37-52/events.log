@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.001400] (-) JobUnselected: {'identifier': 'robo_miner_common'}
+[0.001467] (-) JobUnselected: {'identifier': 'robo_miner_gui'}
+[0.001489] (-) JobUnselected: {'identifier': 'robo_miner_interfaces'}
+[0.001516] (robo_miner_controller) JobQueued: {'identifier': 'robo_miner_controller', 'dependencies': OrderedDict([('robo_miner_interfaces', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces'), ('robo_miner_common', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common')])}
+[0.001549] (robo_miner_controller) JobStarted: {'identifier': 'robo_miner_controller'}
+[0.026427] (robo_miner_controller) JobEnded: {'identifier': 'robo_miner_controller', 'rc': 1}
+[0.037046] (-) EventReactorShutdown: {}

@@ -1,0 +1,747 @@
+[0.000000] (-) TimerEvent: {}
+[0.003049] (robo_miner_interfaces) JobQueued: {'identifier': 'robo_miner_interfaces', 'dependencies': OrderedDict()}
+[0.003209] (robo_miner_common) JobQueued: {'identifier': 'robo_miner_common', 'dependencies': OrderedDict([('robo_miner_interfaces', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces')])}
+[0.003297] (robo_miner_controller) JobQueued: {'identifier': 'robo_miner_controller', 'dependencies': OrderedDict([('robo_miner_interfaces', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces'), ('robo_miner_common', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common')])}
+[0.003360] (robo_miner_gui) JobQueued: {'identifier': 'robo_miner_gui', 'dependencies': OrderedDict([('robo_miner_interfaces', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces'), ('robo_miner_common', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common')])}
+[0.003408] (robo_miner_interfaces) JobStarted: {'identifier': 'robo_miner_interfaces'}
+[0.022546] (robo_miner_interfaces) JobProgress: {'identifier': 'robo_miner_interfaces', 'progress': 'cmake'}
+[0.023421] (robo_miner_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces'], 'cwd': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '9906'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ubuntu/workspace/robotics_v1'), ('TERM_PROGRAM_VERSION', '1.72.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/110/usr/share/code/code'), ('MANAGERPID', '9427'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27090'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:46578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/10128,unix/ubuntu2004:/tmp/.ICE-unix/10128'), ('INVOCATION_ID', '69a6184ca82e46afbf8602983b2609e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/110/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099351] (-) TimerEvent: {}
+[0.126632] (robo_miner_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199515] (-) TimerEvent: {}
+[0.241838] (robo_miner_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.252098] (robo_miner_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299729] (-) TimerEvent: {}
+[0.400300] (-) TimerEvent: {}
+[0.401302] (robo_miner_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.402555] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500669] (-) TimerEvent: {}
+[0.581749] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.596739] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.597369] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.600751] (robo_miner_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600987] (-) TimerEvent: {}
+[0.701419] (-) TimerEvent: {}
+[0.747018] (robo_miner_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.749557] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801539] (-) TimerEvent: {}
+[0.902408] (-) TimerEvent: {}
+[0.939922] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.957374] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.958093] (robo_miner_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.960810] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.997530] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.997788] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.002853] (-) TimerEvent: {}
+[1.103371] (-) TimerEvent: {}
+[1.204313] (-) TimerEvent: {}
+[1.305056] (-) TimerEvent: {}
+[1.381120] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.384602] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.390629] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.405498] (-) TimerEvent: {}
+[1.506040] (-) TimerEvent: {}
+[1.551485] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.588556] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.606176] (-) TimerEvent: {}
+[1.696135] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.706470] (-) TimerEvent: {}
+[1.767468] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.806648] (-) TimerEvent: {}
+[1.907353] (-) TimerEvent: {}
+[2.007863] (-) TimerEvent: {}
+[2.056518] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.107923] (-) TimerEvent: {}
+[2.197228] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.208060] (-) TimerEvent: {}
+[2.219087] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.258592] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.260605] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.293834] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.294485] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.294637] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.294734] (robo_miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.309117] (-) TimerEvent: {}
+[2.320562] (robo_miner_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.389910] (robo_miner_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.409378] (-) TimerEvent: {}
+[2.489122] (robo_miner_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.492544] (robo_miner_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces\n'}
+[2.506863] (robo_miner_interfaces) CommandEnded: {'returncode': 0}
+[2.507782] (robo_miner_interfaces) JobProgress: {'identifier': 'robo_miner_interfaces', 'progress': 'build'}
+[2.509004] (robo_miner_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '9906'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ubuntu/workspace/robotics_v1'), ('TERM_PROGRAM_VERSION', '1.72.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/110/usr/share/code/code'), ('MANAGERPID', '9427'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27090'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:46578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/10128,unix/ubuntu2004:/tmp/.ICE-unix/10128'), ('INVOCATION_ID', '69a6184ca82e46afbf8602983b2609e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/110/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.511845] (-) TimerEvent: {}
+[2.598585] (robo_miner_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.599115] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__cpp\x1b[0m\n'}
+[2.612140] (-) TimerEvent: {}
+[2.661240] (robo_miner_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.713210] (-) TimerEvent: {}
+[2.813594] (-) TimerEvent: {}
+[2.914414] (-) TimerEvent: {}
+[3.015243] (-) TimerEvent: {}
+[3.116471] (-) TimerEvent: {}
+[3.218425] (-) TimerEvent: {}
+[3.319411] (-) TimerEvent: {}
+[3.421792] (-) TimerEvent: {}
+[3.523283] (-) TimerEvent: {}
+[3.623593] (-) TimerEvent: {}
+[3.723958] (-) TimerEvent: {}
+[3.824316] (-) TimerEvent: {}
+[3.924709] (-) TimerEvent: {}
+[3.992703] (robo_miner_interfaces) StdoutLine: {'line': b'[  1%] Built target robo_miner_interfaces__cpp\n'}
+[4.025025] (-) TimerEvent: {}
+[4.030874] (robo_miner_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.034868] (robo_miner_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.096037] (robo_miner_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.125176] (-) TimerEvent: {}
+[4.199280] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.225261] (-) TimerEvent: {}
+[4.227656] (robo_miner_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/field_point__functions.c.o\x1b[0m\n'}
+[4.315756] (robo_miner_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/robot_position_response__functions.c.o\x1b[0m\n'}
+[4.325888] (-) TimerEvent: {}
+[4.426533] (-) TimerEvent: {}
+[4.462123] (robo_miner_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/u_int8_multi_array__functions.c.o\x1b[0m\n'}
+[4.526907] (-) TimerEvent: {}
+[4.619650] (robo_miner_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/robot_move_type__functions.c.o\x1b[0m\n'}
+[4.629413] (-) TimerEvent: {}
+[4.729685] (-) TimerEvent: {}
+[4.814776] (robo_miner_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/user_authenticate__functions.c.o\x1b[0m\n'}
+[4.829772] (-) TimerEvent: {}
+[4.930845] (-) TimerEvent: {}
+[4.973294] (robo_miner_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/activate_mining_validate__functions.c.o\x1b[0m\n'}
+[5.031060] (-) TimerEvent: {}
+[5.114856] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.131216] (-) TimerEvent: {}
+[5.148149] (robo_miner_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/robot_move__functions.c.o\x1b[0m\n'}
+[5.199309] (robo_miner_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/field_point__type_support.cpp.o\x1b[0m\n'}
+[5.231368] (-) TimerEvent: {}
+[5.331677] (-) TimerEvent: {}
+[5.363532] (robo_miner_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/longest_sequence_validate__functions.c.o\x1b[0m\n'}
+[5.431876] (-) TimerEvent: {}
+[5.532336] (-) TimerEvent: {}
+[5.589368] (robo_miner_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/field_map_validate__functions.c.o\x1b[0m\n'}
+[5.633399] (-) TimerEvent: {}
+[5.675100] (robo_miner_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/query_initial_robot_position__functions.c.o\x1b[0m\n'}
+[5.733503] (-) TimerEvent: {}
+[5.821173] (robo_miner_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library librobo_miner_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.833595] (-) TimerEvent: {}
+[5.933981] (-) TimerEvent: {}
+[5.960712] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.027524] (robo_miner_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/field_point__type_support.cpp.o\x1b[0m\n'}
+[6.034269] (-) TimerEvent: {}
+[6.040598] (robo_miner_interfaces) StdoutLine: {'line': b'[ 17%] Built target robo_miner_interfaces__rosidl_generator_c\n'}
+[6.076696] (robo_miner_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/robot_position_response__type_support.cpp.o\x1b[0m\n'}
+[6.088348] (robo_miner_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/robot_position_response__type_support.cpp.o\x1b[0m\n'}
+[6.116362] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.134437] (-) TimerEvent: {}
+[6.219804] (robo_miner_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/field_point__type_support.cpp.o\x1b[0m\n'}
+[6.234503] (-) TimerEvent: {}
+[6.334841] (-) TimerEvent: {}
+[6.435527] (-) TimerEvent: {}
+[6.535915] (-) TimerEvent: {}
+[6.636352] (-) TimerEvent: {}
+[6.676121] (robo_miner_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/u_int8_multi_array__type_support.cpp.o\x1b[0m\n'}
+[6.736648] (-) TimerEvent: {}
+[6.837735] (-) TimerEvent: {}
+[6.876726] (robo_miner_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.cpp.o\x1b[0m\n'}
+[6.939472] (-) TimerEvent: {}
+[6.979429] (robo_miner_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/robot_move_type__type_support.cpp.o\x1b[0m\n'}
+[7.039635] (-) TimerEvent: {}
+[7.140043] (-) TimerEvent: {}
+[7.220934] (robo_miner_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/robot_position_response__type_support.cpp.o\x1b[0m\n'}
+[7.244235] (-) TimerEvent: {}
+[7.344603] (-) TimerEvent: {}
+[7.444917] (-) TimerEvent: {}
+[7.466906] (robo_miner_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/robot_move_type__type_support.cpp.o\x1b[0m\n'}
+[7.545157] (-) TimerEvent: {}
+[7.584623] (robo_miner_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/user_authenticate__type_support.cpp.o\x1b[0m\n'}
+[7.607556] (robo_miner_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.cpp.o\x1b[0m\n'}
+[7.645533] (-) TimerEvent: {}
+[7.746035] (-) TimerEvent: {}
+[7.846447] (-) TimerEvent: {}
+[7.947053] (-) TimerEvent: {}
+[8.047701] (-) TimerEvent: {}
+[8.108408] (robo_miner_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/user_authenticate__type_support.cpp.o\x1b[0m\n'}
+[8.127212] (robo_miner_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/u_int8_multi_array__type_support.cpp.o\x1b[0m\n'}
+[8.147955] (-) TimerEvent: {}
+[8.249245] (-) TimerEvent: {}
+[8.352798] (-) TimerEvent: {}
+[8.358028] (robo_miner_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/robot_move__type_support.cpp.o\x1b[0m\n'}
+[8.453175] (-) TimerEvent: {}
+[8.532019] (robo_miner_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.cpp.o\x1b[0m\n'}
+[8.554039] (-) TimerEvent: {}
+[8.600579] (robo_miner_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/activate_mining_validate__type_support.cpp.o\x1b[0m\n'}
+[8.654461] (-) TimerEvent: {}
+[8.754828] (-) TimerEvent: {}
+[8.855263] (-) TimerEvent: {}
+[8.955812] (-) TimerEvent: {}
+[9.056265] (-) TimerEvent: {}
+[9.112351] (robo_miner_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/field_map_validate__type_support.cpp.o\x1b[0m\n'}
+[9.156643] (-) TimerEvent: {}
+[9.249486] (robo_miner_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/robot_move__type_support.cpp.o\x1b[0m\n'}
+[9.256806] (-) TimerEvent: {}
+[9.297667] (robo_miner_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.cpp.o\x1b[0m\n'}
+[9.357012] (-) TimerEvent: {}
+[9.386977] (robo_miner_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/robot_move_type__type_support.cpp.o\x1b[0m\n'}
+[9.457364] (-) TimerEvent: {}
+[9.557610] (-) TimerEvent: {}
+[9.657990] (-) TimerEvent: {}
+[9.758341] (-) TimerEvent: {}
+[9.781553] (robo_miner_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.858492] (-) TimerEvent: {}
+[9.931209] (robo_miner_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.958624] (-) TimerEvent: {}
+[10.059557] (-) TimerEvent: {}
+[10.112589] (robo_miner_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/longest_sequence_validate__type_support.cpp.o\x1b[0m\n'}
+[10.159908] (-) TimerEvent: {}
+[10.215961] (robo_miner_interfaces) StdoutLine: {'line': b'[ 38%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.260867] (-) TimerEvent: {}
+[10.306343] (robo_miner_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.362907] (-) TimerEvent: {}
+[10.463535] (-) TimerEvent: {}
+[10.564070] (-) TimerEvent: {}
+[10.664355] (-) TimerEvent: {}
+[10.664648] (robo_miner_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/user_authenticate__type_support.cpp.o\x1b[0m\n'}
+[10.764810] (-) TimerEvent: {}
+[10.765070] (robo_miner_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/field_map_validate__type_support.cpp.o\x1b[0m\n'}
+[10.865411] (-) TimerEvent: {}
+[10.965799] (-) TimerEvent: {}
+[11.066118] (-) TimerEvent: {}
+[11.166487] (-) TimerEvent: {}
+[11.266796] (-) TimerEvent: {}
+[11.368811] (-) TimerEvent: {}
+[11.469254] (-) TimerEvent: {}
+[11.512954] (robo_miner_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/activate_mining_validate__type_support.cpp.o\x1b[0m\n'}
+[11.569888] (-) TimerEvent: {}
+[11.612902] (robo_miner_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/query_initial_robot_position__type_support.cpp.o\x1b[0m\n'}
+[11.670030] (-) TimerEvent: {}
+[11.761595] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.770164] (-) TimerEvent: {}
+[11.854046] (robo_miner_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/field_point__type_support.c.o\x1b[0m\n'}
+[11.870835] (-) TimerEvent: {}
+[11.877220] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[11.939278] (robo_miner_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/field_point__type_support.cpp.o\x1b[0m\n'}
+[11.971072] (-) TimerEvent: {}
+[12.010637] (robo_miner_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/robot_position_response__type_support.cpp.o\x1b[0m\n'}
+[12.031592] (robo_miner_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/robot_position_response__type_support.c.o\x1b[0m\n'}
+[12.072806] (-) TimerEvent: {}
+[12.111269] (robo_miner_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/u_int8_multi_array__type_support.cpp.o\x1b[0m\n'}
+[12.150859] (robo_miner_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.c.o\x1b[0m\n'}
+[12.173098] (-) TimerEvent: {}
+[12.214307] (robo_miner_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/robot_move_type__type_support.cpp.o\x1b[0m\n'}
+[12.224706] (robo_miner_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.273527] (-) TimerEvent: {}
+[12.305554] (robo_miner_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/robot_move_type__type_support.c.o\x1b[0m\n'}
+[12.329997] (robo_miner_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/user_authenticate__type_support.cpp.o\x1b[0m\n'}
+[12.339999] (robo_miner_interfaces) StdoutLine: {'line': b'[ 53%] Built target robo_miner_interfaces__rosidl_typesupport_cpp\n'}
+[12.372657] (robo_miner_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/activate_mining_validate__type_support.cpp.o\x1b[0m\n'}
+[12.373636] (-) TimerEvent: {}
+[12.385408] (robo_miner_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/user_authenticate__type_support.c.o\x1b[0m\n'}
+[12.469507] (robo_miner_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/robot_move__type_support.cpp.o\x1b[0m\n'}
+[12.474345] (-) TimerEvent: {}
+[12.485233] (robo_miner_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/longest_sequence_validate__type_support.cpp.o\x1b[0m\n'}
+[12.508433] (robo_miner_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.c.o\x1b[0m\n'}
+[12.550087] (robo_miner_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/field_map_validate__type_support.cpp.o\x1b[0m\n'}
+[12.569190] (robo_miner_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/robot_move__type_support.cpp.o\x1b[0m\n'}
+[12.574415] (-) TimerEvent: {}
+[12.608553] (robo_miner_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/robot_move__type_support.c.o\x1b[0m\n'}
+[12.621493] (robo_miner_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.c.o\x1b[0m\n'}
+[12.626954] (robo_miner_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/query_initial_robot_position__type_support.cpp.o\x1b[0m\n'}
+[12.674540] (-) TimerEvent: {}
+[12.718084] (robo_miner_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/field_map_validate__type_support.c.o\x1b[0m\n'}
+[12.720193] (robo_miner_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.752155] (robo_miner_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.c.o\x1b[0m\n'}
+[12.774914] (-) TimerEvent: {}
+[12.809691] (robo_miner_interfaces) StdoutLine: {'line': b'[ 65%] Built target robo_miner_interfaces__rosidl_typesupport_c\n'}
+[12.855013] (robo_miner_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/longest_sequence_validate__type_support.cpp.o\x1b[0m\n'}
+[12.867106] (robo_miner_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/field_map_validate__type_support.cpp.o\x1b[0m\n'}
+[12.875063] (-) TimerEvent: {}
+[12.958830] (robo_miner_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library librobo_miner_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.975244] (-) TimerEvent: {}
+[13.075629] (-) TimerEvent: {}
+[13.137600] (robo_miner_interfaces) StdoutLine: {'line': b'[ 68%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.175762] (-) TimerEvent: {}
+[13.188028] (robo_miner_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/query_initial_robot_position__type_support.cpp.o\x1b[0m\n'}
+[13.277629] (-) TimerEvent: {}
+[13.378011] (-) TimerEvent: {}
+[13.478716] (-) TimerEvent: {}
+[13.579105] (-) TimerEvent: {}
+[13.681304] (-) TimerEvent: {}
+[13.781829] (-) TimerEvent: {}
+[13.882217] (-) TimerEvent: {}
+[13.982575] (-) TimerEvent: {}
+[14.082927] (-) TimerEvent: {}
+[14.183254] (-) TimerEvent: {}
+[14.254370] (robo_miner_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.283485] (-) TimerEvent: {}
+[14.384158] (-) TimerEvent: {}
+[14.428412] (robo_miner_interfaces) StdoutLine: {'line': b'[ 70%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.452536] (robo_miner_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.484249] (-) TimerEvent: {}
+[14.584523] (-) TimerEvent: {}
+[14.684892] (-) TimerEvent: {}
+[14.785155] (-) TimerEvent: {}
+[14.886073] (-) TimerEvent: {}
+[14.986815] (-) TimerEvent: {}
+[15.087245] (-) TimerEvent: {}
+[15.187697] (-) TimerEvent: {}
+[15.288365] (-) TimerEvent: {}
+[15.390143] (-) TimerEvent: {}
+[15.459579] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.490317] (-) TimerEvent: {}
+[15.498662] (robo_miner_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support_c.cpp.o\x1b[0m\n'}
+[15.510352] (robo_miner_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/robot_position_response__type_support_c.cpp.o\x1b[0m\n'}
+[15.527143] (robo_miner_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/field_point__type_support_c.cpp.o\x1b[0m\n'}
+[15.539834] (robo_miner_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/robot_move_type__type_support_c.cpp.o\x1b[0m\n'}
+[15.590547] (-) TimerEvent: {}
+[15.691170] (-) TimerEvent: {}
+[15.791868] (-) TimerEvent: {}
+[15.892858] (-) TimerEvent: {}
+[15.994537] (-) TimerEvent: {}
+[16.096727] (-) TimerEvent: {}
+[16.120417] (robo_miner_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/user_authenticate__type_support_c.cpp.o\x1b[0m\n'}
+[16.197063] (-) TimerEvent: {}
+[16.259782] (robo_miner_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support_c.cpp.o\x1b[0m\n'}
+[16.297260] (-) TimerEvent: {}
+[16.371029] (robo_miner_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/robot_move__type_support_c.cpp.o\x1b[0m\n'}
+[16.397865] (-) TimerEvent: {}
+[16.425345] (robo_miner_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support_c.cpp.o\x1b[0m\n'}
+[16.498072] (-) TimerEvent: {}
+[16.598342] (-) TimerEvent: {}
+[16.698653] (-) TimerEvent: {}
+[16.799058] (-) TimerEvent: {}
+[16.900151] (-) TimerEvent: {}
+[16.947807] (robo_miner_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/field_map_validate__type_support_c.cpp.o\x1b[0m\n'}
+[17.001267] (-) TimerEvent: {}
+[17.103116] (robo_miner_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support_c.cpp.o\x1b[0m\n'}
+[17.103363] (-) TimerEvent: {}
+[17.205189] (-) TimerEvent: {}
+[17.306413] (-) TimerEvent: {}
+[17.407795] (-) TimerEvent: {}
+[17.508907] (-) TimerEvent: {}
+[17.609215] (-) TimerEvent: {}
+[17.709462] (robo_miner_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.709758] (-) TimerEvent: {}
+[17.810769] (-) TimerEvent: {}
+[17.874667] (robo_miner_interfaces) StdoutLine: {'line': b'[ 82%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[17.892945] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces\x1b[0m\n'}
+[17.909185] (robo_miner_interfaces) StdoutLine: {'line': b'[ 82%] Built target robo_miner_interfaces\n'}
+[17.910938] (-) TimerEvent: {}
+[17.925436] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__py\x1b[0m\n'}
+[17.946613] (robo_miner_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.011178] (-) TimerEvent: {}
+[18.111500] (-) TimerEvent: {}
+[18.211739] (-) TimerEvent: {}
+[18.312080] (-) TimerEvent: {}
+[18.412772] (-) TimerEvent: {}
+[18.513248] (-) TimerEvent: {}
+[18.613681] (-) TimerEvent: {}
+[18.714161] (-) TimerEvent: {}
+[18.814962] (-) TimerEvent: {}
+[18.916043] (-) TimerEvent: {}
+[19.016682] (-) TimerEvent: {}
+[19.117754] (-) TimerEvent: {}
+[19.218454] (-) TimerEvent: {}
+[19.318855] (-) TimerEvent: {}
+[19.419839] (-) TimerEvent: {}
+[19.521938] (-) TimerEvent: {}
+[19.622753] (-) TimerEvent: {}
+[19.723581] (-) TimerEvent: {}
+[19.825220] (-) TimerEvent: {}
+[19.926747] (-) TimerEvent: {}
+[19.958280] (robo_miner_interfaces) StdoutLine: {'line': b'[ 83%] Built target robo_miner_interfaces__py\n'}
+[19.974107] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__python\x1b[0m\n'}
+[20.026917] (-) TimerEvent: {}
+[20.053242] (robo_miner_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_robot_position_response_s.c.o\x1b[0m\n'}
+[20.064231] (robo_miner_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_robot_move_type_s.c.o\x1b[0m\n'}
+[20.071503] (robo_miner_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_field_point_s.c.o\x1b[0m\n'}
+[20.074557] (robo_miner_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_u_int8_multi_array_s.c.o\x1b[0m\n'}
+[20.127075] (-) TimerEvent: {}
+[20.227445] (-) TimerEvent: {}
+[20.233895] (robo_miner_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_user_authenticate_s.c.o\x1b[0m\n'}
+[20.257356] (robo_miner_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_activate_mining_validate_s.c.o\x1b[0m\n'}
+[20.287681] (robo_miner_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_robot_move_s.c.o\x1b[0m\n'}
+[20.327585] (-) TimerEvent: {}
+[20.344617] (robo_miner_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_longest_sequence_validate_s.c.o\x1b[0m\n'}
+[20.397886] (robo_miner_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_field_map_validate_s.c.o\x1b[0m\n'}
+[20.427649] (-) TimerEvent: {}
+[20.484231] (robo_miner_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_query_initial_robot_position_s.c.o\x1b[0m\n'}
+[20.527913] (-) TimerEvent: {}
+[20.625954] (robo_miner_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robo_miner_interfaces/librobo_miner_interfaces__python.so\x1b[0m\n'}
+[20.628122] (-) TimerEvent: {}
+[20.700054] (robo_miner_interfaces) StdoutLine: {'line': b'[ 94%] Built target robo_miner_interfaces__python\n'}
+[20.713795] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[20.714108] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[20.714782] (robo_miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[20.728188] (-) TimerEvent: {}
+[20.756154] (robo_miner_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robo_miner_interfaces/_robo_miner_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.769246] (robo_miner_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robo_miner_interfaces/_robo_miner_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.774177] (robo_miner_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robo_miner_interfaces/_robo_miner_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.829063] (-) TimerEvent: {}
+[20.930039] (-) TimerEvent: {}
+[20.977499] (robo_miner_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.995034] (robo_miner_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.030225] (-) TimerEvent: {}
+[21.047584] (robo_miner_interfaces) StdoutLine: {'line': b'[ 99%] Built target robo_miner_interfaces__rosidl_typesupport_c__pyext\n'}
+[21.050446] (robo_miner_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.131539] (-) TimerEvent: {}
+[21.136808] (robo_miner_interfaces) StdoutLine: {'line': b'[100%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[21.175001] (robo_miner_interfaces) StdoutLine: {'line': b'[100%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.196172] (robo_miner_interfaces) CommandEnded: {'returncode': 0}
+[21.231710] (-) TimerEvent: {}
+[21.332297] (-) TimerEvent: {}
+[21.432635] (-) TimerEvent: {}
+[21.533038] (-) TimerEvent: {}
+[21.535740] (robo_miner_interfaces) JobProgress: {'identifier': 'robo_miner_interfaces', 'progress': 'install'}
+[21.565844] (robo_miner_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces'], 'cwd': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '9906'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ubuntu/workspace/robotics_v1'), ('TERM_PROGRAM_VERSION', '1.72.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/110/usr/share/code/code'), ('MANAGERPID', '9427'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27090'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:46578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/10128,unix/ubuntu2004:/tmp/.ICE-unix/10128'), ('INVOCATION_ID', '69a6184ca82e46afbf8602983b2609e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/110/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[21.577472] (robo_miner_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.577966] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_miner_interfaces\n'}
+[21.578472] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces\n'}
+[21.578782] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg\n'}
+[21.579074] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/user_authenticate.h\n'}
+[21.579286] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/u_int8_multi_array.h\n'}
+[21.579488] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_move_type.h\n'}
+[21.579648] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/field_point.h\n'}
+[21.579923] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail\n'}
+[21.580135] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__functions.c\n'}
+[21.580362] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__struct.h\n'}
+[21.580539] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__functions.c\n'}
+[21.580722] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.h\n'}
+[21.580913] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__type_support.h\n'}
+[21.581119] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__type_support.h\n'}
+[21.581292] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__functions.h\n'}
+[21.581496] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__functions.c\n'}
+[21.582062] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__functions.h\n'}
+[21.582352] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__functions.c\n'}
+[21.582539] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__functions.h\n'}
+[21.582753] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__struct.h\n'}
+[21.582931] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__struct.h\n'}
+[21.583109] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__struct.h\n'}
+[21.583287] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__functions.h\n'}
+[21.583474] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__type_support.h\n'}
+[21.583662] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__struct.h\n'}
+[21.583854] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__type_support.h\n'}
+[21.584022] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__functions.h\n'}
+[21.584200] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__functions.c\n'}
+[21.584379] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.584556] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_position_response.h\n'}
+[21.584720] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv\n'}
+[21.584861] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/robot_move.h\n'}
+[21.585021] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail\n'}
+[21.585158] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__functions.c\n'}
+[21.585327] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__functions.c\n'}
+[21.585505] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.h\n'}
+[21.585664] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__functions.c\n'}
+[21.585869] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__functions.c\n'}
+[21.586156] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__struct.h\n'}
+[21.586304] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__functions.h\n'}
+[21.586502] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__functions.h\n'}
+[21.586673] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__type_support.h\n'}
+[21.586876] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__type_support.h\n'}
+[21.587061] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.h\n'}
+[21.587253] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__functions.h\n'}
+[21.587455] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__struct.h\n'}
+[21.587688] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__functions.c\n'}
+[21.587871] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.h\n'}
+[21.588053] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__struct.h\n'}
+[21.588244] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__functions.h\n'}
+[21.588433] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__struct.h\n'}
+[21.588619] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__functions.h\n'}
+[21.588827] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__struct.h\n'}
+[21.589022] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/field_map_validate.h\n'}
+[21.589179] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/query_initial_robot_position.h\n'}
+[21.589360] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/longest_sequence_validate.h\n'}
+[21.589551] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/activate_mining_validate.h\n'}
+[21.590214] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/library_path.sh\n'}
+[21.590546] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/library_path.dsv\n'}
+[21.590964] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_generator_c.so\n'}
+[21.591890] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_generator_c.so" to ""\n'}
+[21.592351] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces\n'}
+[21.592523] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg\n'}
+[21.592633] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail\n'}
+[21.592739] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_c.h\n'}
+[21.592861] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_fastrtps_c.h\n'}
+[21.592938] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_c.h\n'}
+[21.593066] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_fastrtps_c.h\n'}
+[21.593237] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_c.h\n'}
+[21.593404] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.593559] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv\n'}
+[21.593738] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail\n'}
+[21.593826] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_fastrtps_c.h\n'}
+[21.593997] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_fastrtps_c.h\n'}
+[21.594183] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_fastrtps_c.h\n'}
+[21.594357] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_fastrtps_c.h\n'}
+[21.594526] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_fastrtps_c.h\n'}
+[21.594872] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[21.595613] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.595784] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces\n'}
+[21.595949] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg\n'}
+[21.596035] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.596151] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail\n'}
+[21.596277] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.596428] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.596616] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.596790] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.596967] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/dds_fastrtps\n'}
+[21.597124] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.597291] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv\n'}
+[21.597427] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail\n'}
+[21.597545] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.597665] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.597886] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.598049] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.598219] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/dds_fastrtps\n'}
+[21.598348] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.598683] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.599566] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.599835] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces\n'}
+[21.599988] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg\n'}
+[21.600069] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail\n'}
+[21.600189] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_introspection_c.h\n'}
+[21.600267] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__type_support.c\n'}
+[21.600387] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_c.h\n'}
+[21.600538] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_c.h\n'}
+[21.600708] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_introspection_c.h\n'}
+[21.600897] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__type_support.c\n'}
+[21.601067] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_c.h\n'}
+[21.601231] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.c\n'}
+[21.601406] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__type_support.c\n'}
+[21.601586] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__type_support.c\n'}
+[21.601830] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.602034] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv\n'}
+[21.602199] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail\n'}
+[21.602283] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_introspection_c.h\n'}
+[21.602393] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_introspection_c.h\n'}
+[21.602573] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_introspection_c.h\n'}
+[21.602738] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__type_support.c\n'}
+[21.602917] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.c\n'}
+[21.603116] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_introspection_c.h\n'}
+[21.603277] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__type_support.c\n'}
+[21.603453] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.c\n'}
+[21.603823] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_introspection_c.h\n'}
+[21.603924] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.c\n'}
+[21.604213] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[21.604910] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.605166] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_c.so\n'}
+[21.605875] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[21.606277] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces\n'}
+[21.606386] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg\n'}
+[21.606467] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_move_type.hpp\n'}
+[21.606697] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/user_authenticate.hpp\n'}
+[21.610183] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail\n'}
+[21.610559] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__builder.hpp\n'}
+[21.610872] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__traits.hpp\n'}
+[21.611087] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__struct.hpp\n'}
+[21.611240] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__traits.hpp\n'}
+[21.611390] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__builder.hpp\n'}
+[21.611538] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__struct.hpp\n'}
+[21.611685] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__builder.hpp\n'}
+[21.612083] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__traits.hpp\n'}
+[21.612242] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__struct.hpp\n'}
+[21.612392] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__builder.hpp\n'}
+[21.612736] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__builder.hpp\n'}
+[21.612896] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__traits.hpp\n'}
+[21.613050] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__traits.hpp\n'}
+[21.613199] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__struct.hpp\n'}
+[21.613345] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__struct.hpp\n'}
+[21.613732] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/field_point.hpp\n'}
+[21.614059] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/u_int8_multi_array.hpp\n'}
+[21.614309] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_position_response.hpp\n'}
+[21.614516] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv\n'}
+[21.614868] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/field_map_validate.hpp\n'}
+[21.615185] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/query_initial_robot_position.hpp\n'}
+[21.615421] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/activate_mining_validate.hpp\n'}
+[21.615805] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail\n'}
+[21.616135] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__struct.hpp\n'}
+[21.616413] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__struct.hpp\n'}
+[21.616694] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__builder.hpp\n'}
+[21.616954] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__traits.hpp\n'}
+[21.617206] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__traits.hpp\n'}
+[21.617461] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__builder.hpp\n'}
+[21.617801] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__traits.hpp\n'}
+[21.618076] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__struct.hpp\n'}
+[21.618353] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__traits.hpp\n'}
+[21.618600] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__builder.hpp\n'}
+[21.619296] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__builder.hpp\n'}
+[21.619585] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__builder.hpp\n'}
+[21.620218] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__struct.hpp\n'}
+[21.621780] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__traits.hpp\n'}
+[21.622794] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__struct.hpp\n'}
+[21.623291] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/longest_sequence_validate.hpp\n'}
+[21.623875] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/robot_move.hpp\n'}
+[21.624141] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces\n'}
+[21.624345] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg\n'}
+[21.624640] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail\n'}
+[21.624862] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.625033] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__type_support.cpp\n'}
+[21.625217] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.625440] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.625908] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__type_support.cpp\n'}
+[21.626261] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.cpp\n'}
+[21.626420] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.626565] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.626721] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__type_support.cpp\n'}
+[21.626946] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__type_support.cpp\n'}
+[21.627110] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv\n'}
+[21.627253] (robo_miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail\n'}
+[21.627395] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.627537] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.627677] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.cpp\n'}
+[21.627818] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__type_support.cpp\n'}
+[21.627959] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.628100] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.cpp\n'}
+[21.628240] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.628388] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.cpp\n'}
+[21.628529] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__type_support.cpp\n'}
+[21.628670] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.628811] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[21.628953] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.629093] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_cpp.so\n'}
+[21.629237] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[21.629402] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/pythonpath.sh\n'}
+[21.629543] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/pythonpath.dsv\n'}
+[21.629684] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/__init__.py\n'}
+[21.633234] (-) TimerEvent: {}
+[21.669168] (robo_miner_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/__init__.py'...\n"}
+[21.675037] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg\n'}
+[21.676861] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_move_type.py\n'}
+[21.684137] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_user_authenticate.py\n'}
+[21.684401] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_u_int8_multi_array_s.c\n'}
+[21.684599] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/__init__.py\n'}
+[21.684737] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_move_type_s.c\n'}
+[21.684981] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_position_response_s.c\n'}
+[21.685079] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_u_int8_multi_array.py\n'}
+[21.685161] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_field_point_s.c\n'}
+[21.685254] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_position_response.py\n'}
+[21.685345] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_user_authenticate_s.c\n'}
+[21.685436] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_field_point.py\n'}
+[21.685544] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv\n'}
+[21.685636] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_field_map_validate_s.c\n'}
+[21.685725] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_activate_mining_validate_s.c\n'}
+[21.685819] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_activate_mining_validate.py\n'}
+[21.685969] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/__init__.py\n'}
+[21.686245] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_robot_move_s.c\n'}
+[21.686549] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_longest_sequence_validate.py\n'}
+[21.686849] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_query_initial_robot_position.py\n'}
+[21.687006] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_robot_move.py\n'}
+[21.687108] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_longest_sequence_validate_s.c\n'}
+[21.687204] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_field_map_validate.py\n'}
+[21.687299] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_query_initial_robot_position_s.c\n'}
+[21.687388] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.687477] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.687572] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.687648] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.687722] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.687943] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.688349] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__python.so\n'}
+[21.689017] (robo_miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/librobo_miner_interfaces__python.so" to ""\n'}
+[21.689304] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/FieldPoint.idl\n'}
+[21.689650] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotPositionResponse.idl\n'}
+[21.690064] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UInt8MultiArray.idl\n'}
+[21.690482] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotMoveType.idl\n'}
+[21.690808] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UserAuthenticate.idl\n'}
+[21.691192] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate.idl\n'}
+[21.691552] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove.idl\n'}
+[21.691908] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate.idl\n'}
+[21.707900] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate.idl\n'}
+[21.708611] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition.idl\n'}
+[21.709050] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/FieldPoint.msg\n'}
+[21.709931] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotPositionResponse.msg\n'}
+[21.710560] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UInt8MultiArray.msg\n'}
+[21.711048] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotMoveType.msg\n'}
+[21.712398] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UserAuthenticate.msg\n'}
+[21.715051] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate.srv\n'}
+[21.715828] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate_Request.msg\n'}
+[21.716346] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate_Response.msg\n'}
+[21.717585] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove.srv\n'}
+[21.719236] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove_Request.msg\n'}
+[21.721413] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove_Response.msg\n'}
+[21.721755] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate.srv\n'}
+[21.721976] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate_Request.msg\n'}
+[21.722147] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate_Response.msg\n'}
+[21.722373] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate.srv\n'}
+[21.722554] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate_Request.msg\n'}
+[21.723303] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate_Response.msg\n'}
+[21.723490] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition.srv\n'}
+[21.723703] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition_Request.msg\n'}
+[21.723889] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition_Response.msg\n'}
+[21.724077] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_miner_interfaces\n'}
+[21.724251] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_miner_interfaces\n'}
+[21.724431] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/ament_prefix_path.sh\n'}
+[21.724656] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/ament_prefix_path.dsv\n'}
+[21.724982] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/path.sh\n'}
+[21.725195] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/path.dsv\n'}
+[21.725375] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.bash\n'}
+[21.725715] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.sh\n'}
+[21.726162] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.zsh\n'}
+[21.726508] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.dsv\n'}
+[21.726718] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.dsv\n'}
+[21.726941] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/ament_index/resource_index/packages/robo_miner_interfaces\n'}
+[21.727246] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cExport.cmake\n'}
+[21.727446] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.727645] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.727820] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.728030] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[21.728198] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.728490] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cppExport.cmake\n'}
+[21.728657] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.728821] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.728983] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[21.729143] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.729364] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[21.729623] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.730797] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.731214] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.731493] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.732037] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.732318] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.732592] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfacesConfig.cmake\n'}
+[21.732898] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfacesConfig-version.cmake\n'}
+[21.733154] (robo_miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/share/robo_miner_interfaces/package.xml\n'}
+[21.733388] (-) TimerEvent: {}
+[21.733569] (robo_miner_interfaces) CommandEnded: {'returncode': 0}
+[21.834087] (-) TimerEvent: {}
+[21.934562] (-) TimerEvent: {}
+[22.035015] (-) TimerEvent: {}
+[22.137456] (-) TimerEvent: {}
+[22.172003] (robo_miner_interfaces) JobEnded: {'identifier': 'robo_miner_interfaces', 'rc': 0}
+[22.172924] (robo_miner_common) JobStarted: {'identifier': 'robo_miner_common'}
+[22.199031] (robo_miner_common) JobProgress: {'identifier': 'robo_miner_common', 'progress': 'cmake'}
+[22.199959] (robo_miner_common) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common'], 'cwd': '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '9906'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ubuntu/workspace/robotics_v1'), ('TERM_PROGRAM_VERSION', '1.72.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/110/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\][\\u@\\h \\W]$(git_branch)$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/110/usr/share/code/code'), ('MANAGERPID', '9427'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27090'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:46578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/10128,unix/ubuntu2004:/tmp/.ICE-unix/10128'), ('INVOCATION_ID', '69a6184ca82e46afbf8602983b2609e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc65c28702.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/110/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51ebee0d4c2913763a8f5726348f370'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy')]), 'shell': False}
+[22.237667] (-) TimerEvent: {}
+[22.326787] (robo_miner_common) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[22.334845] (robo_miner_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[22.337704] (-) TimerEvent: {}
+[22.438137] (-) TimerEvent: {}
+[22.538928] (-) TimerEvent: {}
+[22.563638] (robo_miner_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[22.563847] (robo_miner_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[22.639115] (-) TimerEvent: {}
+[22.740823] (robo_miner_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[22.741064] (-) TimerEvent: {}
+[22.761381] (robo_miner_common) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[22.762819] (robo_miner_common) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[22.792668] (robo_miner_common) StderrLine: {'line': b'CMake Error at CMakeLists.txt:11 (find_package):\n'}
+[22.793221] (robo_miner_common) StderrLine: {'line': b'  By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this\n'}
+[22.793377] (robo_miner_common) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[22.793844] (robo_miner_common) StderrLine: {'line': b'  "cmake_helpers", but CMake did not find one.\n'}
+[22.794046] (robo_miner_common) StderrLine: {'line': b'\n'}
+[22.794166] (robo_miner_common) StderrLine: {'line': b'  Could not find a package configuration file provided by "cmake_helpers"\n'}
+[22.794269] (robo_miner_common) StderrLine: {'line': b'  with any of the following names:\n'}
+[22.794369] (robo_miner_common) StderrLine: {'line': b'\n'}
+[22.794474] (robo_miner_common) StderrLine: {'line': b'    cmake_helpersConfig.cmake\n'}
+[22.794575] (robo_miner_common) StderrLine: {'line': b'    cmake_helpers-config.cmake\n'}
+[22.794695] (robo_miner_common) StderrLine: {'line': b'\n'}
+[22.794801] (robo_miner_common) StderrLine: {'line': b'  Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set\n'}
+[22.794925] (robo_miner_common) StderrLine: {'line': b'  "cmake_helpers_DIR" to a directory containing one of the above files.  If\n'}
+[22.795058] (robo_miner_common) StderrLine: {'line': b'  "cmake_helpers" provides a separate development package or SDK, be sure it\n'}
+[22.795165] (robo_miner_common) StderrLine: {'line': b'  has been installed.\n'}
+[22.795259] (robo_miner_common) StderrLine: {'line': b'\n'}
+[22.795341] (robo_miner_common) StderrLine: {'line': b'\n'}
+[22.795429] (robo_miner_common) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[22.795572] (robo_miner_common) StdoutLine: {'line': b'See also "/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common/CMakeFiles/CMakeOutput.log".\n'}
+[22.800030] (robo_miner_common) CommandEnded: {'returncode': 1}
+[22.833622] (robo_miner_common) JobEnded: {'identifier': 'robo_miner_common', 'rc': 1}
+[22.835278] (robo_miner_controller) JobSkipped: {'identifier': 'robo_miner_controller'}
+[22.835347] (robo_miner_gui) JobSkipped: {'identifier': 'robo_miner_gui'}
+[22.835398] (-) EventReactorShutdown: {}

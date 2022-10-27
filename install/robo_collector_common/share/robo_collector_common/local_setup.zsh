@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/robotics_v1/build/robo_collector_common/ament_cmake_environment_hooks/local_setup.zsh

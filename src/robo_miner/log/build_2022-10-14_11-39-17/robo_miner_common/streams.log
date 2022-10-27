@@ -1,0 +1,21 @@
+[0.030s] Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common
+[0.091s] CMake Error at CMakeLists.txt:11 (find_package):
+[0.091s]   By not providing "Findcmake_helpers.cmake" in CMAKE_MODULE_PATH this
+[0.091s]   project has asked CMake to find a package configuration file provided by
+[0.091s]   "cmake_helpers", but CMake did not find one.
+[0.091s] 
+[0.091s]   Could not find a package configuration file provided by "cmake_helpers"
+[0.091s]   with any of the following names:
+[0.091s] 
+[0.092s]     cmake_helpersConfig.cmake
+[0.092s]     cmake_helpers-config.cmake
+[0.092s] 
+[0.092s]   Add the installation prefix of "cmake_helpers" to CMAKE_PREFIX_PATH or set
+[0.092s]   "cmake_helpers_DIR" to a directory containing one of the above files.  If
+[0.092s]   "cmake_helpers" provides a separate development package or SDK, be sure it
+[0.092s]   has been installed.
+[0.092s] 
+[0.092s] 
+[0.092s] -- Configuring incomplete, errors occurred!
+[0.092s] See also "/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common/CMakeFiles/CMakeOutput.log".
+[0.099s] Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/build/robo_miner_common' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/src/robo_miner/install/robo_miner_common

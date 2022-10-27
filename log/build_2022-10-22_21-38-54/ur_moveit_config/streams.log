@@ -1,0 +1,27 @@
+[0.163s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config -- -j4 -l4
+[0.414s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config -- -j4 -l4
+[0.498s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config
+[0.527s] -- Install configuration: "Debug"
+[0.529s] -- Execute custom install script
+[0.532s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[0.534s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[0.535s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[0.537s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[0.538s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[0.539s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[0.541s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[0.542s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[0.544s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[0.548s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[0.563s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[0.563s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[0.564s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[0.577s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[0.577s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[0.579s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[0.579s] -- Symlinking: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[0.579s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[0.580s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[0.581s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[0.581s] -- Up-to-date symlink: /home/ubuntu/workspace/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[0.680s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/ur_moveit_config

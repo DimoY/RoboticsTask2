@@ -1,0 +1,85 @@
+[0.012s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/game_engine': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/lib/game_engine -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/game_engine
+[0.092s] -- The CXX compiler identification is Clang 10.0.0
+[0.097s] -- Check for working CXX compiler: /usr/bin/clang++
+[0.196s] -- Check for working CXX compiler: /usr/bin/clang++ -- works
+[0.196s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.309s] -- Found cmake_helpers: 1.0.0 (/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+[0.311s] -- Looking for C++ include pthread.h
+[0.403s] -- Looking for C++ include pthread.h - found
+[0.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.527s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.527s] -- Looking for pthread_create in pthreads
+[0.598s] -- Looking for pthread_create in pthreads - not found
+[0.598s] -- Looking for pthread_create in pthread
+[0.688s] -- Looking for pthread_create in pthread - found
+[0.688s] -- Found Threads: TRUE  
+[0.691s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.709s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.709s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.873s] -- Configuring done
+[0.876s] -- Generating done
+[0.877s] -- Build files have been written to: /home/ubuntu/workspace/robotics_v1/build/game_engine
+[0.882s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/game_engine' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake /home/ubuntu/workspace/robotics_v1/src/lib/game_engine -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_INSTALL_PREFIX=/home/ubuntu/workspace/robotics_v1/install/game_engine
+[0.883s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/game_engine': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/game_engine -- -j8 -l8
+[0.912s] [35m[1mScanning dependencies of target game_engine[0m
+[0.926s] [ 14%] [32mBuilding CXX object CMakeFiles/game_engine.dir/src/communicator/NullCommunicator.cpp.o[0m
+[0.927s] [ 28%] [32mBuilding CXX object CMakeFiles/game_engine.dir/src/utils/DebugConsole.cpp.o[0m
+[0.927s] [ 42%] [32mBuilding CXX object CMakeFiles/game_engine.dir/src/engine/config/EngineConfig.cpp.o[0m
+[0.928s] [ 57%] [32mBuilding CXX object CMakeFiles/game_engine.dir/src/event_handler/ActionEventHandler.cpp.o[0m
+[0.929s] [ 71%] [32mBuilding CXX object CMakeFiles/game_engine.dir/src/engine/Engine.cpp.o[0m
+[0.929s] [ 85%] [32mBuilding CXX object CMakeFiles/game_engine.dir/src/Application.cpp.o[0m
+[1.686s] [100%] [32m[1mLinking CXX static library libgame_engine.a[0m
+[1.728s] [100%] Built target game_engine
+[1.739s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/game_engine' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --build /home/ubuntu/workspace/robotics_v1/build/game_engine -- -j8 -l8
+[1.769s] Invoking command in '/home/ubuntu/workspace/robotics_v1/build/game_engine': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/game_engine
+[1.774s] -- Install configuration: "Debug"
+[1.774s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/package.xml
+[1.774s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/lib/game_engine/libgame_engine.a
+[1.776s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/ament_index/resource_index/packages/game_engine
+[1.776s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/hook/ament_prefix_path.dsv
+[1.776s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/hook/ros_package_path.dsv
+[1.776s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/ament_index/resource_index/package_run_dependencies/game_engine
+[1.776s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/ament_index/resource_index/parent_prefix_path/game_engine
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/environment/ament_prefix_path.sh
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/environment/ament_prefix_path.dsv
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/environment/path.sh
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/environment/path.dsv
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/local_setup.bash
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/local_setup.sh
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/local_setup.zsh
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/local_setup.dsv
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/package.dsv
+[1.777s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/ament_index/resource_index/packages/game_engine
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/cmake/game_engineConfig.cmake
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/cmake/game_engineConfig-version.cmake
+[1.777s] -- Up-to-date: /home/ubuntu/workspace/robotics_v1/install/game_engine/share/game_engine/package.xml
+[1.777s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/lib/libgame_engine.a
+[1.780s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include
+[1.780s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine
+[1.780s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/event_handler
+[1.780s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/event_handler/ActionEventHandler.h
+[1.780s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/Game.h
+[1.780s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/communicator
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/communicator/Communicator.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/communicator/NullCommunicator.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/utils
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/utils/config
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/utils/config/DebugConsoleConfig.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/utils/DebugConsole.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/Application.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/config
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/config/ApplicationConfig.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/engine
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/engine/Engine.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/engine/config
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/engine/config/EngineConfig.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/defines
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/defines/DependencyDefines.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/include/game_engine/defines/ActionEventDefines.h
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineTargets.cmake
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineTargets-debug.cmake
+[1.781s] -- Installing: /home/ubuntu/workspace/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineConfig.cmake
+[1.782s] Invoked command in '/home/ubuntu/workspace/robotics_v1/build/game_engine' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils:/home/ubuntu/workspace/robotics_v1/install/sdl_utils:/home/ubuntu/workspace/robotics_v1/install/resource_utils:/home/ubuntu/workspace/robotics_v1/install/utils:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/manager_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/resource_utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/utils/lib/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/workspace/robotics_v1/install/cmake_helpers/lib/pkgconfig PS1=[\u@\h \W]$(git_branch)$ /usr/bin/cmake --install /home/ubuntu/workspace/robotics_v1/build/game_engine

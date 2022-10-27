@@ -1,0 +1,34 @@
+[0.930s] Invoking command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller_py': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages:/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robo_miner_controller build --build-base /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build install --prefix /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller --record /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/install.log --single-version-externally-managed
+[1.185s] running egg_info
+[1.185s] creating ../../../build/robo_miner_controller/robo_miner_controller.egg-info
+[1.186s] writing ../../../build/robo_miner_controller/robo_miner_controller.egg-info/PKG-INFO
+[1.186s] writing dependency_links to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/dependency_links.txt
+[1.186s] writing entry points to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/entry_points.txt
+[1.186s] writing requirements to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/requires.txt
+[1.187s] writing top-level names to ../../../build/robo_miner_controller/robo_miner_controller.egg-info/top_level.txt
+[1.196s] writing manifest file '../../../build/robo_miner_controller/robo_miner_controller.egg-info/SOURCES.txt'
+[1.234s] reading manifest file '../../../build/robo_miner_controller/robo_miner_controller.egg-info/SOURCES.txt'
+[1.236s] writing manifest file '../../../build/robo_miner_controller/robo_miner_controller.egg-info/SOURCES.txt'
+[1.236s] running build
+[1.237s] running build_py
+[1.237s] creating /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build
+[1.237s] creating /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib
+[1.237s] creating /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller
+[1.237s] copying robo_miner_controller/__init__.py -> /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller
+[1.238s] copying robo_miner_controller/robo_miner_controller_py.py -> /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller
+[1.238s] running install
+[1.242s] running install_lib
+[1.243s] creating /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller
+[1.244s] copying /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller/__init__.py -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller
+[1.246s] copying /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build/lib/robo_miner_controller/robo_miner_controller_py.py -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller
+[1.246s] byte-compiling /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller/__init__.py to __init__.cpython-38.pyc
+[1.247s] byte-compiling /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller/robo_miner_controller_py.py to robo_miner_controller_py.cpython-38.pyc
+[1.248s] running install_data
+[1.250s] copying resource/robo_miner_controller -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/ament_index/resource_index/packages
+[1.251s] copying package.xml -> /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/share/robo_miner_controller
+[1.251s] running install_egg_info
+[1.254s] Copying ../../../build/robo_miner_controller/robo_miner_controller.egg-info to /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages/robo_miner_controller-0.0.0-py3.8.egg-info
+[1.256s] running install_scripts
+[1.283s] Installing robo_miner_controller_py script to /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/robo_miner_controller
+[1.283s] writing list of installed files to '/home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/install.log'
+[1.329s] Invoked command in '/home/ubuntu/workspace/robotics_v1/src/robo_miner/robo_miner_controller_py' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces LD_LIBRARY_PATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/workspace/robotics_v1/install/robo_miner_controller/lib/python3.8/site-packages:/home/ubuntu/workspace/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robo_miner_controller build --build-base /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/build install --prefix /home/ubuntu/workspace/robotics_v1/install/robo_miner_controller --record /home/ubuntu/workspace/robotics_v1/build/robo_miner_controller/install.log --single-version-externally-managed
